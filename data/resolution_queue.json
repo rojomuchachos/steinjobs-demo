@@ -1,0 +1,5 @@
+{
+  "instructions": "Resolve each person to their LinkedIn profile. Search by name + company + title. Rules: (1) the URL must be a linkedin.com/in/ profile; (2) mark confidence 'confirmed' only when the profile unambiguously matches name AND company — same-name strangers are the failure mode; (3) if not found or ambiguous, leave the url empty with confidence 'none' — a wrong profile is worse than none. Write back with: make apply-resolution FILE=<results.json> using {\"Company|Name\": {\"linkedin\": ..., \"confidence\": ...}}.",
+  "count": 0,
+  "people": []
+}

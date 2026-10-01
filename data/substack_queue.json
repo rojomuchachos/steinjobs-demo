@@ -1,0 +1,5 @@
+{
+  "instructions": "Newsletter paragraphs that mention hiring, companies worth joining, or founders worth contacting — but carry no direct job link. For each, return {kind: posting|company|person|skip, name, company, role, url, contact_hint, why, quote}. kind=person for a named individual worth contacting (goes to a review queue, never straight to People). kind=company for a company endorsement with no specific role. kind=skip for advice/noise. Write results to a JSON file mapping item index -> result and run `make apply FILE=<file>`.",
+  "count": 0,
+  "items": []
+}

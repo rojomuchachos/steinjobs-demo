@@ -1,0 +1,5 @@
+{
+  "instructions": "Write ONE concise sentence (max ~200 chars) per company: what it does, plainly. No hype adjectives, no 'leading provider'. If it can't be established, leave the value empty — never guess. Return {\"<key>\": \"<sentence>\"} via make apply-descriptions FILE=<results.json>.",
+  "count": 0,
+  "companies": []
+}

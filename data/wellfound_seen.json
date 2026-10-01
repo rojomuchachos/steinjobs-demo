@@ -1,0 +1,3 @@
+{
+  "_comment": "Wellfound sweep seen-memory. Key = numeric job id from /jobs/<id>-slug. A sweep sorted by Most Recent stops when it hits a run of already-seen ids. Verdicts: kept (added via /api/add-posting) or skipped (reason doubles as calibration signal)."
+}

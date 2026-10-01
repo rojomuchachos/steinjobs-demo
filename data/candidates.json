@@ -1,0 +1,5 @@
+{
+  "instructions": "No ANTHROPIC_API_KEY was set, so `make scout` could not score these itself. Score each posting 0-100 against the rubric in CLAUDE.md, then write the results back into data/feed.json. Include a `level` per posting (intern|entry|mid|senior|exec) read from the DESCRIPTION's stated requirements, never inferred from the title; use \"\" when the text doesn't say. The rubric prompt this run would have used is in pipeline/score.py::_rubric_prompt.",
+  "count": 0,
+  "postings": []
+}

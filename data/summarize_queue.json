@@ -1,0 +1,5 @@
+{
+  "instructions": "For each company, write 1-3 plain sentences saying what it does, condensed ONLY from `material` (the company's own words). No hype adjectives, no claims that aren't in the material. Return a JSON object mapping key to summary via make apply-descriptions FILE=<results.json>",
+  "count": 0,
+  "companies": []
+}

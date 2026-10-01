@@ -1,0 +1,5 @@
+{
+  "instructions": "These postings score 75+ and have no founder on file. For each, find: founder names + titles + LinkedIn URLs (CEO first), latest funding round + notable investors, approximate headcount, and any shared thread with Eric's background (see WARM_THREADS in pipeline/enrich.py). Leave a field empty rather than guessing — a wrong founder name is worse than a blank one. Write results back with `make apply-enrichment FILE=...`.",
+  "count": 0,
+  "companies": []
+}

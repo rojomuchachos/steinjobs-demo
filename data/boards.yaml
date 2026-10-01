@@ -1,0 +1,312 @@
+# Board registry. Each entry picks an adapter and passes it config.
+#
+# tier: api | html | browser | skip   (informational; `skip` short-circuits)
+#
+# Platform reality, verified live 2026-07-18 — several boards are NOT what the
+# original spec assumed:
+#   techstars           -> Getro (network 89)
+#   a16z, greylock      -> Consider (no public API found; Phase 2, browser)
+#   southparkcommons    -> portfolio page linking to Ashby/Greenhouse/Lever
+#   rockhealth          -> portfolio page linking to Ashby/Lever/Greenhouse
+#
+# To add a Getro board: fetch its /jobs page, read
+# props.pageProps.network.id out of the __NEXT_DATA__ script tag.
+
+boards:
+  # RETIRED 2026-07-18. 324 entries, 59 scored, median score 0, zero above 70.
+  # The Getro network carries school districts and food-manufacturing plants
+  # under startup names (see boards/getro.py), and its jobs link to LinkedIn so
+  # there are no descriptions to score from. Highest volume, lowest yield, worst
+  # data quality. Re-enable by setting tier back to `api` if that ever changes.
+  techstars:
+    adapter: getro
+    tier: api
+    # Re-enabled 2026-08-05 on Eric's call (was retired for yield: median
+    # score 0 across 59). Known caveats stand: org attribution is unreliable
+    # (_org_is_suspect guards some), jobs link to LinkedIn so most arrive
+    # with no description and stay unscored until repopulated.
+    network_id: 89
+    origin: https://jobs.techstars.com
+    queries:
+      - growth
+      - founding
+      - chief of staff
+      - business development
+      - partnerships
+      - product manager
+      - marketing
+      - operations
+      - generalist
+
+  # --- European coverage. Same Getro adapter as Techstars — zero new code,
+  # --- just network ids read from each board's __NEXT_DATA__. Getro stage /
+  # --- headcount caveats apply here too (see boards/getro.py).
+  atomico:
+    adapter: getro
+    tier: api  # un-retired 2026-08-18: the 0-at-60+ reading was taken
+    # before its postings had descriptions. Once the link sweep filled them
+    # it produced 8 roles at 60+, including Plato Founding GTM Engineer (82).
+    locations:  # server-side filter — EU cities Eric named + open-minded picks + US metros + remote
+      - London, UK
+      - Dublin, Ireland
+      - Amsterdam, Netherlands
+      - Prague, Czechia
+      - Milan, Italy
+      - Rome, Italy
+      - Berlin, Germany
+      - Munich, Germany
+      - Paris, France
+      - Copenhagen, Denmark
+      - Stockholm, Sweden
+      - New York, NY, USA
+      - San Francisco, CA, USA
+      - Seattle, WA, USA
+      - Remote
+    network_id: 36986
+    origin: https://careers.atomico.com
+    queries: [growth, founding, chief of staff, marketing, operations, partnerships, business development]
+  accel:
+    adapter: getro
+    tier: api
+    locations:  # server-side filter — EU cities Eric named + open-minded picks + US metros + remote
+      - London, UK
+      - Dublin, Ireland
+      - Amsterdam, Netherlands
+      - Prague, Czechia
+      - Milan, Italy
+      - Rome, Italy
+      - Berlin, Germany
+      - Munich, Germany
+      - Paris, France
+      - Copenhagen, Denmark
+      - Stockholm, Sweden
+      - New York, NY, USA
+      - San Francisco, CA, USA
+      - Seattle, WA, USA
+      - Remote
+    # Accel led Hera's seed. Global portfolio, so US roles appear too — fine,
+    # dedupe and the scorer handle overlap.
+    network_id: 8672
+    origin: https://jobs.accel.com
+    queries: [growth, founding, chief of staff, marketing, operations, partnerships, business development]
+  speedinvest:
+    adapter: getro
+    tier: api
+    locations:  # server-side filter — EU cities Eric named + open-minded picks + US metros + remote
+      - London, UK
+      - Dublin, Ireland
+      - Amsterdam, Netherlands
+      - Prague, Czechia
+      - Milan, Italy
+      - Rome, Italy
+      - Berlin, Germany
+      - Munich, Germany
+      - Paris, France
+      - Copenhagen, Denmark
+      - Stockholm, Sweden
+      - New York, NY, USA
+      - San Francisco, CA, USA
+      - Seattle, WA, USA
+      - Remote
+    # Austrian fund, explicitly pre-seed/seed — the stage CLAUDE.md wants.
+    network_id: 947
+    origin: https://careers.speedinvest.com
+    queries: [growth, founding, chief of staff, marketing, operations, partnerships]
+  hvcapital:
+    adapter: getro
+    tier: api
+    locations:  # server-side filter — EU cities Eric named + open-minded picks + US metros + remote
+      - London, UK
+      - Dublin, Ireland
+      - Amsterdam, Netherlands
+      - Prague, Czechia
+      - Milan, Italy
+      - Rome, Italy
+      - Berlin, Germany
+      - Munich, Germany
+      - Paris, France
+      - Copenhagen, Denmark
+      - Stockholm, Sweden
+      - New York, NY, USA
+      - San Francisco, CA, USA
+      - Seattle, WA, USA
+      - Remote
+    network_id: 234
+    origin: https://jobs.hvcapital.com
+    queries: [growth, founding, chief of staff, marketing, operations]
+
+  landingjobs:
+    adapter: landingjobs
+    tier: api
+    # Public JSON API with relocation_paid and real published dates, but the
+    # page param is ignored (~50 visible jobs) and it skews hard to
+    # engineering. Kept because it costs one request and the prefilter does
+    # the rest. Expectations: low single-digit yield.
+
+  southparkcommons:
+    adapter: portfolio
+    tier: api
+    urls:
+      - https://www.southparkcommons.com/jobs
+
+  rockhealth:
+    adapter: portfolio
+    tier: skip  # retired 2026-08-18 — 0 roles at 60+ from the whole scored pile (source-ROI pass)
+    # Revived 2026-08-05: the 403 was never Cloudflare — their nginx blocks
+    # the CHROME UA string specifically. The shared client sends Safari now
+    # and the page serves 200 with ATS links to harvest.
+    urls:
+      - https://rockhealthcapital.com/job-board/
+
+  # Watchlist company careers pages (CLAUDE.md "Also check each run").
+  # Slugs resolved by `make discover`; unresolved companies are reported, not guessed.
+  watchlist:
+    adapter: ats
+    tier: api
+    # Resolved 2026-07-18. Two kinds of company here: the watchlist from
+    # CLAUDE.md, and top finds worth monitoring directly — generalist.world
+    # links out to these Ashby boards, and going straight to the ATS gets full
+    # descriptions plus roles the listing page never showed (Hera's Founding
+    # Growth Marketer, for one).
+    # Not resolvable to a public ATS: Journey Clinical, Mindbloom, Terran
+    # Biosciences, Beond, Nabi, Craniometrix, Fortuna Health, Ease Health.
+    # Those need a browser pass or a careers-page parse.
+    companies:
+      - {platform: ashby, slug: ataraxis-ai, name: "Ataraxis"}
+      - {platform: ashby, slug: valthos, name: "Valthos"}
+      - {platform: ashby, slug: gravity, name: "Gravity"}
+      - {platform: ashby, slug: hellohera, name: "Hera"}
+      - {platform: ashby, slug: conduct, name: "Conduct"}
+      - {platform: ashby, slug: kingdom, name: "Kingdom"}
+      - {platform: ashby, slug: clarion, name: "Clarion"}
+      # Sports-startup target list (Eric, 2026-08-14). 40 companies were
+      # probed against all three ATS APIs; ONE resolved to a verified board.
+      # Identity confirmed from the posting text itself (Lore/Rodriguez/
+      # Leiser, Seven Seven Six, NBA/WNBA/NWSL) — the slug alone proves
+      # nothing, and four other "hits" were outright collisions:
+      #   ashby/breadcrumb  -> a Melbourne company, not NYC Breadcrumb
+      #   ashby/output      -> an NYC AI research lab, not Output Sports
+      #   greenhouse/raven  -> Boston biotech, not Raven Controls
+      #   greenhouse/international -> Lisbon marketing, not Intl Dance League
+      # Do not re-add those without opening a posting and reading it.
+      - {platform: ashby, slug: jump, name: "Jump"}
+      # Found by crawling the 26 resolved sports-company sites for careers
+      # pages: LOVB embeds a Rippling board, 24 live roles with full text
+      # and real posted dates. Only machine-readable board in the whole set.
+      - {platform: rippling, slug: lovb, name: "LOVB"}
+
+  # The funding sweep CLAUDE.md asks for. SEC Form D is filed within 15 days of
+  # a raise, so this lands before most rounds are announced — and it carries
+  # officer names, which makes it a free founder source too. US-only (Reg D).
+  edgar:
+    adapter: edgar
+    tier: api
+    days: 45
+    limit_per_term: 40
+    # The daily-index sweep reads EVERY Form D in the window (term search only
+    # matches company names — Form D has no prose). Budget: XML fetches per run.
+    sweep_days: 10
+    max_filings: 150
+    terms:
+      - health
+      - digital health
+      - fitness
+      - nutrition
+      - mental health
+      - longevity
+      - sports
+
+  # Ag/food/farming coverage — tech whose PRODUCT serves agriculture, not
+  # farms with tech departments. One request per run; the site ignores every
+  # filter param, so this is a rolling newest-100 sweep filtered client-side
+  # by sector tag. Dedupe makes daily pulls cumulative.
+  climatebase:
+    adapter: climatebase
+    tier: skip  # retired 2026-08-18 — 0 roles at 60+ from the whole scored pile (source-ROI pass)
+    sectors:
+      - "Food, Agriculture, & Land Use"
+
+  # --- Not yet implemented. Reported as blocked in the triage summary so their
+  # --- absence is visible rather than silent.
+  wellfound:
+    adapter: browser
+    tier: skip
+    # 403 even with full browser headers — genuine Cloudflare bot protection.
+    reason: "403 behind Cloudflare — needs a real browser session"
+  builtinnyc:
+    adapter: builtin
+    tier: html
+    # Revived 2026-08-05: /jobs renders full cards server-side — the broken
+    # thing was their JSON API, and the old ld+json complaint missed that the
+    # cards carry the company in the /company/ link's logo alt. Descriptions
+    # come from a capped detail pass on titles surviving a seniority screen.
+    origin: https://builtinnyc.com
+    days_since_updated: 7
+    queries: [growth, founding, chief of staff, marketing, operations, partnerships]
+
+  workatastartup:
+    adapter: waas
+    tier: api
+    # Not login-walled after all — the public pages ship their payload inline
+    # via Inertia. See boards/waas.py. Highest-yield source on the list.
+    categories: [operations, sales-manager, marketing, product-manager, finance]
+  # Revived 2026-08-05: POST /api-boards/search-jobs answers openly; the
+  # board id hides in window.serverInitialData ("fixedBoard"). An empty
+  # searchText times out server-side — always send terms.
+  a16z:
+    adapter: consider
+    tier: api
+    host: jobs.a16z.com
+    board_id: andreessen-horowitz
+    queries: [growth, founding, chief of staff, marketing, operations, partnerships, business development, generalist]
+  greylock:
+    adapter: consider
+    tier: api
+    host: jobs.greylock.com
+    board_id: greylock-partners
+    queries: [growth, founding, chief of staff, marketing, operations, partnerships, business development, generalist]
+  generalist:
+    adapter: generalist
+    tier: html
+    # The 301 was just a missing trailing slash. Whole board in one request,
+    # cards carry description + salary + location inline. Highly curated.
+    url: https://generalist.world/jobs/
+  linkedin:
+    adapter: browser
+    tier: skip
+    reason: "login-walled — Eric handles via browser session (CLAUDE.md ops notes)"
+  welcometothejungle:
+    adapter: browser
+    tier: skip
+    reason: "login-walled — Eric handles via browser session (CLAUDE.md ops notes)"
+  teamworkonline:
+    adapter: teamworkonline
+    tier: skip  # retired 2026-08-18 — 0 roles at 60+ from the whole scored pile (source-ROI pass)
+    # Revived 2026-08-05: 'JS-rendered' was wrong — the cards ship in the
+    # HTML under property paths; the query just needs commit=Search or the
+    # backend returns 'No matches'. The team/venue-ops yield caveat stands,
+    # so the query list stays tight and the seniority screen is aggressive.
+    queries: [marketing, partnerships, business development, analytics, growth]
+  # Funding press — the raises Form D never sees: US pre-seed SAFEs (Eric's
+  # exact stage) and European rounds (Reg D is US-only). Writes COMPANIES
+  # into review, never postings — you don't apply to a round.
+  fundingpress:
+    adapter: fundingpress
+    tier: api
+    max_age_days: 30
+
+  substack:
+    adapter: substack
+    tier: api
+    # Newsletter extraction (added 2026-08-06): full post bodies via each
+    # pub's /feed RSS; ATS-shaped links become postings, hiring/founder prose
+    # queues to data/substack_queue.json, people leads go to a review queue
+    # (never straight to People — honesty rule). Seen-memory:
+    # data/substack_seen.json, committed after feed.save.
+    pubs:
+      - {name: nextplay, url: "https://nextplayso.substack.com"}
+      - {name: nextplay-recruiting, url: "https://nextplaypartners.substack.com"}
+      - {name: nextplay-campus, url: "https://nextplayoncampus.substack.com"}
+      - {name: a16z-build, url: "https://a16zbuild.substack.com"}
+      - {name: ai-operators, url: "https://aioperators.substack.com"}
+      - {name: fysk, url: "https://newsletter.foundersysk.com"}
