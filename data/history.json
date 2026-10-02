@@ -1,539 +1,781 @@
 {
-  "https://www.workatastartup.com/jobs/102677": [
-    {
-      "at": "2026-09-28T10:05:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-10-01T17:18:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    }
-  ],
-  "https://www.workatastartup.com/jobs/104427": [
-    {
-      "at": "2026-09-29T10:39:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-10-01T12:41:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    },
-    {
-      "at": "2026-10-01T11:12:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
-    }
-  ],
   "https://jobs.ashbyhq.com/vocca/ec7643d2-4a94-4371-b72c-4597f0be44c4": [
     {
-      "at": "2026-09-27T10:45:00-07:00",
+      "at": "2026-09-28T10:38:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
     },
     {
-      "at": "2026-09-30T14:29:00-07:00",
+      "at": "2026-10-01T09:15:00-07:00",
       "kind": "status",
       "text": "moved to applied",
       "detail": "from saved"
+    },
+    {
+      "at": "2026-09-28T08:50:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/vocca/outreach.md | proof: Band growth"
     }
   ],
-  "https://jobs.ashbyhq.com/hellohera/d0c2b4e4-652f-43a2-8700-ab3d87195025": [
+  "https://jobs.ashbyhq.com/ema/2856915c-3957-4472-8e79-0ec28acab899": [
     {
-      "at": "2026-09-27T10:19:00-07:00",
+      "at": "2026-09-28T10:07:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
     },
     {
-      "at": "2026-09-30T16:30:00-07:00",
+      "at": "2026-10-01T09:50:00-07:00",
       "kind": "status",
       "text": "moved to applied",
       "detail": "from saved"
     },
     {
-      "at": "2026-10-01T11:01:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
-    },
-    {
-      "at": "2026-10-01T15:21:00-07:00",
-      "kind": "status",
-      "text": "moved to rejected",
-      "detail": "from interviewing"
+      "at": "2026-09-28T08:50:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/ema-unlimited/outreach.md | proof: Band growth"
     }
   ],
-  "https://jobs.ashbyhq.com/melotech/b9475761-4f6b-4fcc-bb7a-adce5cc962cb": [
+  "https://www.linkedin.com/jobs/view/business-development-growth-lead-at-treet-4445734741": [
     {
-      "at": "2026-09-29T10:12:00-07:00",
+      "at": "2026-09-28T10:13:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
     },
     {
-      "at": "2026-09-30T17:34:00-07:00",
+      "at": "2026-09-30T14:47:00-07:00",
       "kind": "status",
       "text": "moved to applied",
       "detail": "from saved"
+    },
+    {
+      "at": "2026-09-28T08:43:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/treet/outreach.md | proof: Neuroscape research"
     }
   ],
-  "https://www.workatastartup.com/jobs/97596": [
+  "https://jobs.ashbyhq.com/tread/4c347015-3b0c-4dc1-bbf1-60d21d72bea9": [
     {
-      "at": "2026-09-27T10:37:00-07:00",
+      "at": "2026-09-29T10:26:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
-    },
-    {
-      "at": "2026-09-29T15:00:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    }
-  ],
-  "https://www.workatastartup.com/jobs/97351": [
-    {
-      "at": "2026-09-27T10:10:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-29T12:20:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    }
-  ],
-  "https://www.workatastartup.com/jobs/93967": [
-    {
-      "at": "2026-09-26T10:20:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-29T16:17:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    }
-  ],
-  "https://www.workatastartup.com/jobs/95905": [
-    {
-      "at": "2026-09-26T10:56:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-28T12:18:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    },
-    {
-      "at": "2026-09-30T11:49:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
-    }
-  ],
-  "https://www.workatastartup.com/jobs/94530": [
-    {
-      "at": "2026-09-27T10:10:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-28T17:04:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    },
-    {
-      "at": "2026-10-01T11:28:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
-    },
-    {
-      "at": "2026-10-01T15:33:00-07:00",
-      "kind": "status",
-      "text": "moved to rejected",
-      "detail": "from interviewing"
-    }
-  ],
-  "https://www.workatastartup.com/jobs/83002": [
-    {
-      "at": "2026-09-26T10:53:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-28T16:22:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    }
-  ],
-  "https://easehealth.com/careers/gtm-engineer": [
-    {
-      "at": "2026-09-22T10:48:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-25T10:33:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    }
-  ],
-  "https://www.workatastartup.com/jobs/101757": [
-    {
-      "at": "2026-09-24T10:43:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-25T11:26:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    },
-    {
-      "at": "2026-09-29T11:42:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
-    }
-  ],
-  "https://www.workatastartup.com/jobs/102950": [
-    {
-      "at": "2026-09-23T10:08:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-25T12:39:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    },
-    {
-      "at": "2026-09-29T11:52:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
     },
     {
       "at": "2026-09-30T15:47:00-07:00",
       "kind": "status",
-      "text": "moved to rejected",
-      "detail": "from interviewing"
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-29T08:19:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/tread/outreach.md | proof: Jets / special teams"
     }
   ],
-  "https://www.workatastartup.com/jobs/95669": [
+  "https://jobs.ashbyhq.com/hcompany/d9f3664c-b83d-4d13-af2b-3e048157e42f": [
     {
-      "at": "2026-09-21T10:59:00-07:00",
+      "at": "2026-09-27T10:53:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
     },
     {
-      "at": "2026-09-24T16:17:00-07:00",
+      "at": "2026-09-30T12:17:00-07:00",
       "kind": "status",
       "text": "moved to applied",
       "detail": "from saved"
     },
     {
-      "at": "2026-09-27T11:26:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
-    },
-    {
-      "at": "2026-09-28T15:00:00-07:00",
-      "kind": "status",
-      "text": "moved to rejected",
-      "detail": "from interviewing"
+      "at": "2026-09-27T08:45:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/h-company/outreach.md | proof: Epilepsy NLP"
     }
   ],
-  "https://ats.rippling.com/neosigma/jobs/de501073-b2b5-42a2-ad73-65ecf73e3be6": [
+  "https://jobs.ashbyhq.com/august/f053f5bb-c09c-4618-aac5-6d68aacdb16d": [
     {
-      "at": "2026-09-22T10:49:00-07:00",
+      "at": "2026-09-26T10:05:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
     },
     {
-      "at": "2026-09-24T17:37:00-07:00",
+      "at": "2026-09-29T14:27:00-07:00",
       "kind": "status",
       "text": "moved to applied",
       "detail": "from saved"
     },
     {
-      "at": "2026-09-26T11:31:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
-    },
-    {
-      "at": "2026-09-30T15:36:00-07:00",
-      "kind": "status",
-      "text": "moved to offer",
-      "detail": "from interviewing"
+      "at": "2026-09-26T08:42:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/august/outreach.md | proof: Band growth"
     }
   ],
-  "https://jobs.ashbyhq.com/helios-intelligence-platforms/2969ab95-9149-4388-b6ff-c7219520f11a": [
+  "https://www.aegisai.ai/careers/chief-of-staff": [
     {
-      "at": "2026-09-23T10:26:00-07:00",
+      "at": "2026-09-27T10:59:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
     },
     {
-      "at": "2026-09-24T13:55:00-07:00",
+      "at": "2026-09-29T14:44:00-07:00",
       "kind": "status",
       "text": "moved to applied",
       "detail": "from saved"
     },
     {
-      "at": "2026-09-26T11:24:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
+      "at": "2026-09-27T08:56:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/aegis-ai/outreach.md | proof: Band growth"
     }
   ],
-  "https://jobs.ashbyhq.com/town/0e488c6c-96eb-41b0-92e3-560a5bec5592": [
+  "https://wellfound.com/company/cooklist/jobs/4574519-product-marketing-lead": [
     {
-      "at": "2026-09-21T10:44:00-07:00",
+      "at": "2026-09-26T10:47:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
     },
     {
-      "at": "2026-09-23T16:18:00-07:00",
+      "at": "2026-09-29T16:32:00-07:00",
       "kind": "status",
       "text": "moved to applied",
       "detail": "from saved"
+    },
+    {
+      "at": "2026-09-26T08:09:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/cooklist/outreach.md | proof: Band growth"
     }
   ],
-  "https://jobs.ashbyhq.com/petra-labs/8eb1abd1-1de6-4559-8110-6338e6a345f5": [
+  "https://www.workatastartup.com/jobs/104625": [
     {
-      "at": "2026-09-19T10:22:00-07:00",
+      "at": "2026-09-27T10:43:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
     },
     {
-      "at": "2026-09-22T13:22:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    }
-  ],
-  "https://jobs.ashbyhq.com/datalab/1e37e95b-185b-4d63-8192-ccc39083c465": [
-    {
-      "at": "2026-09-20T10:33:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-22T17:38:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    }
-  ],
-  "https://jobs.ashbyhq.com/dualentry/2b329001-4315-415b-8708-6792e2e656aa": [
-    {
-      "at": "2026-09-16T10:41:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-18T14:00:00-07:00",
+      "at": "2026-09-28T12:27:00-07:00",
       "kind": "status",
       "text": "moved to applied",
       "detail": "from saved"
     },
     {
-      "at": "2026-09-23T11:24:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
-    },
-    {
-      "at": "2026-09-27T15:19:00-07:00",
-      "kind": "status",
-      "text": "moved to rejected",
-      "detail": "from interviewing"
-    }
-  ],
-  "https://jobs.ashbyhq.com/ropes/09c15f16-aa33-47e8-ab70-fecd91b58fb6": [
-    {
-      "at": "2026-09-16T10:34:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-17T13:51:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    }
-  ],
-  "https://jobs.ashbyhq.com/endex/71936ea5-68e4-4697-995f-fe44905382e2": [
-    {
-      "at": "2026-09-16T10:27:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-17T15:37:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    }
-  ],
-  "https://jobs.ashbyhq.com/hellohera/f54090ee-4305-4430-9266-23f2eab43d6f": [
-    {
-      "at": "2026-09-15T10:05:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-16T14:20:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    },
-    {
-      "at": "2026-09-19T11:20:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
-    },
-    {
-      "at": "2026-09-21T15:27:00-07:00",
-      "kind": "status",
-      "text": "moved to rejected",
-      "detail": "from interviewing"
-    }
-  ],
-  "https://www.workatastartup.com/jobs/103442": [
-    {
-      "at": "2026-09-14T10:01:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-15T09:16:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
-    },
-    {
-      "at": "2026-09-20T11:19:00-07:00",
-      "kind": "status",
-      "text": "moved to interviewing",
-      "detail": "from applied"
-    },
-    {
-      "at": "2026-09-23T15:34:00-07:00",
-      "kind": "status",
-      "text": "moved to rejected",
-      "detail": "from interviewing"
-    }
-  ],
-  "https://www.workatastartup.com/jobs/95044": [
-    {
-      "at": "2026-09-12T10:27:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    },
-    {
-      "at": "2026-09-15T17:52:00-07:00",
-      "kind": "status",
-      "text": "moved to applied",
-      "detail": "from saved"
+      "at": "2026-09-27T08:36:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/david-ai/outreach.md | proof: Foxino GTM"
     }
   ],
   "https://jobs.ashbyhq.com/kingdom/1e04ed1a-669a-41a7-93b7-fb6e0c359a02": [
     {
-      "at": "2026-09-24T12:46:00-07:00",
+      "at": "2026-09-25T10:32:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
+    },
+    {
+      "at": "2026-09-28T11:31:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-25T08:59:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/kingdom/outreach.md | proof: Band growth"
+    },
+    {
+      "at": "2026-09-28T20:31:00-07:00",
+      "kind": "note",
+      "text": "Read their last two launch posts before writing",
+      "detail": ""
     }
   ],
-  "https://www.workatastartup.com/jobs/96704": [
+  "https://www.workatastartup.com/jobs/102950": [
     {
-      "at": "2026-09-23T12:27:00-07:00",
+      "at": "2026-09-27T10:02:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
-    }
-  ],
-  "https://jobs.ashbyhq.com/abacum/19b8a9b0-a3ee-45e3-b1b2-b5e214d55b7a": [
+    },
     {
-      "at": "2026-09-25T12:29:00-07:00",
+      "at": "2026-09-28T17:16:00-07:00",
       "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    }
-  ],
-  "https://jobs.ashbyhq.com/sable/1372c8f7-36e3-479d-b372-5a68dfd62e5e": [
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
     {
-      "at": "2026-09-28T12:02:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    }
-  ],
-  "https://jobs.ashbyhq.com/medraai/13e93fc3-fd20-4e7c-a748-00ccbc2a7f79": [
-    {
-      "at": "2026-09-24T12:43:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
-    }
-  ],
-  "https://jobs.ashbyhq.com/findarbor/6c5a7541-4b10-4a57-a086-a6821075da2f": [
-    {
-      "at": "2026-09-28T12:28:00-07:00",
-      "kind": "status",
-      "text": "moved to saved",
-      "detail": "from review"
+      "at": "2026-09-27T08:19:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/fort/outreach.md | proof: Neuroscape research"
     }
   ],
   "https://jobs.ashbyhq.com/concourse/58e116f6-f612-4846-ad46-4edf424cb256": [
     {
-      "at": "2026-09-30T12:43:00-07:00",
+      "at": "2026-09-24T10:34:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-25T11:49:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-24T08:16:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/concourse/outreach.md | proof: Band growth"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/79767": [
+    {
+      "at": "2026-09-22T10:15:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-25T17:16:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-22T08:35:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/clarion/outreach.md | proof: Epilepsy NLP"
+    }
+  ],
+  "https://jobs.ashbyhq.com/salient/3d366f93-aa38-43a2-a4a6-2d9da18e9ef2": [
+    {
+      "at": "2026-09-24T10:03:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-25T11:22:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-24T08:37:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/salient/outreach.md | proof: Neuroscape research"
+    },
+    {
+      "at": "2026-09-25T20:57:00-07:00",
+      "kind": "note",
+      "text": "Warm intro offered through a demo-day contact",
+      "detail": ""
+    }
+  ],
+  "https://boards.greenhouse.io/gigs/jobs/4869452101": [
+    {
+      "at": "2026-09-22T10:26:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-24T10:12:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-28T11:08:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-09-22T08:55:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/gigs-inc/outreach.md | proof: Neuroscape research"
+    },
+    {
+      "at": "2026-09-25T19:50:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/gigs-inc/brief.md"
+    },
+    {
+      "at": "2026-09-28T20:16:00-07:00",
+      "kind": "note",
+      "text": "Followed up with a one-page teardown of their onboarding",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/fortuna-health/9fe5d236-350d-4cc7-9116-0862e89fff0a": [
+    {
+      "at": "2026-09-23T10:43:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-24T16:42:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-29T11:15:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-09-23T08:47:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/fortuna-health/outreach.md | proof: Band growth"
+    },
+    {
+      "at": "2026-09-26T19:23:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/fortuna-health/brief.md"
+    }
+  ],
+  "https://jobs.ashbyhq.com/decagon/8710129d-ba92-4446-8abc-0a97e4c6d093": [
+    {
+      "at": "2026-09-21T10:15:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-24T09:32:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-29T11:08:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-09-21T08:21:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/decagon/outreach.md | proof: Foxino GTM"
+    },
+    {
+      "at": "2026-09-24T19:03:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/decagon/brief.md"
+    }
+  ],
+  "https://jobs.ashbyhq.com/conduct/46948c8f-7f8e-4991-a687-91cfc1417317": [
+    {
+      "at": "2026-09-20T10:22:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-23T13:08:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-26T11:37:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-09-20T08:04:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/conduct/outreach.md | proof: Band growth"
+    },
+    {
+      "at": "2026-09-23T19:58:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/conduct/brief.md"
+    }
+  ],
+  "https://jobs.ashbyhq.com/valthos/1b06d90d-a2ac-49dd-9f12-4408303c5e86": [
+    {
+      "at": "2026-09-19T10:15:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-22T14:40:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-24T11:35:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-09-28T15:48:00-07:00",
+      "kind": "status",
+      "text": "moved to rejected",
+      "detail": "from interviewing"
+    },
+    {
+      "at": "2026-09-19T08:54:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/valthos/outreach.md | proof: Epilepsy NLP"
+    },
+    {
+      "at": "2026-09-22T19:40:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/valthos/brief.md"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/88613": [
+    {
+      "at": "2026-09-21T10:43:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-22T11:38:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-27T11:53:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-10-01T15:53:00-07:00",
+      "kind": "status",
+      "text": "moved to offer",
+      "detail": "from interviewing"
+    },
+    {
+      "at": "2026-09-21T08:22:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/weave/outreach.md | proof: Neuroscape research"
+    },
+    {
+      "at": "2026-09-24T19:55:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/weave/brief.md"
+    }
+  ],
+  "https://ats.rippling.com/enertiv-jobs/jobs/e2ee18ab-722b-4d7d-b0f7-a919dec80c04": [
+    {
+      "at": "2026-09-17T10:07:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-18T13:00:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-22T11:31:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-09-24T15:02:00-07:00",
+      "kind": "status",
+      "text": "moved to rejected",
+      "detail": "from interviewing"
+    },
+    {
+      "at": "2026-09-17T08:32:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/enertiv/outreach.md | proof: Foxino GTM"
+    },
+    {
+      "at": "2026-09-20T19:23:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/enertiv/brief.md"
+    }
+  ],
+  "https://www.linkedin.com/jobs/view/business-operations-at-locus-lock-4442239734": [
+    {
+      "at": "2026-09-16T10:57:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-17T13:19:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-20T11:07:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-09-23T15:28:00-07:00",
+      "kind": "status",
+      "text": "moved to rejected",
+      "detail": "from interviewing"
+    },
+    {
+      "at": "2026-09-16T08:51:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/locus-lock/outreach.md | proof: Neuroscape research"
+    },
+    {
+      "at": "2026-09-19T19:15:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/locus-lock/brief.md"
+    }
+  ],
+  "https://jobs.ashbyhq.com/scarlet/06407958-ca5b-4f2e-ad57-d8a16c9bbf11": [
+    {
+      "at": "2026-09-16T10:10:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-17T14:28:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-22T11:36:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-09-25T15:18:00-07:00",
+      "kind": "status",
+      "text": "moved to rejected",
+      "detail": "from interviewing"
+    },
+    {
+      "at": "2026-09-16T08:13:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/scarlet/outreach.md | proof: Neuroscape research"
+    },
+    {
+      "at": "2026-09-19T19:00:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/scarlet/brief.md"
+    }
+  ],
+  "https://jobs.ashbyhq.com/gaiafamily/3d20f495-2740-41d6-8f58-ec7e36bc2df6": [
+    {
+      "at": "2026-09-15T10:35:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-16T10:02:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-18T11:29:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-09-22T15:05:00-07:00",
+      "kind": "status",
+      "text": "moved to rejected",
+      "detail": "from interviewing"
+    },
+    {
+      "at": "2026-09-15T08:25:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/gaia/outreach.md | proof: Foxino GTM"
+    },
+    {
+      "at": "2026-09-18T19:28:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/gaia/brief.md"
+    },
+    {
+      "at": "2026-09-22T20:53:00-07:00",
+      "kind": "note",
+      "text": "Founder replied within a day; call booked for Thursday",
+      "detail": ""
+    }
+  ],
+  "https://www.workatastartup.com/jobs/97596": [
+    {
+      "at": "2026-09-12T10:45:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-15T14:47:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-19T11:06:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-09-23T15:27:00-07:00",
+      "kind": "status",
+      "text": "moved to rejected",
+      "detail": "from interviewing"
+    },
+    {
+      "at": "2026-09-12T08:37:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/structured-ai/outreach.md | proof: Neuroscape research"
+    },
+    {
+      "at": "2026-09-15T19:04:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/structured-ai/brief.md"
+    },
+    {
+      "at": "2026-09-23T20:17:00-07:00",
+      "kind": "note",
+      "text": "Second round with the CEO, went well",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/clasp/759f1a9d-e4de-45c0-a8ea-71cee7d66c98": [
+    {
+      "at": "2026-09-13T10:12:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-15T17:20:00-07:00",
+      "kind": "status",
+      "text": "moved to applied",
+      "detail": "from saved"
+    },
+    {
+      "at": "2026-09-17T11:22:00-07:00",
+      "kind": "status",
+      "text": "moved to interviewing",
+      "detail": "from applied"
+    },
+    {
+      "at": "2026-09-18T15:41:00-07:00",
+      "kind": "status",
+      "text": "moved to rejected",
+      "detail": "from interviewing"
+    },
+    {
+      "at": "2026-09-13T08:37:00-07:00",
+      "kind": "artifact",
+      "text": "outreach draft written",
+      "detail": "applications/clasp/outreach.md | proof: Jets / special teams"
+    },
+    {
+      "at": "2026-09-16T19:11:00-07:00",
+      "kind": "artifact",
+      "text": "interview brief written",
+      "detail": "applications/clasp/brief.md"
+    }
+  ],
+  "https://jobs.ashbyhq.com/lightfield/57d8b0bf-946d-4bed-8135-931d10429c6e": [
+    {
+      "at": "2026-09-28T12:40:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    }
+  ],
+  "https://jobs.ashbyhq.com/mecka.ai/7617ec0c-f0b2-45a8-bd6b-ded57fa2222a": [
+    {
+      "at": "2026-09-24T12:59:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    }
+  ],
+  "https://ats.rippling.com/locateai/jobs/89c7cf26-4243-4b7a-a021-de12864f85d4": [
+    {
+      "at": "2026-09-23T12:41:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/104427": [
+    {
+      "at": "2026-09-23T12:16:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/93967": [
+    {
+      "at": "2026-09-23T12:15:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
@@ -541,352 +783,996 @@
   ],
   "https://jobs.ashbyhq.com/conversion/eaceeb3b-0957-4f7f-9648-19bf43dc39ee": [
     {
-      "at": "2026-09-30T12:33:00-07:00",
+      "at": "2026-09-30T12:08:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-30T20:11:00-07:00",
+      "kind": "note",
+      "text": "Take-home: outbound sequence for their ICP",
+      "detail": ""
+    }
+  ],
+  "https://www.workatastartup.com/jobs/95044": [
+    {
+      "at": "2026-09-23T12:01:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
     }
   ],
-  "https://www.rentana.io/job/strategy-operations-associate": [
+  "https://wellfound.com/jobs/4139537-gtm-engineer": [
     {
-      "at": "2026-09-29T12:06:00-07:00",
+      "at": "2026-09-30T12:49:00-07:00",
+      "kind": "status",
+      "text": "moved to saved",
+      "detail": "from review"
+    },
+    {
+      "at": "2026-09-30T20:20:00-07:00",
+      "kind": "note",
+      "text": "Asked about the GTM plan for the next two quarters",
+      "detail": ""
+    }
+  ],
+  "https://www.workatastartup.com/jobs/90842": [
+    {
+      "at": "2026-09-25T12:53:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
     }
   ],
-  "https://builtinnyc.com/job/founding-marketing-lead/10645886": [
+  "https://jobs.ashbyhq.com/ataraxis-ai/43a4e49e-eb07-44de-9d1d-adaa94d2ede1": [
     {
-      "at": "2026-09-25T12:23:00-07:00",
+      "at": "2026-09-29T12:18:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": "from review"
-    }
-  ],
-  "person:kofi hartwell|town": [
-    {
-      "at": "2026-10-01T15:18:00-07:00",
-      "kind": "status",
-      "text": "moved to contacted",
-      "detail": "email"
-    }
-  ],
-  "person:rafael greaves|datalab": [
-    {
-      "at": "2026-09-30T13:15:00-07:00",
-      "kind": "status",
-      "text": "moved to contacted",
-      "detail": "email"
-    }
-  ],
-  "person:ines marchetti|casco": [
-    {
-      "at": "2026-09-30T14:02:00-07:00",
-      "kind": "status",
-      "text": "moved to contacted",
-      "detail": "email"
-    }
-  ],
-  "person:rafael thorne|agentmail": [
-    {
-      "at": "2026-09-30T12:42:00-07:00",
-      "kind": "status",
-      "text": "moved to contacted",
-      "detail": "email"
-    }
-  ],
-  "person:elena ashford|hera": [
-    {
-      "at": "2026-09-29T08:21:00-07:00",
-      "kind": "status",
-      "text": "moved to contacted",
-      "detail": "email"
-    }
-  ],
-  "person:hugo whitlock|interfere": [
-    {
-      "at": "2026-09-29T10:15:00-07:00",
-      "kind": "status",
-      "text": "moved to contacted",
-      "detail": "email"
-    }
-  ],
-  "person:wren abernathy|endex": [
-    {
-      "at": "2026-09-29T10:05:00-07:00",
-      "kind": "status",
-      "text": "moved to contacted",
-      "detail": "email"
-    }
-  ],
-  "person:ada pryor|ease": [
-    {
-      "at": "2026-09-28T11:17:00-07:00",
-      "kind": "status",
-      "text": "moved to contacted",
-      "detail": "email"
-    }
-  ],
-  "person:ben ostrander|openrouter": [
-    {
-      "at": "2026-09-28T16:53:00-07:00",
-      "kind": "status",
-      "text": "moved to contacted",
-      "detail": "email"
     },
     {
-      "at": "2026-09-29T16:35:00-07:00",
-      "kind": "status",
-      "text": "moved to conversation",
-      "detail": "replied"
+      "at": "2026-09-29T20:57:00-07:00",
+      "kind": "note",
+      "text": "Referred by a contact in the Rolodex",
+      "detail": ""
     }
   ],
-  "person:rosa kessler|zipline": [
+  "person:nico rutherford|clarion": [
     {
-      "at": "2026-09-28T15:29:00-07:00",
+      "at": "2026-10-01T16:07:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
-    },
-    {
-      "at": "2026-09-29T16:10:00-07:00",
-      "kind": "status",
-      "text": "moved to conversation",
-      "detail": "replied"
     }
   ],
-  "person:petra merriweather|ralo": [
+  "person:hugo holbrook|kingdom": [
     {
-      "at": "2026-09-25T13:22:00-07:00",
+      "at": "2026-09-30T13:10:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
-    },
-    {
-      "at": "2026-09-26T16:46:00-07:00",
-      "kind": "status",
-      "text": "moved to conversation",
-      "detail": "replied"
     }
   ],
-  "person:vikram castellan|dualentry": [
+  "person:sienna dunmore|fort": [
     {
-      "at": "2026-09-25T14:24:00-07:00",
+      "at": "2026-09-30T13:47:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
-    },
+    }
+  ],
+  "person:theo ellery|decagon": [
     {
-      "at": "2026-09-28T16:37:00-07:00",
+      "at": "2026-09-30T13:51:00-07:00",
       "kind": "status",
-      "text": "moved to conversation",
-      "detail": "replied"
+      "text": "moved to contacted",
+      "detail": "email"
     }
   ],
   "person:grace underhill|structured": [
     {
-      "at": "2026-09-25T11:19:00-07:00",
+      "at": "2026-09-29T18:00:00-07:00",
+      "kind": "status",
+      "text": "moved to contacted",
+      "detail": "email"
+    }
+  ],
+  "person:ben galloway|lightfield": [
+    {
+      "at": "2026-09-29T12:07:00-07:00",
+      "kind": "status",
+      "text": "moved to contacted",
+      "detail": "email"
+    }
+  ],
+  "person:yara pennington|conversion": [
+    {
+      "at": "2026-09-29T11:23:00-07:00",
+      "kind": "status",
+      "text": "moved to contacted",
+      "detail": "email"
+    }
+  ],
+  "person:anya okonkwo|light": [
+    {
+      "at": "2026-09-28T16:47:00-07:00",
+      "kind": "status",
+      "text": "moved to contacted",
+      "detail": "email"
+    }
+  ],
+  "person:rafael thorne|locus lock": [
+    {
+      "at": "2026-09-28T16:22:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
     },
     {
-      "at": "2026-09-27T16:32:00-07:00",
+      "at": "2026-10-01T16:31:00-07:00",
       "kind": "status",
       "text": "moved to conversation",
       "detail": "replied"
     }
   ],
-  "person:rosa vandermeer|interfere": [
+  "person:vikram castellan|treet": [
     {
-      "at": "2026-09-24T11:14:00-07:00",
+      "at": "2026-09-28T08:52:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
     },
     {
-      "at": "2026-09-26T16:43:00-07:00",
+      "at": "2026-10-01T16:22:00-07:00",
       "kind": "status",
       "text": "moved to conversation",
       "detail": "replied"
+    }
+  ],
+  "person:lena yardley|lightfield": [
+    {
+      "at": "2026-09-25T09:22:00-07:00",
+      "kind": "status",
+      "text": "moved to contacted",
+      "detail": "email"
+    },
+    {
+      "at": "2026-09-28T16:20:00-07:00",
+      "kind": "status",
+      "text": "moved to conversation",
+      "detail": "replied"
+    }
+  ],
+  "person:grace yardley|david": [
+    {
+      "at": "2026-09-25T17:07:00-07:00",
+      "kind": "status",
+      "text": "moved to contacted",
+      "detail": "email"
+    },
+    {
+      "at": "2026-09-26T16:59:00-07:00",
+      "kind": "status",
+      "text": "moved to conversation",
+      "detail": "replied"
+    }
+  ],
+  "person:rosa kessler|aegis": [
+    {
+      "at": "2026-09-25T18:15:00-07:00",
+      "kind": "status",
+      "text": "moved to contacted",
+      "detail": "email"
+    },
+    {
+      "at": "2026-09-27T16:22:00-07:00",
+      "kind": "status",
+      "text": "moved to conversation",
+      "detail": "replied"
+    }
+  ],
+  "person:kira abernathy|vocca": [
+    {
+      "at": "2026-09-24T11:44:00-07:00",
+      "kind": "status",
+      "text": "moved to contacted",
+      "detail": "email"
+    },
+    {
+      "at": "2026-09-26T16:01:00-07:00",
+      "kind": "status",
+      "text": "moved to conversation",
+      "detail": "replied"
+    }
+  ],
+  "person:elena fairbanks|gaia": [
+    {
+      "at": "2026-09-24T17:28:00-07:00",
+      "kind": "status",
+      "text": "moved to contacted",
+      "detail": "email"
+    },
+    {
+      "at": "2026-09-25T16:50:00-07:00",
+      "kind": "status",
+      "text": "moved to conversation",
+      "detail": "replied"
+    },
+    {
+      "at": "2026-09-26T14:31:00-07:00",
+      "kind": "status",
+      "text": "moved to met",
+      "detail": "coffee"
     }
   ],
   "person:dev pennington|airgoods": [
     {
-      "at": "2026-09-24T10:45:00-07:00",
+      "at": "2026-09-24T09:04:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
     },
     {
-      "at": "2026-09-26T16:38:00-07:00",
+      "at": "2026-09-26T16:11:00-07:00",
       "kind": "status",
       "text": "moved to conversation",
       "detail": "replied"
     },
     {
-      "at": "2026-09-30T14:37:00-07:00",
+      "at": "2026-09-28T14:35:00-07:00",
       "kind": "status",
       "text": "moved to met",
       "detail": "coffee"
     }
   ],
-  "person:wren everly|casco": [
+  "person:vikram delacroix|locateai": [
     {
-      "at": "2026-09-24T13:34:00-07:00",
+      "at": "2026-09-22T12:55:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
     },
     {
-      "at": "2026-09-25T16:25:00-07:00",
+      "at": "2026-09-25T16:42:00-07:00",
       "kind": "status",
       "text": "moved to conversation",
       "detail": "replied"
     },
     {
-      "at": "2026-09-27T14:08:00-07:00",
+      "at": "2026-09-29T14:53:00-07:00",
       "kind": "status",
       "text": "moved to met",
       "detail": "coffee"
     }
   ],
-  "person:omar merriweather|hera": [
+  "person:iris abernathy|tread": [
     {
-      "at": "2026-09-22T09:43:00-07:00",
+      "at": "2026-09-21T10:37:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
     },
     {
-      "at": "2026-09-25T16:05:00-07:00",
+      "at": "2026-09-23T16:34:00-07:00",
       "kind": "status",
       "text": "moved to conversation",
       "detail": "replied"
     },
     {
-      "at": "2026-09-28T14:47:00-07:00",
+      "at": "2026-09-26T14:28:00-07:00",
       "kind": "status",
       "text": "moved to met",
       "detail": "coffee"
     }
   ],
-  "person:yara pennington|clasp": [
+  "person:celine iverson|ema unlimited": [
     {
-      "at": "2026-09-21T14:01:00-07:00",
+      "at": "2026-09-17T08:01:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
     },
     {
-      "at": "2026-09-24T16:45:00-07:00",
-      "kind": "status",
-      "text": "moved to conversation",
-      "detail": "replied"
-    },
-    {
-      "at": "2026-09-26T14:19:00-07:00",
-      "kind": "status",
-      "text": "moved to met",
-      "detail": "coffee"
-    }
-  ],
-  "person:theo abernathy|helios": [
-    {
-      "at": "2026-09-17T08:24:00-07:00",
-      "kind": "status",
-      "text": "moved to contacted",
-      "detail": "email"
-    },
-    {
-      "at": "2026-09-17T17:45:00-07:00",
+      "at": "2026-09-17T17:21:00-07:00",
       "kind": "status",
       "text": "moved to uninterested",
       "detail": ""
     }
   ],
-  "person:avery kowalczyk|zipline": [
+  "person:grace okonkwo|gaia": [
     {
-      "at": "2026-09-16T09:44:00-07:00",
+      "at": "2026-09-16T10:31:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
     },
     {
-      "at": "2026-09-16T17:11:00-07:00",
+      "at": "2026-09-16T17:32:00-07:00",
       "kind": "status",
       "text": "moved to uninterested",
       "detail": ""
     }
   ],
-  "person:grace kessler|cotera": [
+  "person:uma ashford|mecka": [
     {
-      "at": "2026-09-15T11:20:00-07:00",
+      "at": "2026-09-15T15:55:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
     },
     {
-      "at": "2026-09-15T17:12:00-07:00",
+      "at": "2026-09-15T17:02:00-07:00",
       "kind": "status",
       "text": "moved to uninterested",
       "detail": ""
     }
   ],
-  "person:felix rutherford|datalab": [
+  "person:lena lindqvist|take2": [
     {
-      "at": "2026-09-29T13:04:00-07:00",
+      "at": "2026-09-30T13:04:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": ""
     }
   ],
-  "person:uma ashford|finni": [
+  "person:dev merriweather|gigs": [
     {
-      "at": "2026-09-23T13:51:00-07:00",
+      "at": "2026-09-28T13:39:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": ""
     }
   ],
-  "person:hugo hartwell|ease": [
+  "person:petra merriweather|enertiv": [
     {
-      "at": "2026-09-24T13:12:00-07:00",
+      "at": "2026-09-22T13:53:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": ""
     }
   ],
-  "person:valeria northcott|teero": [
+  "person:ada pryor|scarlet": [
     {
-      "at": "2026-09-29T13:45:00-07:00",
+      "at": "2026-09-21T13:10:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": ""
     }
   ],
-  "person:sienna ellery|melotech": [
+  "person:rosa fairbanks|fortuna": [
     {
-      "at": "2026-09-24T13:05:00-07:00",
+      "at": "2026-09-21T13:25:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": ""
     }
   ],
-  "person:bram marchetti|melotech": [
+  "person:avery vandermeer|afterquery": [
     {
-      "at": "2026-09-25T13:18:00-07:00",
+      "at": "2026-09-25T13:55:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": ""
     }
   ],
-  "person:bram holbrook|airgoods": [
+  "person:dev okonkwo|cooklist": [
     {
-      "at": "2026-09-28T13:52:00-07:00",
+      "at": "2026-09-29T13:23:00-07:00",
       "kind": "status",
       "text": "moved to saved",
       "detail": ""
+    }
+  ],
+  "https://zeit-ai.com": [
+    {
+      "at": "2026-09-03T07:34:00-07:00",
+      "kind": "funding",
+      "text": "Zeit AI filed a Form D for $5.0M",
+      "detail": "https://tech.eu/2026/09/03/zeit-ai-raises-eur5m-to-give-europes-mid-market-its-own-data-engineer/"
+    }
+  ],
+  "https://www.getprosper.ai": [
+    {
+      "at": "2026-09-10T07:01:00-07:00",
+      "kind": "funding",
+      "text": "Prosper AI filed a Form D for $10.0M",
+      "detail": "https://www.sec.gov/Archives/edgar/data/2052886/000205288626000001/"
+    }
+  ],
+  "https://jobs.ashbyhq.com/vocca/3ac500c5-4050-4ed1-91d6-8f2766db1060": [
+    {
+      "at": "2026-10-01T08:48:00-07:00",
+      "kind": "score",
+      "text": "scored 76",
+      "detail": "speedinvest"
+    }
+  ],
+  "https://jobs.ashbyhq.com/valthos/1db8e754-8ee6-447f-914e-935af794fcf9": [
+    {
+      "at": "2026-10-01T08:10:00-07:00",
+      "kind": "score",
+      "text": "scored 78",
+      "detail": "watchlist"
+    }
+  ],
+  "https://jobs.ashbyhq.com/rwazi/21ca2582-5797-4488-b46f-5103f9d77226": [
+    {
+      "at": "2026-10-01T08:40:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "techstars"
+    },
+    {
+      "at": "2026-10-01T09:26:00-07:00",
+      "kind": "enrich",
+      "text": "company details filled from its own site",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/fleek/73385aca-7753-4722-8408-ec3b855cc230": [
+    {
+      "at": "2026-10-01T08:17:00-07:00",
+      "kind": "score",
+      "text": "scored 68",
+      "detail": "hvcapital"
+    },
+    {
+      "at": "2026-10-01T09:55:00-07:00",
+      "kind": "enrich",
+      "text": "headcount + funding backfilled",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/middesk/0a041ad6-7cff-4aa1-a8d3-18f5e14a21d9": [
+    {
+      "at": "2026-10-01T08:15:00-07:00",
+      "kind": "score",
+      "text": "scored 58",
+      "detail": "accel"
+    }
+  ],
+  "https://jobs.ashbyhq.com/matter-intelligence/cd38fed8-bdef-43d0-b5a6-a8794ffe751a": [
+    {
+      "at": "2026-10-01T08:45:00-07:00",
+      "kind": "score",
+      "text": "scored 78",
+      "detail": "substack"
+    },
+    {
+      "at": "2026-10-01T09:45:00-07:00",
+      "kind": "enrich",
+      "text": "description re-pulled from the ATS",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/light-inc/d1352195-f2a3-471c-8861-decbb9246e4f": [
+    {
+      "at": "2026-10-01T08:01:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "atomico"
+    }
+  ],
+  "https://jobs.ashbyhq.com/valon/de0903c4-f947-47d5-8888-175f5a4fa541": [
+    {
+      "at": "2026-10-01T08:13:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "substack"
+    }
+  ],
+  "https://builtinnyc.com/job/founding-growth-lead-new-york/10634511": [
+    {
+      "at": "2026-10-01T08:03:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "builtinnyc"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/102298": [
+    {
+      "at": "2026-10-01T08:25:00-07:00",
+      "kind": "score",
+      "text": "scored 70",
+      "detail": "workatastartup"
+    },
+    {
+      "at": "2026-10-01T16:30:00-07:00",
+      "kind": "feedback",
+      "text": "why-this-score: too low",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/norm-ai/366d4079-4842-469d-a5e0-3cc891a136b4": [
+    {
+      "at": "2026-10-01T08:28:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "substack"
+    }
+  ],
+  "https://wellfound.com/jobs/4463365-growth-engineer-product-growth": [
+    {
+      "at": "2026-10-01T08:12:00-07:00",
+      "kind": "score",
+      "text": "scored 78",
+      "detail": "wellfound"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/93545": [
+    {
+      "at": "2026-09-30T08:57:00-07:00",
+      "kind": "score",
+      "text": "scored 68",
+      "detail": "workatastartup"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/94021": [
+    {
+      "at": "2026-09-30T08:38:00-07:00",
+      "kind": "score",
+      "text": "scored 68",
+      "detail": "workatastartup"
+    }
+  ],
+  "https://boards.greenhouse.io/aiedu/jobs/5154518007": [
+    {
+      "at": "2026-09-30T08:18:00-07:00",
+      "kind": "score",
+      "text": "scored 58",
+      "detail": "techstars"
+    }
+  ],
+  "https://ats.rippling.com/lovb/jobs/3180cab6-237d-4a7a-b895-8fd00829649d": [
+    {
+      "at": "2026-09-30T08:55:00-07:00",
+      "kind": "score",
+      "text": "scored 62",
+      "detail": "watchlist"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/95905": [
+    {
+      "at": "2026-09-30T08:32:00-07:00",
+      "kind": "score",
+      "text": "scored 85",
+      "detail": "shortlist"
+    },
+    {
+      "at": "2026-09-30T09:34:00-07:00",
+      "kind": "enrich",
+      "text": "headcount + funding backfilled",
+      "detail": ""
+    }
+  ],
+  "https://www.workatastartup.com/jobs/87515": [
+    {
+      "at": "2026-09-30T08:41:00-07:00",
+      "kind": "score",
+      "text": "scored 70",
+      "detail": "shortlist"
+    }
+  ],
+  "https://jobs.ashbyhq.com/centari/5f366ad6-815d-43f7-bf52-dc00b11e8525": [
+    {
+      "at": "2026-09-30T08:06:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "southparkcommons"
+    }
+  ],
+  "https://jobs.ashbyhq.com/conduct/15fa6334-638d-48ed-a6aa-ce13f4e07d9e": [
+    {
+      "at": "2026-09-30T08:12:00-07:00",
+      "kind": "score",
+      "text": "scored 76",
+      "detail": "watchlist"
+    }
+  ],
+  "https://yuzu.health/careers/5b1a24d6-3d74-40fd-8338-a39e5b81989b": [
+    {
+      "at": "2026-09-30T08:15:00-07:00",
+      "kind": "score",
+      "text": "scored 70",
+      "detail": "shortlist"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/70674": [
+    {
+      "at": "2026-09-29T08:46:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "workatastartup"
+    },
+    {
+      "at": "2026-09-29T09:01:00-07:00",
+      "kind": "enrich",
+      "text": "company details filled from its own site",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/cartesia/c20f4644-c543-4ae2-9a0e-bc881a52b2f3": [
+    {
+      "at": "2026-09-29T08:03:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "substack"
+    }
+  ],
+  "https://jobs.ashbyhq.com/trawa/98be1c10-878e-43f9-be58-7201394b0159": [
+    {
+      "at": "2026-09-29T08:08:00-07:00",
+      "kind": "score",
+      "text": "scored 66",
+      "detail": "speedinvest"
+    }
+  ],
+  "https://jobs.ashbyhq.com/dualentry/2b329001-4315-415b-8708-6792e2e656aa": [
+    {
+      "at": "2026-09-29T08:38:00-07:00",
+      "kind": "score",
+      "text": "scored 82",
+      "detail": "substack"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/104936": [
+    {
+      "at": "2026-09-29T08:03:00-07:00",
+      "kind": "score",
+      "text": "scored 64",
+      "detail": "workatastartup"
+    },
+    {
+      "at": "2026-09-29T09:27:00-07:00",
+      "kind": "enrich",
+      "text": "headcount + funding backfilled",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/town/0e488c6c-96eb-41b0-92e3-560a5bec5592": [
+    {
+      "at": "2026-09-29T08:05:00-07:00",
+      "kind": "score",
+      "text": "scored 82",
+      "detail": "southparkcommons"
+    },
+    {
+      "at": "2026-09-29T09:36:00-07:00",
+      "kind": "enrich",
+      "text": "headcount + funding backfilled",
+      "detail": ""
+    }
+  ],
+  "https://www.workatastartup.com/jobs/83002": [
+    {
+      "at": "2026-09-28T08:04:00-07:00",
+      "kind": "score",
+      "text": "scored 85",
+      "detail": "shortlist"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/103442": [
+    {
+      "at": "2026-09-28T08:51:00-07:00",
+      "kind": "score",
+      "text": "scored 82",
+      "detail": "workatastartup"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/96151": [
+    {
+      "at": "2026-09-28T08:52:00-07:00",
+      "kind": "score",
+      "text": "scored 62",
+      "detail": "workatastartup"
+    }
+  ],
+  "https://jobs.ashbyhq.com/merge/c102070b-5f95-4f1f-b3f1-8d150f453a3a": [
+    {
+      "at": "2026-09-27T08:56:00-07:00",
+      "kind": "score",
+      "text": "scored 58",
+      "detail": "accel"
+    }
+  ],
+  "https://jobs.ashbyhq.com/axle-careers/08273995-f786-4385-8655-2b9de99e89bc": [
+    {
+      "at": "2026-09-27T08:36:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "accel"
+    },
+    {
+      "at": "2026-09-27T09:33:00-07:00",
+      "kind": "enrich",
+      "text": "company details filled from its own site",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/usekernel/91fa27d5-45c6-4e9d-b58b-1df601b560b7": [
+    {
+      "at": "2026-09-27T08:21:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "accel"
+    }
+  ],
+  "https://jobs.ashbyhq.com/endex/71936ea5-68e4-4697-995f-fe44905382e2": [
+    {
+      "at": "2026-09-27T08:46:00-07:00",
+      "kind": "score",
+      "text": "scored 82",
+      "detail": "substack"
+    }
+  ],
+  "https://alasco.breezy.hr/p/5dfcc12b931e-gtm-engineer-m-f-d": [
+    {
+      "at": "2026-09-27T08:08:00-07:00",
+      "kind": "score",
+      "text": "scored 78",
+      "detail": "hvcapital"
+    }
+  ],
+  "https://jobs.ashbyhq.com/omnea/3ee3d842-e07c-4d6b-b379-b9df7586c94f": [
+    {
+      "at": "2026-09-27T08:00:00-07:00",
+      "kind": "score",
+      "text": "scored 58",
+      "detail": "accel"
+    },
+    {
+      "at": "2026-09-27T21:16:00-07:00",
+      "kind": "feedback",
+      "text": "why-this-score: too low",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/cambio/6d48cc3b-7d93-4106-a446-30db4553140e": [
+    {
+      "at": "2026-09-26T08:12:00-07:00",
+      "kind": "score",
+      "text": "scored 75",
+      "detail": "substack"
+    }
+  ],
+  "https://jobs.ashbyhq.com/axle-careers/38d262ac-fed0-4a65-8026-ed116b60e4e5": [
+    {
+      "at": "2026-09-26T08:17:00-07:00",
+      "kind": "score",
+      "text": "scored 68",
+      "detail": "accel"
+    },
+    {
+      "at": "2026-09-26T21:21:00-07:00",
+      "kind": "feedback",
+      "text": "why-this-score: too low",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/monk/91d65c3c-fe2e-4797-884d-ff79e797e545": [
+    {
+      "at": "2026-09-26T08:34:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "substack"
+    },
+    {
+      "at": "2026-09-26T09:22:00-07:00",
+      "kind": "enrich",
+      "text": "company details filled from its own site",
+      "detail": ""
+    }
+  ],
+  "https://www.workatastartup.com/jobs/95662": [
+    {
+      "at": "2026-09-26T08:41:00-07:00",
+      "kind": "score",
+      "text": "scored 62",
+      "detail": "workatastartup"
+    },
+    {
+      "at": "2026-09-26T09:10:00-07:00",
+      "kind": "enrich",
+      "text": "headcount + funding backfilled",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/tracebit/616bf4c7-b8ff-48c5-8066-f4d157dde346": [
+    {
+      "at": "2026-09-25T08:56:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "accel"
+    },
+    {
+      "at": "2026-09-25T09:53:00-07:00",
+      "kind": "enrich",
+      "text": "description re-pulled from the ATS",
+      "detail": ""
+    }
+  ],
+  "https://www.workatastartup.com/jobs/101985": [
+    {
+      "at": "2026-09-25T08:00:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "workatastartup"
+    }
+  ],
+  "https://jobs.lever.co/corner-health/25278189-e6ce-4b6e-b14f-6de76709fdd8": [
+    {
+      "at": "2026-09-25T08:40:00-07:00",
+      "kind": "score",
+      "text": "scored 76",
+      "detail": "substack"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/105515": [
+    {
+      "at": "2026-09-25T08:20:00-07:00",
+      "kind": "score",
+      "text": "scored 76",
+      "detail": "workatastartup"
+    },
+    {
+      "at": "2026-09-25T21:38:00-07:00",
+      "kind": "feedback",
+      "text": "why-this-score: too low",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/tesslcareers/7fd02ddb-d2e7-4422-be79-64d5c35acbe0": [
+    {
+      "at": "2026-09-25T08:59:00-07:00",
+      "kind": "score",
+      "text": "scored 62",
+      "detail": "accel"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/97107": [
+    {
+      "at": "2026-09-25T08:01:00-07:00",
+      "kind": "score",
+      "text": "scored 78",
+      "detail": "workatastartup"
+    }
+  ],
+  "https://jobs.ashbyhq.com/vocca/cbb21281-5018-4d03-b7ff-e5ee60fd75ae": [
+    {
+      "at": "2026-09-24T08:13:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "speedinvest"
+    }
+  ],
+  "https://fleetai.com/careers/former-founder": [
+    {
+      "at": "2026-09-24T08:20:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "substack"
+    }
+  ],
+  "https://www.workatastartup.com/jobs/94628": [
+    {
+      "at": "2026-09-24T08:20:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "workatastartup"
+    }
+  ],
+  "https://jobs.ashbyhq.com/scarlet/a64d9e22-0299-4334-b900-78f8e38c8809": [
+    {
+      "at": "2026-09-24T08:55:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "atomico"
+    },
+    {
+      "at": "2026-09-24T09:13:00-07:00",
+      "kind": "enrich",
+      "text": "company details filled from its own site",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/dash0/c7449926-5d83-4624-8d30-f62894e58c42": [
+    {
+      "at": "2026-09-24T08:47:00-07:00",
+      "kind": "score",
+      "text": "scored 68",
+      "detail": "accel"
+    },
+    {
+      "at": "2026-09-24T09:20:00-07:00",
+      "kind": "enrich",
+      "text": "description re-pulled from the ATS",
+      "detail": ""
+    }
+  ],
+  "https://jobs.ashbyhq.com/hanover-park/50e73bc6-c6fc-466e-9236-fdf29c3f3ce3": [
+    {
+      "at": "2026-09-24T08:01:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "substack"
+    }
+  ],
+  "https://jobs.ashbyhq.com/taxwire/c8b9f096-84ef-4891-9141-e9bc372d116e": [
+    {
+      "at": "2026-09-24T08:41:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "substack"
+    }
+  ],
+  "https://boards.greenhouse.io/gigs/jobs/4958559101": [
+    {
+      "at": "2026-09-23T08:31:00-07:00",
+      "kind": "score",
+      "text": "scored 62",
+      "detail": "speedinvest"
+    }
+  ],
+  "https://jobs.ashbyhq.com/gaiafamily/0bd38a25-adaa-41a9-aeed-082d054b8f95": [
+    {
+      "at": "2026-09-23T08:25:00-07:00",
+      "kind": "score",
+      "text": "scored 58",
+      "detail": "atomico"
+    }
+  ],
+  "https://jobs.ashbyhq.com/decagon/3fd94885-5e06-4018-9421-00e7e692472a": [
+    {
+      "at": "2026-09-23T08:39:00-07:00",
+      "kind": "score",
+      "text": "scored 58",
+      "detail": "accel"
+    },
+    {
+      "at": "2026-09-23T09:01:00-07:00",
+      "kind": "enrich",
+      "text": "company details filled from its own site",
+      "detail": ""
+    },
+    {
+      "at": "2026-09-23T21:47:00-07:00",
+      "kind": "feedback",
+      "text": "why-this-score: agreed",
+      "detail": ""
+    }
+  ],
+  "https://www.workatastartup.com/jobs/89546": [
+    {
+      "at": "2026-09-23T08:43:00-07:00",
+      "kind": "score",
+      "text": "scored 74",
+      "detail": "workatastartup"
+    }
+  ],
+  "https://wellfound.com/jobs/4557400-deployment-partner": [
+    {
+      "at": "2026-09-23T08:51:00-07:00",
+      "kind": "score",
+      "text": "scored 72",
+      "detail": "wellfound"
+    }
+  ],
+  "https://jobs.ashbyhq.com/anam/b9a4d38e-5bc3-41b8-98ce-b440c1afc86a": [
+    {
+      "at": "2026-09-23T08:21:00-07:00",
+      "kind": "score",
+      "text": "scored 62",
+      "detail": "techstars"
+    }
+  ],
+  "https://jobs.ashbyhq.com/sapiom/049cd600-c3e2-47ef-9053-fe7958ae00a2": [
+    {
+      "at": "2026-09-23T08:11:00-07:00",
+      "kind": "score",
+      "text": "scored 80",
+      "detail": "accel"
     }
   ]
 }

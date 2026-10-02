@@ -3,13 +3,21 @@
     "name": "Aspect",
     "site": "https://aspect.inc",
     "description": "Intelligent media storage for creative teams.",
-    "industry": "robotics & hardware"
+    "industry": "robotics & hardware",
+    "stage": "seed"
   },
   "airgoods": {
     "name": "Airgoods",
     "description": "Wholesale marketplace for food & beverage",
     "linkedin": "https://www.linkedin.com/company/airgoods",
-    "headcount": "10"
+    "headcount": "10",
+    "industry": "food & ag",
+    "stage": "seed",
+    "alumni_checked": {
+      "emory": "2026-09-25",
+      "nmh": "2026-09-25",
+      "jets": "2026-09-25"
+    }
   },
   "cotera": {
     "name": "Cotera",
@@ -22,14 +30,16 @@
       "filed": "2017-05-09",
       "amount": 130000,
       "url": "https://www.sec.gov/Archives/edgar/data/1561875/000156187517000001/primary_doc.xml"
-    }
+    },
+    "stage": "seed"
   },
   "booko": {
     "name": "Booko",
     "site": "https://bookoapp.com",
     "description": "Dynamically pricing the whole economy.",
     "industry": "fintech",
-    "headcount": "2"
+    "headcount": "2",
+    "stage": "seed"
   },
   "fortuna": {
     "name": "Fortuna Health",
@@ -42,13 +52,33 @@
       "filed": "2025-08-28",
       "amount": 18275489,
       "url": "https://www.sec.gov/Archives/edgar/data/2080965/000208096525000002/primary_doc.xml"
-    }
+    },
+    "stage": "series_a"
   },
   "ease": {
     "name": "Ease Health",
     "site": "https://easehealth.com",
     "description": "The #1 EHR and billing platform for behavioral health. $2.5B+ claims processed, 99% FPAR, AI-powered documentation, integrated telehealth.",
-    "linkedin": "https://www.linkedin.com/company/ease-health"
+    "linkedin": "https://www.linkedin.com/company/ease-health",
+    "industry": "enterprise software",
+    "stage": "series_a"
+  },
+  "raycaster": {
+    "name": "Raycaster",
+    "site": "https://raycaster.ai",
+    "description": "AI for life sciences documents",
+    "industry": "bio & pharma",
+    "linkedin": "https://www.linkedin.com/company/raycasterai",
+    "headcount": "3",
+    "stage": "seed"
+  },
+  "yuzu": {
+    "name": "Yuzu Health",
+    "description": "Yuzu is the technology platform for innovative plan designs.",
+    "industry": "digital health",
+    "linkedin": "https://www.linkedin.com/company/yuzu-health",
+    "headcount": "92",
+    "stage": "seed"
   },
   "gigs": {
     "name": "Gigs",
@@ -59,77 +89,32 @@
       "filed": "2024-12-26",
       "amount": 69879157,
       "url": "https://www.sec.gov/Archives/edgar/data/2049678/000204967824000001/primary_doc.xml"
+    },
+    "industry": "fintech",
+    "stage": "series_b",
+    "tracked": true,
+    "saved_at": "2026-09-29",
+    "added": "2026-09-06",
+    "alumni_checked": {
+      "emory": "2026-09-23",
+      "nmh": "2026-09-23",
+      "jets": "2026-09-23"
     }
   },
-  "boxes 4 0 devices": {
-    "name": "BOxES 4.0 Devices",
-    "site": "https://jobs.scjohnson.com",
-    "description": "Browse available job openings at SC Johnson"
+  "sigma360": {
+    "name": "Sigma360",
+    "site": "https://www.sigma360.com",
+    "description": "Sigma360 is an AI-driven risk intelligence platform used by global organizations to fight financial crime and make more informed counterparty risk decisions.",
+    "industry": "fintech",
+    "stage": "series_b"
   },
-  "overture games": {
-    "name": "Overture Games",
-    "description": "AI literacy programs for K-12. Certified instructors guide students from paper-and-pencil ideas to a playable video game in 8 weeks — safe, hands-on, and held at trusted schools and community partners."
-  },
-  "qovery": {
-    "name": "Qovery",
-    "description": "Join Qovery's dynamic team and elevate your career in cloud management with innovative opportunities and a collaborative culture."
-  },
-  "eventnoire": {
-    "name": "Eventnoire",
-    "description": "The first talent acquisition software that lets everyone — from recruiters and hiring managers to department heads — hire more efficiently.",
-    "last_raised": {
-      "filed": "2025-05-15",
-      "amount": 1519465,
-      "url": "https://www.sec.gov/Archives/edgar/data/1753540/000175354025000002/primary_doc.xml"
-    }
-  },
-  "sees": {
-    "name": "Sees.ai",
-    "description": "Jobs at sees.ai - The future of autonomous flight"
-  },
-  "testsprite": {
-    "name": "TestSprite",
-    "description": "TestSprite's AI offers end-to-end software testing by building test plans, writing code, executing tests, debugging, and reporting—all with minimal input. Ideal for dev teams needing self-serve testing across multiple s…",
-    "last_raised": {
-      "filed": "2025-10-29",
-      "amount": 8136996,
-      "url": "https://www.sec.gov/Archives/edgar/data/2090225/000209022525000001/primary_doc.xml"
-    }
-  },
-  "oper credits": {
-    "name": "Oper Credits",
-    "description": "Post to 250+ job boards, draft inclusive ads in six languages, run structured interviews. Built for SMB hiring teams in DACH, France, and Spain."
-  },
-  "klarna": {
-    "name": "Klarna",
-    "site": "https://jobs.deel.com",
-    "description": "Swedish fintech — buy-now-pay-later and consumer payments/banking. (Big company; here via an EU board.)"
-  },
-  "airkit": {
-    "name": "Airkit",
-    "site": "https://www.salesforce.com",
-    "description": "Salesforce is the #1 AI CRM, helping companies become Agentic Enterprises where humans and agents drive success together through a unified AI, data, and Customer 360 platform."
-  },
-  "webroot": {
-    "name": "Webroot",
-    "site": "https://careers.opentext.com",
-    "description": "Explore career opportunities at OpenText and join our award-winning workplace. Discover our culture of mutual respect and mindfulness. Join the OpenText talent community today.",
-    "linkedin": "https://www.linkedin.com/company/webroot"
-  },
-  "flip": {
-    "name": "Flip",
-    "description": "Elevate your employee experience and drive employee engagement, everywhere. Flip unites all HR, comms and operations workflows in one AI-powered employee app.",
-    "last_raised": {
-      "filed": "2026-08-19",
-      "amount": 22000000,
-      "url": "https://www.eu-startups.com/2026/08/a-year-after-their-last-raise-germanys-flip-raises-e22-million-to-scale-its-frontline-ai-platform/"
-    }
-  },
-  "garage": {
-    "name": "Garage",
-    "site": "https://www.shopgarage.com",
-    "description": "Marketplace for America's most essential assets",
-    "linkedin": "https://www.linkedin.com/company/garage-technologies"
+  "cursor": {
+    "name": "Cursor",
+    "site": "https://cursor.com",
+    "description": "Built to make you extraordinarily productive, Cursor is the best AI coding agent.",
+    "linkedin": "https://www.linkedin.com/company/cursorai",
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "healthie": {
     "name": "healthie",
@@ -142,32 +127,35 @@
       "filed": "2017-11-17",
       "amount": 1075000,
       "url": "https://www.sec.gov/Archives/edgar/data/1694849/000169484917000003/primary_doc.xml"
-    }
+    },
+    "site": "https://gethealthie.com"
   },
   "taxwire": {
     "name": "taxwire",
     "description": "Sales-tax platform plus managed service — calculates, registers and files across 22,000+ US jurisdictions and 100+ countries; $25M Series A (NYC).",
     "linkedin": "https://www.linkedin.com/company/taxwire",
     "funding": "$25M combined Seed and Series A (Jul 2026, Headline lead, with XYZ, Vinyl, Recall Capital, Nomo Ventures)",
-    "headcount": "~23"
+    "headcount": "~23",
+    "industry": "enterprise software",
+    "site": "https://www.taxwire.com",
+    "stage": "series_a"
   },
   "hanover park": {
     "name": "Hanover Park",
     "site": "https://www.hanoverpark.com",
     "description": "AI-native ERP for private markets infrastructure (fund administration) — built AI-first, not a wrapper on legacy software.",
-    "funding": "$27M Series A (Emergence Capital lead, with Lux Capital and Susa Ventures)"
+    "funding": "$27M Series A (Emergence Capital lead, with Lux Capital and Susa Ventures)",
+    "industry": "fintech",
+    "stage": "series_a"
   },
   "mecka": {
     "name": "Mecka",
     "site": "https://www.mecka.ai/",
     "description": "Data infrastructure layer for robotics and embodied AI, working with hardware partners and commercial operators.",
     "funding": "$25M Series A (Nov 2025) plus a $35M follow-on, both led by Framework Ventures (with Menlo Ventures, SV Angel, Kindred Ventures); ~$68M total including an $8M seed led by Neo",
-    "headcount": "~40"
-  },
-  "auxilius": {
-    "name": "Auxilius.ai",
-    "description": "Automates enterprise compliance controls (GRC): converts policies and control rules into deterministic, executable code. Munich, €1.3M pre-seed (HTGF, Techstars).",
-    "funding": "€1.3M pre-seed (Jul 2026, HTGF, with Techstars and angels)"
+    "headcount": "~40",
+    "industry": "robotics & hardware",
+    "stage": "series_a"
   },
   "ataraxis": {
     "name": "Ataraxis",
@@ -180,7 +168,8 @@
       "filed": "2025-01-03",
       "amount": 19999989,
       "url": "https://www.sec.gov/Archives/edgar/data/2050023/000205002325000001/primary_doc.xml"
-    }
+    },
+    "stage": "series_a"
   },
   "david": {
     "name": "David",
@@ -188,30 +177,36 @@
     "industry": "fitness & wellness",
     "linkedin": "https://www.linkedin.com/company/david-protein",
     "funding": "$75M Series A (May 2025, led by Greenoaks with Valor Equity Partners)",
-    "headcount": "51-200"
+    "headcount": "51-200",
+    "stage": "series_a"
   },
   "hera": {
     "name": "Hera",
     "site": "https://hellohera.com",
     "description": "Manages care for aging parents beyond the doctor's office — a network of \"Hero\" care managers, covered by Medicare, handling the follow-through families are usually left to figure out alone. NYC, partnered with Weill Cornell, NYU Langone and Mount Sinai.",
     "industry": "digital health",
-    "linkedin": "https://www.linkedin.com/company/hellohera",
-    "tracked": true,
-    "saved_at": "2026-09-26",
-    "added": "2026-09-06"
+    "linkedin": "https://www.linkedin.com/company/hellohera"
   },
   "structured": {
     "name": "Structured AI",
     "description": "Builds AI agents that run QA/QC on construction drawings and models, so design engineers at architecture and engineering firms can check work against building codes, coordination issues, and their firm's own standards. Raised $5M, backed by Y Combinator, 20VC, Cherry Ventures, and Airtree.",
     "linkedin": "https://www.linkedin.com/company/getstructured-ai",
-    "headcount": "10"
+    "headcount": "10",
+    "industry": "enterprise software",
+    "stage": "seed",
+    "tracked": true,
+    "saved_at": "2026-09-14",
+    "added": "2026-09-06"
   },
   "town": {
     "name": "town",
     "description": "AI that builds a persistent model of your identity, voice, judgment, and priorities, then does real work on your behalf across email, calendar, documents, and Slack without waiting for prompts. Founded by Kofi Hartwell (former Plaid CTO) and Elena Northcott (ex-Google Applied AI product lead).",
     "linkedin": "https://www.linkedin.com/company/town-com",
     "funding": "$55M Series A (Jun 2026, led by Andreessen Horowitz, with Forerunner, First Round, Alt Capital, Conviction)",
-    "headcount": "~35"
+    "headcount": "~35",
+    "industry": "enterprise software",
+    "stage": "series_a",
+    "site": "https://www.town.com"
   },
   "kingdom": {
     "name": "kingdom",
@@ -229,14 +224,21 @@
     "description": "AI agents that handle the patient journey for clinics end to end — scheduling, referrals, prescription refills — clearing the call and fax backlogs that drown medical staff.",
     "linkedin": "https://www.linkedin.com/company/clarionhealthai",
     "funding": "$5.4M raised (Accel, Y Combinator, Unpopular Ventures)",
-    "headcount": "16"
+    "headcount": "16",
+    "industry": "digital health",
+    "stage": "series_a"
   },
   "conduct": {
     "name": "conduct",
     "site": "https://conduct.ai",
     "description": "Enterprise software that lets large companies change the SAP-era systems they run on at the speed of their ideas instead of decade-old custom code.",
     "linkedin": "https://www.linkedin.com/company/conduct-ai",
-    "headcount": "~30"
+    "headcount": "~30",
+    "industry": "enterprise software",
+    "stage": "series_a",
+    "tracked": true,
+    "saved_at": "2026-09-19",
+    "added": "2026-09-06"
   },
   "closure": {
     "name": "closure",
@@ -244,7 +246,8 @@
     "description": "Software that helps law enforcement search evidence and solve crimes; police departments and prosecutors across the U.S. use it on cold cases, homicides, and other serious offenses. Ex-Palantir and ex-IDF team, backed by Y Combinator.",
     "linkedin": "https://www.linkedin.com/company/closure-intel",
     "funding": "$2.5M total across 2 rounds; most recent $500K seed (Mar 2025)",
-    "headcount": "4"
+    "headcount": "4",
+    "stage": "seed"
   },
   "lucis": {
     "name": "lucis",
@@ -253,7 +256,8 @@
     "stage": "series_a",
     "linkedin": "https://www.linkedin.com/company/lucis-life",
     "funding": "EUR 17.3M ($20M) Series A (May 2026, led by Singular, with General Catalyst and Y Combinator)",
-    "headcount": "17"
+    "headcount": "17",
+    "industry": "fintech"
   },
   "weave": {
     "name": "weave",
@@ -266,21 +270,43 @@
       "filed": "2014-12-23",
       "amount": 0,
       "url": "https://www.sec.gov/Archives/edgar/data/1629120/000162912014000001/primary_doc.xml"
-    }
+    },
+    "industry": "dev & data tools",
+    "stage": "seed"
+  },
+  "welltheory": {
+    "name": "welltheory",
+    "site": "https://www.welltheory.com",
+    "description": "Virtual care company for autoimmune and chronic conditions.",
+    "linkedin": "https://www.linkedin.com/company/welltheory",
+    "funding": "$14M Series A (Oct 2025, General Catalyst)",
+    "last_raised": {
+      "filed": "2026-02-03",
+      "amount": 19049978,
+      "url": "https://www.sec.gov/Archives/edgar/data/1936126/000193612626000001/primary_doc.xml"
+    },
+    "industry": "digital health",
+    "stage": "series_a"
   },
   "morphoai": {
     "name": "morphoai",
-    "description": "YC- and ARIA-backed company ($6M+ pre-seed) building hardware foundation models that generate manufacturing-ready designs for robotics, aerospace, data centers, and power equipment — productizing 40+ MIT and Harvard papers."
+    "description": "YC- and ARIA-backed company ($6M+ pre-seed) building hardware foundation models that generate manufacturing-ready designs for robotics, aerospace, data centers, and power equipment — productizing 40+ MIT and Harvard papers.",
+    "industry": "robotics & hardware",
+    "stage": "pre_seed"
   },
   "contrario": {
     "name": "contrario",
     "site": "https://contrario.ai",
     "description": "AI recruiting platform pairing expert recruiters with AI agents that absorb the operational work; 250+ venture-backed customers and a 500+ recruiter network, $6M annualized revenue within six months.",
-    "linkedin": "https://www.linkedin.com/company/contrario-ai"
+    "linkedin": "https://www.linkedin.com/company/contrario-ai",
+    "industry": "enterprise software",
+    "stage": "seed"
   },
   "conveo": {
     "name": "conveo",
-    "description": "AI research platform whose AI video interviewer runs fast, affordable consumer and B2B research for brands like Unilever, Google, and Orange."
+    "description": "AI research platform whose AI video interviewer runs fast, affordable consumer and B2B research for brands like Unilever, Google, and Orange.",
+    "industry": "commerce & CPG",
+    "stage": "series_a"
   },
   "hud": {
     "name": "hud",
@@ -288,7 +314,14 @@
     "description": "Infrastructure for creating RL training data and evals for frontier AI agents, plus a marketplace selling them to frontier labs. $15M raised, YC W25.",
     "linkedin": "https://www.linkedin.com/company/hud-evals",
     "funding": "$16M raised (YC W25; investors include Y Combinator and a16z)",
-    "headcount": "15"
+    "headcount": "15",
+    "industry": "enterprise software",
+    "stage": "pre_seed",
+    "alumni_checked": {
+      "emory": "2026-09-22",
+      "nmh": "2026-09-22",
+      "jets": "2026-09-22"
+    }
   },
   "valthos": {
     "name": "valthos",
@@ -302,21 +335,44 @@
       "amount": 27299986,
       "url": "https://www.sec.gov/Archives/edgar/data/2124500/000212450026000002/primary_doc.xml"
     },
+    "industry": "enterprise software",
+    "stage": "seed"
+  },
+  "comun": {
+    "name": "comun",
+    "site": "https://www.comun.app",
+    "description": "Banking for Hispanic immigrants: checking accounts openable with 100+ Latin American IDs, 90K cash-deposit locations, transfers to 17 countries, and 24/7 bilingual support. Processes over $1.5B in annual volume.",
+    "stage": "series_a",
+    "linkedin": "https://www.linkedin.com/company/comun-banking",
+    "funding": "$21.5M Series A (Aug 2024, Redpoint Ventures)",
+    "headcount": "~15",
+    "industry": "fintech",
     "tracked": true,
     "saved_at": "2026-09-18",
     "added": "2026-09-06"
   },
-  "vega ventures": {
-    "name": "Vega Ventures",
-    "site": "https://www.comeet.com",
-    "description": "Coordinate, communicate, and collaborate more effectively to accelerate hiring with Spark Hire Recruit."
+  "mercura": {
+    "name": "mercura",
+    "site": "https://www.mercura.ai",
+    "description": "YC-backed company building AI software for the construction trades; surpassed $2M ARR in its first year.",
+    "linkedin": "https://www.linkedin.com/company/mercura-ai",
+    "funding": "$2.1M+ Seed (TQ Ventures, SignalFire, Y Combinator)",
+    "headcount": "20",
+    "industry": "enterprise software",
+    "stage": "seed"
   },
-  "quantum systems": {
-    "name": "Quantum-Systems",
-    "site": "https://career.quantum-systems.com",
-    "description": "Quantum-Systems develops advanced electric vertical take-off and landing (eVTOL) drones for government agencies and commercial customers worldwide.",
-    "industry": "robotics & hardware",
-    "linkedin": "https://www.linkedin.com/company/quantum-systems-gmbh"
+  "pactum": {
+    "name": "Pactum Ai",
+    "site": "https://careers.pactum.com",
+    "description": "AI platform that automates supplier negotiations and procurement agreements for enterprises.",
+    "industry": "dev & data tools",
+    "linkedin": "https://www.linkedin.com/company/pactum-ai",
+    "last_raised": {
+      "filed": "2025-06-02",
+      "amount": 49999984,
+      "url": "https://www.sec.gov/Archives/edgar/data/1859207/000095013825000011/primary_doc.xml"
+    },
+    "stage": "series_a"
   },
   "fort": {
     "name": "Fort",
@@ -324,27 +380,29 @@
     "linkedin": "https://www.linkedin.com/company/fortwearable",
     "funding": "Seed, amount undisclosed (Y Combinator, Patron, Afore, Weekend Fund, Theory Forge)",
     "headcount": "4",
-    "description": ""
+    "industry": "digital health",
+    "stage": "pre_seed"
   },
   "pocket": {
     "name": "Pocket",
     "site": "https://heypocket.com/now",
     "funding": "$11M (Jun 2026, Accel, Y Combinator, angel Mati Staniszewski)",
     "headcount": "15",
-    "description": ""
+    "stage": "pre_seed"
   },
-  "moritz": {
-    "name": "Moritz",
-    "site": "http://moritzlegal.com",
-    "funding": "$9M Seed (May 2026, backed by 20VC, Y Combinator, Urban Innovation Fund)",
-    "headcount": "~10",
-    "description": ""
+  "lance": {
+    "name": "Lance",
+    "site": "https://www.lance.live",
+    "funding": "$5M Seed (Y Combinator, SV Angel, OpenAI and Expedia executives, hotel owners)",
+    "industry": "enterprise software",
+    "stage": "pre_seed"
   },
   "velvet": {
     "name": "Velvet",
     "site": "https://velvetlab.ai",
     "headcount": "~4",
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "seed"
   },
   "soren": {
     "name": "Soren",
@@ -352,7 +410,26 @@
     "description": "Soren deploys and improves AI systems that automate important work for small and midsize businesses.",
     "industry": "robotics & hardware",
     "linkedin": "https://www.linkedin.com/company/soren-ai-inc",
-    "funding": "Y Combinator-backed; $1M total raised (per Extruct)"
+    "funding": "Y Combinator-backed; $1M total raised (per Extruct)",
+    "stage": "seed"
+  },
+  "brickwise": {
+    "name": "Brickwise",
+    "site": "https://www.brickwiseai.com",
+    "industry": "robotics & hardware",
+    "linkedin": "https://www.linkedin.com/company/brickwise-ai",
+    "funding": "$500K seed (2025, Y Combinator); ~$3M total raised",
+    "headcount": "9",
+    "stage": "seed"
+  },
+  "deepaware robotics center of silicon valley": {
+    "name": "DeepAware AI (Robotics Center of Silicon Valley)",
+    "site": "https://roboticscenter.ai",
+    "linkedin": "https://www.linkedin.com/company/deepaware",
+    "funding": "Backed by Y Combinator (S25); no round amount disclosed",
+    "headcount": "2",
+    "industry": "robotics & hardware",
+    "stage": "seed"
   },
   "claim": {
     "name": "Claim Health",
@@ -361,15 +438,7 @@
     "linkedin": "https://www.linkedin.com/company/claim-health",
     "funding": "$4.4M seed (Jan 2026, led by Maverick Ventures, with Peak XV and Y Combinator)",
     "headcount": "6",
-    "description": ""
-  },
-  "gutgutgoose": {
-    "name": "Gutgutgoose",
-    "site": "https://gutgutgoose.com",
-    "description": "Personalized probiotics matched to your gut. Take a simple at-home test and get a personalized probiotic compounded just for you. 180-day money-back guarantee.",
-    "linkedin": "https://www.linkedin.com/company/gutgutgoose",
-    "funding": "$500K from Y Combinator (2026 batch)",
-    "headcount": "2"
+    "industry": "digital health"
   },
   "zeit": {
     "name": "Zeit AI",
@@ -380,7 +449,8 @@
       "amount": 5000000,
       "url": "https://tech.eu/2026/09/03/zeit-ai-raises-eur5m-to-give-europes-mid-market-its-own-data-engineer/"
     },
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "naïve": {
     "name": "Naïve",
@@ -389,54 +459,51 @@
     "linkedin": "https://www.linkedin.com/company/usenaive",
     "funding": "$28.5M Series A (Aug 2026, led by Nexus Venture Partners, with Y Combinator, Zetta, Liquid 2); ~$32M total",
     "headcount": "8",
-    "description": ""
-  },
-  "melotech": {
-    "name": "Melotech",
-    "site": "https://www.melotech.co.uk",
-    "linkedin": "https://uk.linkedin.com/company/melotechuk",
-    "description": ""
+    "industry": "dev & data tools"
   },
   "trawa": {
     "name": "trawa",
     "site": "https://www.trawa.de",
     "description": "Optimieren Sie Ihren Energiebezug durch KI-gesteuerte Stromversorgung, Energiemanagement-Software, Batteriespeicherlösungen. Bis zu 30% geringere Kosten.",
-    "linkedin": "https://www.linkedin.com/company/trawa-energy"
+    "linkedin": "https://www.linkedin.com/company/trawa-energy",
+    "industry": "enterprise software",
+    "stage": "series_a"
+  },
+  "middesk": {
+    "name": "Middesk",
+    "site": "https://www.middesk.com",
+    "description": "Middesk is the business intelligence platform for verification, fraud, and credit risk. Onboarding that runs itself — from application to ongoing monitoring.",
+    "industry": "fintech",
+    "linkedin": "https://www.linkedin.com/company/middesk",
+    "stage": "series_b"
   },
   "light": {
     "name": "Light",
     "site": "https://light.inc",
     "description": "Light is the agentic accounting platform for multinational companies — the AI-native alternative to legacy ERP. Agents run complex finance operations across countries on one real-time ledger.",
-    "linkedin": "https://www.linkedin.com/company/uselightinc"
+    "linkedin": "https://www.linkedin.com/company/uselightinc",
+    "industry": "enterprise software",
+    "stage": "series_a",
+    "alumni_checked": {
+      "emory": "2026-09-22",
+      "nmh": "2026-09-22",
+      "jets": "2026-09-22"
+    }
   },
   "adaptional": {
     "name": "Adaptional",
     "site": "https://www.adaptional.com",
     "linkedin": "https://www.linkedin.com/company/adaptional",
     "funding": "Y Combinator (Summer 2025 batch)",
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "seed"
   },
   "mosaic": {
     "name": "Mosaic",
     "site": "https://mosaic.so",
     "industry": "robotics & hardware",
     "headcount": "~4",
-    "description": ""
-  },
-  "corgi insurance": {
-    "name": "Corgi Insurance",
-    "linkedin": "https://www.linkedin.com/company/usecorgi",
-    "funding": "$106M at $2.6B valuation (May 2026), weeks after a $160M Series B led by TCV",
-    "headcount": "~250",
-    "description": ""
-  },
-  "eliseai": {
-    "name": "EliseAI",
-    "site": "https://eliseai.com",
-    "industry": "digital health",
-    "linkedin": "https://www.linkedin.com/company/eliseai",
-    "headcount": "201-500",
-    "description": ""
+    "stage": "seed"
   },
   "kastle": {
     "name": "Kastle",
@@ -444,7 +511,16 @@
     "linkedin": "https://www.linkedin.com/company/kastleai",
     "funding": "Y Combinator (Summer 2024 batch)",
     "headcount": "~11",
-    "description": ""
+    "industry": "legal & compliance",
+    "stage": "series_a",
+    "tracked": true,
+    "saved_at": "2026-09-19",
+    "added": "2026-09-06",
+    "alumni_checked": {
+      "emory": "2026-10-01",
+      "nmh": "2026-10-01",
+      "jets": "2026-10-01"
+    }
   },
   "decagon": {
     "name": "Decagon",
@@ -456,7 +532,11 @@
       "amount": 61524976,
       "url": "https://www.sec.gov/Archives/edgar/data/2043374/000204337424000001/primary_doc.xml"
     },
-    "description": ""
+    "industry": "commerce & CPG",
+    "stage": "other",
+    "tracked": true,
+    "saved_at": "2026-09-11",
+    "added": "2026-09-06"
   },
   "petra": {
     "name": "Petra Labs",
@@ -464,18 +544,8 @@
     "linkedin": "https://www.linkedin.com/company/petra-labs-ai",
     "funding": "$5.2M seed (Jul 2026, led by Work-Bench, with Afore and Pathlight)",
     "headcount": "11-50",
-    "description": ""
-  },
-  "lassie": {
-    "name": "Lassie",
-    "site": "https://www.lassie.ai",
-    "stage": "series_a",
-    "linkedin": "https://www.linkedin.com/company/lassie",
-    "funding": "$35M Series A (Jun 2026, Andreessen Horowitz lead); $47M total",
-    "description": "",
-    "tracked": true,
-    "saved_at": "2026-09-29",
-    "added": "2026-09-06"
+    "industry": "enterprise software",
+    "stage": "seed"
   },
   "salient": {
     "name": "Salient",
@@ -484,7 +554,7 @@
     "linkedin": "https://www.linkedin.com/company/salientai",
     "funding": "$60M Series A (Jul 2025, a16z; $350M valuation)",
     "headcount": "40",
-    "description": ""
+    "industry": "enterprise software"
   },
   "pillar": {
     "name": "Pillar",
@@ -494,34 +564,22 @@
     "funding": "$20M Seed (Apr 2026, Andreessen Horowitz lead, with Crucible Capital and Gallery Ventures); $23M total",
     "location": "New York, NY",
     "headcount": "11-50",
-    "description": ""
+    "industry": "fintech"
   },
-  "cognition": {
-    "name": "cognition",
-    "site": "https://cognition.ai",
-    "stage": "growth",
-    "linkedin": "https://www.linkedin.com/company/cognition-ai-labs",
-    "funding": "$1B at $26B post-money valuation (May 2026, led by Lux Capital, General Catalyst, 8VC)",
-    "headcount": "~200",
-    "description": ""
-  },
-  "knit": {
-    "name": "Knit Health",
-    "site": "https://www.knit.health",
-    "stage": "seed",
-    "linkedin": "https://www.linkedin.com/company/knit-health-technologies",
-    "funding": "$11.6M Seed (May 2026)",
-    "description": ""
-  },
-  "phylo": {
-    "name": "Phylo",
-    "site": "https://phylo.bio",
-    "industry": "robotics & hardware",
-    "stage": "seed",
-    "linkedin": "https://linkedin.com/company/phylo-bio",
-    "funding": "$13.5M Seed (a16z and Menlo Ventures' Anthology Fund co-lead, with Zetta, Conviction, SV Angel)",
-    "headcount": "15",
-    "description": ""
+  "prosper": {
+    "name": "Prosper AI",
+    "site": "https://www.getprosper.ai",
+    "industry": "health",
+    "stage": "series_a",
+    "linkedin": "https://www.linkedin.com/company/prospertechnologies",
+    "funding": "$30M Series A (Andreessen Horowitz, with Base10, Emergence Capital, Y Combinator, Company Ventures)",
+    "location": "New York, NY",
+    "headcount": "9",
+    "last_raised": {
+      "filed": "2026-09-10",
+      "amount": 10029002,
+      "url": "https://www.sec.gov/Archives/edgar/data/2052886/000205288626000001/"
+    }
   },
   "norm": {
     "name": "Norm Ai",
@@ -531,35 +589,7 @@
     "funding": "$120M Series C (Jul 2026, Khosla Ventures lead, $1.2B valuation)",
     "location": "New York, NY",
     "headcount": "205",
-    "description": ""
-  },
-  "kindred": {
-    "name": "Kindred",
-    "site": "https://livekindred.com",
-    "description": "Members-only home exchange community where travelers swap verified homes and earn travel credits by hosting.",
-    "stage": "series_a",
-    "linkedin": "https://www.linkedin.com/company/live-kindred",
-    "funding": "$15M Series A (Apr 2023, New Enterprise Associates lead, with a16z, Caffeinated Capital, Bessemer)",
-    "location": "San Francisco, CA",
-    "headcount": "11-50"
-  },
-  "pryzm": {
-    "name": "Pryzm",
-    "site": "https://pryzm.io",
-    "stage": "seed",
-    "linkedin": "https://www.linkedin.com/company/pryzm-dynamics",
-    "funding": "$12.2M Seed (Dec 2025, a16z American Dynamism lead, with XYZ Venture Capital, Amplify.LA, Forum Ventures)",
-    "location": "Boston, MA",
-    "description": ""
-  },
-  "stilta": {
-    "name": "Stilta",
-    "site": "https://www.stilta.com",
-    "stage": "seed",
-    "linkedin": "https://www.linkedin.com/company/stilta",
-    "funding": "$10.5M Seed (May 2026, Andreessen Horowitz lead, with Y Combinator)",
-    "headcount": "~4",
-    "description": ""
+    "industry": "legal & compliance"
   },
   "fleet": {
     "name": "Fleet AI",
@@ -568,13 +598,15 @@
     "industry": "dev & data tools",
     "linkedin": "https://www.linkedin.com/company/fleet-so",
     "funding": "$10M raised (Sequoia Capital, Menlo Ventures, SV Angel)",
-    "headcount": "11-50"
+    "headcount": "11-50",
+    "stage": "series_a"
   },
   "walden": {
     "name": "Walden",
     "site": "https://ats.rippling.com",
     "linkedin": "https://www.linkedin.com/company/rippling",
-    "description": ""
+    "industry": "digital health",
+    "stage": "seed"
   },
   "quadrillion": {
     "name": "Quadrillion Labs",
@@ -582,14 +614,16 @@
     "description": "Quadrillion Labs is building the future of general research intelligence.",
     "industry": "dev & data tools",
     "funding": "$18M (Conviction, Audacious, Bloomberg Beta, ex/ante)",
-    "headcount": "~6"
+    "headcount": "~6",
+    "stage": "seed"
   },
   "manifest os": {
     "name": "Manifest OS",
     "site": "https://manifestos.com",
     "linkedin": "https://www.linkedin.com/company/manifest-o-s",
     "funding": "$60M Series A at $750M valuation (Apr 2026, led by Menlo Ventures, Kleiner Perkins, First Round Capital and Quiet Capital)",
-    "description": ""
+    "industry": "legal & compliance",
+    "stage": "series_a"
   },
   "aegis": {
     "name": "Aegis AI",
@@ -597,30 +631,43 @@
     "description": "AI-native email security platform using agentic AI agents to detect phishing, BEC, and zero-day attacks with 90% fewer false positives and 5-minute API integration.",
     "industry": "legal & compliance",
     "funding": "$36M Series A (Jul 2026, Battery Ventures)",
-    "headcount": "20+"
+    "headcount": "20+",
+    "stage": "seed",
+    "tracked": true,
+    "saved_at": "2026-09-11",
+    "added": "2026-09-06"
+  },
+  "blackstar": {
+    "name": "Blackstar",
+    "site": "https://www.blackstar.inc",
+    "description": "A technology startup developing a new category of personal computing systems that combine artificial intelligence, custom hardware, and adaptive software.",
+    "industry": "robotics & hardware",
+    "funding": "Seed round led by Abstract, with SV Angel, Naval Ravikant, Chapter One and Timeless",
+    "headcount": "~8",
+    "stage": "seed"
+  },
+  "conduit": {
+    "name": "Conduit",
+    "site": "https://conduit.ai/?utm_source=referral&utm_medium=organic&utm_campaign=ycombinator",
+    "linkedin": "https://www.linkedin.com/company/useconduitai",
+    "funding": "Seed round anchored by Pi Labs; backed by Y Combinator",
+    "headcount": "18",
+    "industry": "enterprise software",
+    "stage": "series_a"
+  },
+  "rulebase": {
+    "name": "Rulebase",
+    "site": "https://rulebase.co",
+    "industry": "fintech",
+    "stage": "series_a"
   },
   "chai discovery": {
     "name": "Chai Discovery",
     "site": "https://www.chaidiscovery.com",
     "funding": "$400M Series C (Jul 2026, Index Ventures; $3.8B valuation)",
     "headcount": "~29",
-    "description": ""
-  },
-  "jennyfromhera": {
-    "name": "JennyfromHera",
-    "site": "https://hellohera.com",
-    "stage": "series_a",
-    "linkedin": "https://www.linkedin.com/company/hellohera",
-    "funding": "$27M Series A (Jun 2026, led by Bain Capital Ventures, with Accel and IA Ventures)",
-    "location": "New York, NY",
-    "description": ""
-  },
-  "nox metals": {
-    "name": "NOX Metals",
-    "linkedin": "https://www.linkedin.com/company/noxmetals",
-    "funding": "$11.5M Seed",
-    "headcount": "35",
-    "description": ""
+    "industry": "bio & pharma",
+    "stage": "series_a"
   },
   "vocca": {
     "name": "Vocca",
@@ -628,82 +675,112 @@
     "description": "Vocca is a voice AI platform for healthcare groups and practices",
     "industry": "digital health",
     "linkedin": "https://www.linkedin.com/company/voccaai",
-    "funding": "$5.5M Seed (Oct 2025, co-led by Speedinvest & firstminute capital)"
+    "funding": "$5.5M Seed (Oct 2025, co-led by Speedinvest & firstminute capital)",
+    "stage": "seed"
+  },
+  "neko": {
+    "name": "Neko Health",
+    "site": "https://www.nekohealth.com",
+    "description": "Neko Health develops proprietary body-scanning technology coupled with bloodwork to assess health through preventive care and early detection.",
+    "industry": "digital health",
+    "stage": "series_b"
   },
   "voize": {
     "name": "voize",
     "site": "https://voize.io",
     "description": "AI voice assistant that automates clinical documentation for nurses, enabling them to dictate notes via smartphone rather than manually filling forms.",
     "industry": "digital health",
-    "tracked": true,
-    "saved_at": "2026-09-21",
-    "added": "2026-09-06"
+    "stage": "series_a"
   },
   "h": {
     "name": "H Company",
     "site": "https://hcompany.ai",
     "description": "French AI startup developing action-oriented artificial intelligence agents for enterprise automation and productivity.",
-    "industry": "dev & data tools"
+    "industry": "dev & data tools",
+    "stage": "seed",
+    "tracked": true,
+    "saved_at": "2026-09-17",
+    "added": "2026-09-06"
   },
   "fleek": {
     "name": "Fleek",
     "site": "https://www.joinfleek.com",
-    "description": "Fleek is a London, UK-based company building the AI infrastructure empowering the global secondhand clothing industry."
+    "description": "Fleek is a London, UK-based company building the AI infrastructure empowering the global secondhand clothing industry.",
+    "industry": "enterprise software",
+    "stage": "series_b"
   },
   "dash0": {
     "name": "Dash0",
     "site": "https://www.dash0.com",
     "description": "OpenTelemetry-native observability platform with AI-powered issue detection and resolution for developers and engineering teams.",
-    "industry": "dev & data tools"
+    "industry": "dev & data tools",
+    "stage": "series_b"
+  },
+  "electric twin": {
+    "name": "Electric Twin",
+    "site": "https://www.electrictwin.com",
+    "description": "Electric Twin builds synthetic audiences that simulate customer behavior to help organizations test decisions and get research-grade insights in seconds.",
+    "industry": "dev & data tools",
+    "stage": "series_a"
   },
   "sapiom": {
     "name": "Sapiom",
     "site": "https://www.sapiom.ai",
     "description": "Financial infrastructure platform enabling AI agents to securely purchase and access software, APIs, data, and compute.",
     "industry": "fintech",
-    "linkedin": "https://www.linkedin.com/company/sapiom"
+    "linkedin": "https://www.linkedin.com/company/sapiom",
+    "stage": "seed"
+  },
+  "accurx": {
+    "name": "AccuRx",
+    "site": "https://www.accurx.com",
+    "description": "Accurx is the easy-to-use platform where patients and healthcare professionals communicate.",
+    "industry": "digital health",
+    "stage": "series_b"
   },
   "plato": {
     "name": "Plato",
     "site": "https://www.platoapp.ai",
     "description": "AI-based operating system for wholesale distributors that automates sales processes, quote generation, and ERP workflows.",
     "industry": "dev & data tools",
-    "linkedin": "https://www.linkedin.com/company/platoapp"
+    "linkedin": "https://www.linkedin.com/company/platoapp",
+    "stage": "seed"
+  },
+  "physicsx": {
+    "name": "PhysicsX",
+    "site": "https://www.physicsx.ai",
+    "description": "PhysicsX builds AI-native engineering platform to accelerate hardware innovation and drive engineering and manufacturing productivity in industrial organizations.",
+    "industry": "dev & data tools",
+    "stage": "series_b"
   },
   "scarlet": {
     "name": "Scarlet",
     "site": "https://www.scarlet.cc",
     "description": "Europe's only Notified Body specializing in software and AI medical device certification.",
-    "industry": "bio & pharma"
-  },
-  "arx robotics": {
-    "name": "ARX Robotics",
-    "site": "https://www.arx-robotics.com",
-    "description": "ARX Robotics develops autonomous unmanned ground systems with scalable robotic solutions for defense, security, humanitarian aid, and commercial industries.",
-    "industry": "robotics & hardware"
+    "industry": "bio & pharma",
+    "stage": "series_a"
   },
   "taxscouts": {
     "name": "TaxScouts",
     "site": "https://taxfix.com/en-uk",
     "description": "TaxScouts specializes in accountant-assisted digital tax filing",
-    "industry": "fintech"
+    "industry": "fintech",
+    "stage": "acquisition"
   },
   "alasco": {
     "name": "Alasco",
     "site": "https://www.alasco.com",
     "description": "SaaS platform for financial and sustainability management in real estate projects, replacing manual processes with unified budgeting and cost tracking.",
-    "linkedin": "https://www.linkedin.com/company/alasco-software"
+    "linkedin": "https://www.linkedin.com/company/alasco-software",
+    "industry": "enterprise software",
+    "stage": "other"
   },
-  "andercore": {
-    "name": "Andercore",
-    "site": "https://www.andercore.com",
-    "description": "Andercore is an AI-powered industrial distributor that uses AI to trade and distribute materials across European markets."
-  },
-  "trifacta": {
-    "name": "Trifacta",
-    "site": "https://www.trifacta.com",
-    "description": "Trifacta develops data-wrangling software for data exploration and self-service data preparation, enabling users to evaluate, correct, validate data quality, and accelerate data transformation.",
-    "industry": "dev & data tools"
+  "sona": {
+    "name": "Sona",
+    "site": "https://getsona.com",
+    "description": "AI-native platform for frontline workforce management covering scheduling, HR, payroll, and communications.",
+    "industry": "dev & data tools",
+    "stage": "other"
   },
   "pliant": {
     "name": "Pliant",
@@ -714,161 +791,127 @@
       "filed": "2010-01-05",
       "amount": 27300006,
       "url": "https://www.sec.gov/Archives/edgar/data/1379432/000137943210000001/primary_doc.xml"
-    }
-  },
-  "frame": {
-    "name": "Frame.io",
-    "site": "https://frame.io",
-    "description": "Cloud-based video collaboration platform for creative review and team feedback on media projects.",
-    "industry": "dev & data tools",
-    "last_raised": {
-      "filed": "2021-06-21",
-      "amount": 7999930,
-      "url": "https://www.sec.gov/Archives/edgar/data/1684009/000168400921000004/primary_doc.xml"
-    }
-  },
-  "facebook": {
-    "name": "Facebook",
-    "site": "https://www.facebook.com",
-    "description": "Meta offers social networking services through Facebook, Messenger, Instagram and WhatsApp."
+    },
+    "stage": "other",
+    "tracked": true,
+    "saved_at": "2026-09-19",
+    "added": "2026-09-06"
   },
   "bliq": {
     "name": "Bliq",
     "site": "https://bliq.ai",
     "description": "Bliq upgrades existing software-defined vehicles with a fast to integrate sensor and compute stack, turning them into fully driverless cars.",
-    "industry": "robotics & hardware"
-  },
-  "flowdesk": {
-    "name": "Flowdesk",
-    "site": "https://flowdesk.co",
-    "description": "Flowdesk is a regulated, full-service digital asset trading and technology firm that specializes in market making, OTC, and treasury management services.",
-    "industry": "fintech"
+    "industry": "robotics & hardware",
+    "stage": "other"
   },
   "forward earth": {
     "name": "forward earth",
     "site": "https://www.forward-earth.com",
     "description": "forward earth is the embedded AI-powered carbon management to get compliant results faster.",
     "industry": "climate & energy",
-    "linkedin": "https://www.linkedin.com/company/forward-earth"
+    "linkedin": "https://www.linkedin.com/company/forward-earth",
+    "stage": "seed"
   },
   "mercanis": {
     "name": "Mercanis",
     "site": "https://www.mercanis.com",
-    "description": "Founded in 2020, Mercanis is one of Europe's leading AI-driven procurement platforms trusted by companies like GASAG, BASF, Goldbeck, and Brose."
+    "description": "Founded in 2020, Mercanis is one of Europe's leading AI-driven procurement platforms trusted by companies like GASAG, BASF, Goldbeck, and Brose.",
+    "industry": "fintech",
+    "stage": "series_a"
   },
   "primer": {
     "name": "Primer",
     "site": "https://primer.io",
     "description": "Unified payment infrastructure platform enabling businesses to manage multiple payment services through a single integration.",
-    "industry": "fintech"
+    "industry": "fintech",
+    "stage": "other"
+  },
+  "solaris": {
+    "name": "Solaris",
+    "site": "https://www.solarisgroup.com/en",
+    "description": "Banking-as-a-Service platform with full German banking license enabling businesses to offer their own financial products via APIs.",
+    "industry": "fintech",
+    "stage": "other"
   },
   "gaia": {
     "name": "Gaia",
     "site": "https://gaiafamily.com",
     "description": "Fertility insurance and financing platform providing value-based family-building solutions through IVF treatments and clinic partnerships.",
-    "industry": "digital health"
+    "industry": "digital health",
+    "stage": "series_a",
+    "tracked": true,
+    "saved_at": "2026-09-15",
+    "added": "2026-09-06"
   },
   "axle energy": {
     "name": "Axle Energy",
     "site": "https://www.axle.energy",
     "description": "Axle Energy connects distributed energy assets to electricity markets to cut costs, cut carbon, and create revenue via a single API integration.",
-    "industry": "climate & energy"
+    "industry": "climate & energy",
+    "stage": "series_a"
   },
   "kernel": {
     "name": "Kernel",
     "site": "https://www.kernel.sh",
     "description": "Kernel is a developer platform that provides Crazy Fast Browser Infrastructure for AI agents to use the internet.",
-    "industry": "dev & data tools"
+    "industry": "dev & data tools",
+    "stage": "series_a"
   },
-  "hexafarms": {
-    "name": "hexafarms",
-    "description": "Founded in 2021, hexafarms offers an AI-driven SaaS solution designed to streamline food production in commercial greenhouses.",
-    "industry": "food & ag"
+  "tracebit": {
+    "name": "Tracebit",
+    "site": "https://tracebit.com",
+    "description": "Tracebit offers intrusion detection solutions for cloud environments, using deception technology to detect threats through decoy resources.",
+    "industry": "dev & data tools",
+    "stage": "series_a"
+  },
+  "simility a paypal service": {
+    "name": "Simility, a Paypal Service",
+    "site": "https://www.simility.com",
+    "description": "Machine learning-powered fraud detection and risk management platform that helps merchants prevent payment fraud and account takeover attacks.",
+    "industry": "fintech",
+    "stage": "acquisition"
+  },
+  "ledgy": {
+    "name": "Ledgy",
+    "site": "https://ledgy.com",
+    "description": "Ledgy is the equity & executive compensation management software that unifies share plans, deferred compensation, carried interest, and pensions & savings.",
+    "industry": "fintech",
+    "stage": "series_b"
   },
   "marvel fusion": {
     "name": "Marvel Fusion",
     "site": "https://www.marvelfusion.com",
     "description": "Marvel Fusion is the German technology pioneer in safe, clean and reliable energy generation through laser-based fusion.",
-    "industry": "climate & energy"
-  },
-  "sennder": {
-    "name": "sennder",
-    "site": "https://www.sennder.com",
-    "description": "Europe's leading digital freight forwarder connecting shippers with carriers and focusing on digitalization and automation of road logistics."
+    "industry": "climate & energy",
+    "stage": "series_b"
   },
   "rabot energy": {
     "name": "Rabot Energy",
     "site": "https://www.rabot.energy",
     "description": "Rabot Energy is an independent provider of dynamic electricity tariffs with 100% green electricity, using innovative purchasing strategies to ensure ecological sustainability and cost optimization in home energy management.",
-    "industry": "climate & energy"
+    "industry": "climate & energy",
+    "stage": "series_unknown"
   },
-  "deepline": {
-    "name": "Deepline",
-    "site": "https://deepline.com",
-    "description": "Deepline is the operating system for GTM execution, providing a unified API and CLI for lead enrichment, validation, and campaign automation.",
+  "coral care": {
+    "name": "Coral Care",
+    "site": "https://www.joincoralcare.com",
+    "description": "Coral Care is a full-service intermediary between therapists and parents seeking in-home services for their children, connecting families with licensed pediatric speech, occupational, and physical therapists.",
+    "industry": "digital health",
+    "stage": "series_a"
+  },
+  "jarmin": {
+    "name": "Jarmin",
+    "site": "https://www.jarmin.ai",
+    "description": "Jarmin builds AI employees for human-level roles that learn your systems, understand your data, and embed into your team's workflow.",
     "industry": "dev & data tools",
-    "linkedin": "https://www.linkedin.com/company/deeplinedata",
-    "funding": "$3.3M (Lerer Hippeau, Exceptional Capital)"
+    "stage": "seed"
   },
-  "datadog": {
-    "name": "Datadog",
-    "site": "https://www.datadoghq.com",
-    "description": "Datadog provides cloud-scale monitoring and security for metrics, traces and logs in one unified platform.",
-    "industry": "dev & data tools"
-  },
-  "zs": {
-    "name": "ZS",
-    "site": "https://www.zs.com",
-    "description": "ZS is a market leader in healthcare and life-sciences consulting, recognized for sales force strategy, product launch planning, and healthcare data analytics.",
-    "industry": "bio & pharma"
-  },
-  "raylu": {
-    "name": "Raylu",
-    "site": "https://raylu.ai",
-    "description": "Raylu is the AI platform for private market investors, delivering bespoke financial AI that transforms diligence, deal sourcing, and decision-making.",
-    "industry": "fintech"
-  },
-  "hedge": {
-    "name": "Hedge",
-    "site": "https://www.hedgespecialty.com",
-    "description": "An AI-Native specialty insurance company that helps insurance brokers find faster, cheaper, and better coverage for their customers.",
-    "industry": "fintech"
-  },
-  "clad": {
-    "name": "Clad",
-    "site": "https://www.withclad.com",
-    "description": "Clad is construction management software for infrastructure that helps you build faster and control spend with tools to manage vendors, bidding, projects, and finances.",
-    "industry": "dev & data tools"
-  },
-  "rentana": {
-    "name": "Rentana",
-    "site": "https://www.rentana.io",
-    "description": "Rentana develops an AI-powered revenue intelligence software for multi-family owners and operators.",
+  "salus": {
+    "name": "Salus",
+    "site": "https://usesalus.ai",
+    "description": "Salus is building the runtime control plane for AI agents, intercepting and enforcing policy on agent actions before they execute.",
     "industry": "dev & data tools",
-    "linkedin": "https://www.linkedin.com/company/rentana-revenue-management"
-  },
-  "linkup": {
-    "name": "Linkup",
-    "site": "https://www.linkup.so",
-    "description": "The production-grade Web Search API for AI, used by McKinsey, SNCF, Cohere, Legora, Polymarket, and Artisan AI.",
-    "industry": "dev & data tools",
-    "last_raised": {
-      "filed": "2026-03-27",
-      "amount": 9974740,
-      "url": "https://www.sec.gov/Archives/edgar/data/2123313/000121465926003894/primary_doc.xml"
-    }
-  },
-  "coinbase": {
-    "name": "Coinbase",
-    "site": "https://www.coinbase.com",
-    "description": "Coinbase is a crypto exchange and wallet platform that allows merchants and consumers to buy, sell, and store digital currencies.",
-    "industry": "fintech"
-  },
-  "bubble": {
-    "name": "Bubble",
-    "site": "https://bubble.io",
-    "description": "AI visual development platform that enables anyone to build web and mobile applications without writing code.",
-    "industry": "dev & data tools"
+    "stage": "pre_seed"
   },
   "socratix": {
     "name": "Socratix AI",
@@ -877,7 +920,16 @@
     "industry": "fintech",
     "linkedin": "https://www.linkedin.com/company/socratix-ai",
     "funding": "$4.1M Seed (Oct 2025, Pear VC)",
-    "headcount": "4"
+    "headcount": "4",
+    "stage": "seed"
+  },
+  "thinking machines": {
+    "name": "Thinking Machines Lab",
+    "site": "https://thinkingmachineslab.site",
+    "description": "Thinking Machines Lab is an artificial intelligence research and product company.",
+    "industry": "dev & data tools",
+    "funding": "~$2B seed at $12B valuation (Jul 2025, led by Andreessen Horowitz, with Nvidia, Accel, ServiceNow, Cisco, AMD, Jane Street)",
+    "stage": "other"
   },
   "ema unlimited": {
     "name": "Ema Unlimited",
@@ -885,7 +937,47 @@
     "description": "Ema is an enterprise partner of choice in building and deploying Agentic AI solutions.",
     "industry": "dev & data tools",
     "linkedin": "https://www.linkedin.com/company/ema-unlimited",
-    "funding": "$50M Series A plus a later $36M round; ~$86M total (Accel, Section 32, Prosus Ventures, Hitachi Ventures, KPMG)"
+    "funding": "$50M Series A plus a later $36M round; ~$86M total (Accel, Section 32, Prosus Ventures, Hitachi Ventures, KPMG)",
+    "stage": "series_a",
+    "alumni_checked": {
+      "emory": "2026-09-27",
+      "nmh": "2026-09-27",
+      "jets": "2026-09-27"
+    }
+  },
+  "simbie": {
+    "name": "Simbie AI",
+    "site": "https://www.simbie.ai",
+    "description": "AI-powered voice agents for medical practice administration, handling patient registration, scheduling, refills, and pre-visit intake.",
+    "industry": "digital health",
+    "funding": "$500K Seed (2023)",
+    "headcount": "~5",
+    "stage": "seed"
+  },
+  "roundtable": {
+    "name": "Roundtable",
+    "site": "https://www.civicroundtable.com",
+    "description": "Civic Roundtable is an AI-powered government operations platform that helps public servants consolidate information, coordinate mission-critical work, and move faster together.",
+    "industry": "dev & data tools",
+    "linkedin": "https://www.linkedin.com/company/civic-roundtable",
+    "funding": "$5M Seed (Feb 2024, General Catalyst lead)",
+    "headcount": "2-10",
+    "stage": "seed"
+  },
+  "warp": {
+    "name": "Warp",
+    "site": "https://warp.dev",
+    "description": "AI-native employee management platform providing payroll, HR, compliance, benefits and IT automation for startups.",
+    "industry": "fintech",
+    "linkedin": "https://www.linkedin.com/company/joinwarp",
+    "funding": "$60M Series B (Jun 2026, Battery Ventures)",
+    "headcount": "~50",
+    "last_raised": {
+      "filed": "2026-03-06",
+      "amount": 5100000,
+      "url": "https://www.sec.gov/Archives/edgar/data/2115863/000211586326000001/primary_doc.xml"
+    },
+    "stage": "series_a"
   },
   "bolo": {
     "name": "Bolo AI",
@@ -893,7 +985,25 @@
     "description": "Bolo AI is an AI-powered knowledge platform built for the unique needs of heavy industries.",
     "industry": "dev & data tools",
     "funding": "$8.1M Seed (Jun 2025, True Ventures)",
-    "headcount": "35"
+    "headcount": "35",
+    "stage": "seed",
+    "tracked": true,
+    "saved_at": "2026-09-19",
+    "added": "2026-09-06"
+  },
+  "solidroad": {
+    "name": "Solidroad",
+    "site": "https://www.solidroad.ai",
+    "description": "AI quality assurance platform that analyzes every customer support interaction and triggers personalized coaching simulations",
+    "industry": "dev & data tools",
+    "funding": "$25M Series A (Apr 2026, Hedosophia)",
+    "headcount": "2-10",
+    "last_raised": {
+      "filed": "2026-03-31",
+      "amount": 31952560,
+      "url": "https://www.sec.gov/Archives/edgar/data/2126127/000212612726000001/primary_doc.xml"
+    },
+    "stage": "series_a"
   },
   "august": {
     "name": "August",
@@ -901,74 +1011,78 @@
     "description": "AI-powered legal services platform automating contract drafting, legal research, and matter management for law firms and in-house teams.",
     "industry": "legal & compliance",
     "funding": "$7M (Aug 2025, NEA and Pear VC)",
-    "headcount": "15"
+    "headcount": "15",
+    "stage": "seed"
   },
-  "8090": {
-    "name": "8090",
-    "site": "https://www.8090.ai",
-    "description": "AI-native software development platform that automates code generation from business intent with full audit trail and compliance controls for regulated enterprises.",
-    "industry": "dev & data tools",
-    "stage": "series_a",
-    "funding": "$135M Series A (Jun 2026, Salesforce)",
-    "location": "Menlo Park, CA"
+  "mind robotics": {
+    "name": "Mind Robotics",
+    "site": "https://www.mindrobotics.com",
+    "description": "Mind Robotics is an AI-enabled industrial robotics company building a full-stack platform of foundation models, purpose-built robotics, and deployment infrastructure to automate industrial and manufacturing tasks.",
+    "industry": "robotics & hardware",
+    "funding": "$400M (May 2026, Kleiner Perkins) at $3.4B valuation",
+    "headcount": "13",
+    "stage": "series_a"
   },
-  "openfx": {
-    "name": "Openfx",
-    "description": ""
+  "casca": {
+    "name": "Casca",
+    "site": "https://www.casca.ai",
+    "description": "Casca builds AI-native systems for banking, with an AI loan origination system that automates 90% of manual work in lending.",
+    "industry": "fintech",
+    "funding": "$29M Series A (Aug 2025, Canapi Ventures)",
+    "headcount": "28",
+    "stage": "series_a"
   },
-  "zelty": {
-    "name": "Zelty",
-    "description": ""
+  "sprig": {
+    "name": "Sprig",
+    "industry": "enterprise software",
+    "stage": "series_b"
   },
-  "arena physica": {
-    "name": "Arena Physica",
-    "description": ""
-  },
-  "corgi": {
-    "name": "Corgi",
-    "description": ""
-  },
-  "rivalia chemical": {
-    "name": "Rivalia Chemical Co.",
-    "description": ""
-  },
-  "ripl": {
-    "name": "Ripl",
-    "description": ""
-  },
-  "coursera udemy": {
-    "name": "Coursera + Udemy",
-    "site": "https://www.coursera.org",
-    "description": "Online learning platform partnering with 375+ universities and companies to offer courses, certificates, and degrees.",
-    "industry": "ed-tech"
-  },
-  "mastercard": {
-    "name": "Mastercard",
-    "description": ""
-  },
-  "databento": {
-    "name": "Databento",
-    "site": "https://databento.com",
-    "description": "Databento is a licensed market data provider offering APIs for real-time and historical financial market data across multiple asset classes.",
-    "industry": "fintech"
+  "wonder": {
+    "name": "Wonder Studios",
+    "site": "https://wonderstudios.ai",
+    "description": "AI-native studio developing technology to increase AI involvement in filmmaking and content creation.",
+    "industry": "music & creative",
+    "stage": "seed"
   },
   "hackajob": {
     "name": "Hackajob",
     "site": "https://hackajob.com",
     "description": "AI-native hiring platform that connects enterprises and scale-ups with over 1M tech professionals worldwide using AI-powered matching.",
-    "industry": "dev & data tools"
+    "industry": "dev & data tools",
+    "stage": "series_b"
+  },
+  "twelve": {
+    "name": "Twelve Labs",
+    "site": "https://www.twelvelabs.io",
+    "description": "Twelve Labs is a software company specializing in video-understanding infrastructure, enabling developers to build programs that can see, hear, and understand the world.",
+    "industry": "dev & data tools",
+    "last_raised": {
+      "filed": "2024-06-12",
+      "amount": 49999678,
+      "url": "https://www.sec.gov/Archives/edgar/data/1952506/000195250624000001/primary_doc.xml"
+    },
+    "stage": "series_b"
+  },
+  "deeploi": {
+    "name": "deeploi",
+    "site": "https://www.deeploi.io",
+    "description": "Munich/Berlin IT-as-a-service startup whose platform plus expert support handles company IT end to end — on/offboarding, device management, compliance, and cybersecurity — for 200+ European companies; $6.5M seed led by Atomico.",
+    "industry": "legal & compliance",
+    "stage": "seed"
   },
   "campfire": {
     "name": "Campfire",
     "site": "https://www.campfire.com",
     "description": "Campfire is the AI-first ERP powering modern finance and accounting teams, offering a general ledger, revenue automation, close management, and more on one unified platform.",
-    "industry": "fintech"
+    "industry": "fintech",
+    "stage": "series_b"
   },
   "fifth dimension": {
     "name": "Fifth Dimension AI",
     "site": "https://fifthdimensionai.com",
     "description": "AI platform that transforms complex financial documents and data into structured intelligence for real asset investment decisions.",
-    "industry": "enterprise software"
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "tripadvisor": {
     "name": "Tripadvisor",
@@ -977,7 +1091,7 @@
     "prior_names": [
       "Housetrip"
     ],
-    "description": ""
+    "not_interested": true
   },
   "hewlett packard enterprise": {
     "name": "Hewlett Packard Enterprise",
@@ -987,7 +1101,7 @@
       "Nimble Storage",
       "HPE SimpliVity"
     ],
-    "description": ""
+    "not_interested": true
   },
   "airbnb": {
     "name": "Airbnb",
@@ -996,18 +1110,7 @@
     "prior_names": [
       "HotelTonight"
     ],
-    "description": ""
-  },
-  "zipline": {
-    "name": "Zipline",
-    "site": "https://www.zipline.com",
-    "linkedin": "https://www.linkedin.com/company/flyzipline",
-    "last_raised": {
-      "filed": "2024-08-13",
-      "amount": 6929959,
-      "url": "https://www.sec.gov/Archives/edgar/data/2033340/000203334024000001/primary_doc.xml"
-    },
-    "description": ""
+    "not_interested": true
   },
   "blitzy": {
     "name": "Blitzy",
@@ -1020,7 +1123,8 @@
       "amount": 188797694,
       "url": "https://www.sec.gov/Archives/edgar/data/2022559/000110465926062264/primary_doc.xml"
     },
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "clasp": {
     "name": "Clasp",
@@ -1031,7 +1135,8 @@
       "amount": 6382994,
       "url": "https://www.sec.gov/Archives/edgar/data/2024665/000202466524000001/primary_doc.xml"
     },
-    "description": ""
+    "industry": "fintech",
+    "stage": "seed"
   },
   "endex": {
     "name": "Endex",
@@ -1044,7 +1149,8 @@
       "amount": 285500,
       "url": "https://www.sec.gov/Archives/edgar/data/1920596/000192059622000003/primary_doc.xml"
     },
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "seed"
   },
   "endra": {
     "name": "Endra",
@@ -1058,33 +1164,7 @@
       "filed": "2014-03-25",
       "amount": 287101,
       "url": "https://www.sec.gov/Archives/edgar/data/1603196/000141588914000938/primary_doc.xml"
-    },
-    "description": ""
-  },
-  "goodfire": {
-    "name": "Goodfire",
-    "site": "https://www.goodfire.com",
-    "funding": "$150M Series B (Feb 2026; $1.25B valuation)",
-    "headcount": "~9",
-    "last_raised": {
-      "filed": "2026-02-09",
-      "amount": 149999796,
-      "url": "https://www.sec.gov/Archives/edgar/data/2070813/000207081326000001/primary_doc.xml"
-    },
-    "description": ""
-  },
-  "kalshi": {
-    "name": "Kalshi",
-    "stage": "growth",
-    "linkedin": "https://www.linkedin.com/company/kalshi",
-    "funding": "$1B+ at $22B valuation (Mar 2026, led by Coatue Management); Dec 2025 $1B round led by Paradigm",
-    "headcount": "~525",
-    "last_raised": {
-      "filed": "2021-02-23",
-      "amount": 29999999,
-      "url": "https://www.sec.gov/Archives/edgar/data/1806928/000180692821000001/primary_doc.xml"
-    },
-    "description": ""
+    }
   },
   "matter intelligence": {
     "name": "Matter Intelligence",
@@ -1095,18 +1175,8 @@
       "amount": 35941896,
       "url": "https://www.sec.gov/Archives/edgar/data/2023772/000116840426000015/primary_doc.xml"
     },
-    "description": ""
-  },
-  "pallet": {
-    "name": "Pallet",
-    "funding": "$27M Series B (May 2025, General Catalyst lead, with Bain Capital Ventures, Activant Capital, Bessemer)",
-    "headcount": "51-200",
-    "last_raised": {
-      "filed": "2021-12-30",
-      "amount": 3857279,
-      "url": "https://www.sec.gov/Archives/edgar/data/1875902/000187590221000002/primary_doc.xml"
-    },
-    "description": ""
+    "industry": "legal & compliance",
+    "stage": "seed"
   },
   "rebar": {
     "name": "Rebar",
@@ -1117,7 +1187,8 @@
       "amount": 2868369,
       "url": "https://www.sec.gov/Archives/edgar/data/2071253/000207125325000001/primary_doc.xml"
     },
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "silna": {
     "name": "Silna",
@@ -1129,7 +1200,8 @@
       "amount": 4990935,
       "url": "https://www.sec.gov/Archives/edgar/data/1994426/000199442623000001/primary_doc.xml"
     },
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "squint": {
     "name": "Squint",
@@ -1143,7 +1215,12 @@
       "amount": 3492242,
       "url": "https://www.sec.gov/Archives/edgar/data/1981276/000198127623000001/primary_doc.xml"
     },
-    "description": ""
+    "industry": "enterprise software",
+    "alumni_checked": {
+      "emory": "2026-09-30",
+      "nmh": "2026-09-30",
+      "jets": "2026-09-30"
+    }
   },
   "vapi": {
     "name": "Vapi",
@@ -1156,7 +1233,8 @@
       "amount": 49999998,
       "url": "https://www.sec.gov/Archives/edgar/data/2042931/000204293126000005/primary_doc.xml"
     },
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "series_b"
   },
   "centari": {
     "name": "centari",
@@ -1168,7 +1246,8 @@
       "amount": 8459987,
       "url": "https://www.sec.gov/Archives/edgar/data/2093487/000209348725000001/primary_doc.xml"
     },
-    "description": ""
+    "industry": "legal & compliance",
+    "stage": "series_a"
   },
   "valon": {
     "name": "Valon",
@@ -1181,7 +1260,7 @@
       "amount": 69726366,
       "url": "https://www.sec.gov/Archives/edgar/data/1785181/000178518124000003/primary_doc.xml"
     },
-    "description": ""
+    "industry": "enterprise software"
   },
   "treet": {
     "name": "Treet",
@@ -1191,40 +1270,99 @@
       "filed": "2023-12-01",
       "amount": 8000000,
       "url": "https://www.sec.gov/Archives/edgar/data/1861157/000186115723000001/primary_doc.xml"
-    }
+    },
+    "industry": "commerce & CPG",
+    "stage": "series_a"
   },
   "take2": {
     "name": "Take2.ai",
     "site": "https://www.take2.ai",
     "description": "AI agents platform that automates the end-to-end healthcare recruiting process, from phone interviews to job offers.",
-    "industry": "digital health"
+    "industry": "digital health",
+    "stage": "series_a"
   },
-  "drafted": {
-    "name": "Drafted",
-    "site": "https://www.drafted.ai",
-    "description": "Platform connecting startups and early-career professionals for job matching and talent recruitment.",
-    "industry": "ed-tech",
+  "robotlab": {
+    "name": "RobotLAB",
+    "site": "https://www.robotlab.com",
+    "description": "RobotLAB provides cleaning, delivery, customer service and security robots for businesses, positioning itself as the leading robotics integrator",
+    "industry": "robotics & hardware",
+    "stage": "seed"
+  },
+  "evrim": {
+    "name": "Evrim",
+    "site": "https://www.evrim.ai",
+    "description": "Evrim is the upstream signal layer for U.S. financial institutions, the defense industrial base, and federal agencies.",
+    "industry": "dev & data tools",
     "last_raised": {
-      "filed": "2019-12-09",
-      "amount": 1074995,
-      "url": "https://www.sec.gov/Archives/edgar/data/1642291/000164229119000002/primary_doc.xml"
-    }
+      "filed": "2024-11-13",
+      "amount": 175000,
+      "url": "https://www.sec.gov/Archives/edgar/data/2044457/000204445724000001/primary_doc.xml"
+    },
+    "stage": "pre_seed"
   },
   "tread": {
     "name": "Tread",
     "site": "https://tread.ai",
-    "description": "Tread modernizes construction materials logistics by unifying order management, dispatch, and billing in one platform."
+    "description": "Tread modernizes construction materials logistics by unifying order management, dispatch, and billing in one platform.",
+    "industry": "enterprise software",
+    "stage": "series_unknown",
+    "alumni_checked": {
+      "emory": "2026-09-30",
+      "nmh": "2026-09-30",
+      "jets": "2026-09-30"
+    }
   },
   "adsgency": {
     "name": "AdsGency AI",
     "site": "https://adsgency.ai",
-    "description": "AI-powered advertising platform automating campaign planning, content generation, ad placement, targeting, and optimization across channels like Google, Meta, and TikTok."
+    "description": "AI-powered advertising platform automating campaign planning, content generation, ad placement, targeting, and optimization across channels like Google, Meta, and TikTok.",
+    "industry": "enterprise software",
+    "stage": "seed"
   },
-  "phoenix tailings": {
-    "name": "Phoenix Tailings",
-    "site": "https://phoenixtailings.com",
-    "description": "Phoenix Tailings is a U.S.-based rare earth metals production company with innovative technology that enables economic and safe processing of rare earth elements into final metals and metal alloys.",
-    "industry": "climate & energy"
+  "eino": {
+    "name": "EINO",
+    "site": "https://www.eino.ai",
+    "description": "AI-native platform for designing and monitoring wireless networks across WiFi, cellular, DAS, and IoT technologies in real-time.",
+    "industry": "enterprise software",
+    "last_raised": {
+      "filed": "2025-02-06",
+      "amount": 4953999,
+      "url": "https://www.sec.gov/Archives/edgar/data/2054907/000205447125000001/primary_doc.xml"
+    },
+    "stage": "series_unknown"
+  },
+  "anam": {
+    "name": "Anam.ai",
+    "site": "https://anam.ai",
+    "description": "Anam.ai develops AI personas that provide real-time, emotionally intelligent conversations for brands to scale personalized interactions.",
+    "industry": "dev & data tools",
+    "stage": "seed"
+  },
+  "seedsight": {
+    "name": "Seedsight",
+    "site": "https://seedsight.zohorecruit.eu",
+    "description": "Seedsight creates a digital repository of seeds and grains signatures validated through biomolecular and biophysical analyses to optimize raw material procurement and food processing decisions.",
+    "industry": "food & ag",
+    "stage": "seed"
+  },
+  "cachet": {
+    "name": "Cachet",
+    "site": "https://cachet.me",
+    "description": "Cachet is a developer of a worker-focused insurance services marketplace that has raised €5.5 million in a Series A round to expand its services for gig workers across Europe.",
+    "industry": "fintech",
+    "stage": "series_a"
+  },
+  "the education project": {
+    "name": "The AI Education Project",
+    "site": "https://www.aiedu.org",
+    "description": "A 501(c)(3) non-profit that creates equitable educational experiences that excite and empower learners everywhere with AI literacy.",
+    "industry": "ed-tech",
+    "stage": "pre_seed",
+    "alumni_checked": {
+      "emory": "2026-09-22",
+      "nmh": "2026-09-22",
+      "jets": "2026-09-22"
+    }
   },
   "locateai": {
     "name": "LocateAI",
@@ -1234,6 +1372,13 @@
       "filed": "2025-07-08",
       "amount": 9154802,
       "url": "https://www.sec.gov/Archives/edgar/data/1706678/000170667825000003/primary_doc.xml"
+    },
+    "industry": "commerce & CPG",
+    "stage": "other",
+    "alumni_checked": {
+      "emory": "2026-09-23",
+      "nmh": "2026-09-23",
+      "jets": "2026-09-23"
     }
   },
   "soona": {
@@ -1244,7 +1389,9 @@
       "filed": "2024-12-06",
       "amount": 3147000,
       "url": "https://www.sec.gov/Archives/edgar/data/1767363/000176736324000001/primary_doc.xml"
-    }
+    },
+    "industry": "commerce & CPG",
+    "stage": "seed"
   },
   "enertiv": {
     "name": "Enertiv",
@@ -1255,25 +1402,46 @@
       "filed": "2022-05-25",
       "amount": 9170814,
       "url": "https://www.sec.gov/Archives/edgar/data/1717314/000171731422000001/primary_doc.xml"
+    },
+    "stage": "series_unknown",
+    "alumni_checked": {
+      "emory": "2026-09-26",
+      "nmh": "2026-09-26",
+      "jets": "2026-09-26"
     }
   },
-  "haas alert": {
-    "name": "HAAS Alert",
-    "site": "https://www.haasalert.com",
-    "description": "Safety Cloud® delivers real-time digital alerts to drivers about roadside emergencies and hazards using V2X technology, reducing collision risk by up to 90%.",
-    "industry": "climate & energy"
+  "blink": {
+    "name": "Blink",
+    "site": "https://www.joinblink.com",
+    "description": "Mobile-first employee experience platform that connects people, systems, and culture in one super-app for enterprises.",
+    "industry": "enterprise software",
+    "last_raised": {
+      "filed": "2026-05-15",
+      "amount": 8400000,
+      "url": "https://www.sec.gov/Archives/edgar/data/1735677/000181455426000096/primary_doc.xml"
+    },
+    "stage": "series_a"
   },
-  "oriient": {
-    "name": "Oriient",
-    "site": "https://www.oriient.me",
-    "description": "Oriient delivers indoor GPS accuracy to within 1 meter using Earth's magnetic field — no beacons, no infrastructure.",
-    "industry": "dev & data tools"
+  "bold metrics": {
+    "name": "Bold Metrics",
+    "site": "https://boldmetrics.com",
+    "description": "Bold Metrics uses AI technology to predict customer body measurements and provide accurate sizing recommendations to reduce apparel returns.",
+    "industry": "commerce & CPG",
+    "stage": "series_a"
   },
-  "deephow": {
-    "name": "DeepHow",
-    "site": "https://deephow.com",
-    "description": "DeepHow is an AI-powered video companion platform designed to help manufacturing companies improve workforce training, knowledge retention, and operational efficiency.",
-    "industry": "enterprise software"
+  "slang": {
+    "name": "Slang",
+    "site": "https://ats.rippling.com",
+    "description": "AI-native ATS platform that streamlines hiring with AI-powered candidate identification, interview scheduling, and feedback synthesis.",
+    "industry": "enterprise software",
+    "stage": "series_b"
+  },
+  "wattmore": {
+    "name": "Wattmore",
+    "site": "https://www.wattmore.com",
+    "description": "Energy management system and power plant controller software for battery storage, microgrids, and data centers with real-time dispatch and grid compliance.",
+    "industry": "climate & energy",
+    "stage": "series_a"
   },
   "answersnow": {
     "name": "AnswersNow",
@@ -1284,18 +1452,8 @@
       "filed": "2023-02-06",
       "amount": 10519518,
       "url": "https://www.sec.gov/Archives/edgar/data/1745339/000174533923000003/primary_doc.xml"
-    }
-  },
-  "seek sophie": {
-    "name": "Seek Sophie",
-    "site": "https://www.seeksophie.com",
-    "description": "Seek Sophie is a Singapore-based experiences booking platform for travel that helps you discover more about yourself and the world."
-  },
-  "cubbit": {
-    "name": "Cubbit",
-    "site": "https://www.cubbit.io",
-    "description": "European S3-compatible object storage software with geo-distributed encryption and fragmentation, offering up to 80% cost savings versus hyperscalers.",
-    "industry": "dev & data tools"
+    },
+    "stage": "series_b"
   },
   "rwazi": {
     "name": "Rwazi",
@@ -1306,17 +1464,55 @@
       "filed": "2025-03-13",
       "amount": 9974989,
       "url": "https://www.sec.gov/Archives/edgar/data/1948771/000194877125000001/primary_doc.xml"
-    }
+    },
+    "stage": "series_a"
   },
-  "photocert": {
-    "name": "Photocert",
-    "description": ""
+  "safely": {
+    "name": "Safely",
+    "site": "https://safely.com",
+    "description": "Safely provides short-term vacation rental insurance and guest screening, offering up to $1,000,000 in coverage for property damage, theft, and liability.",
+    "industry": "fintech",
+    "stage": "series_unknown"
+  },
+  "equipment connect": {
+    "name": "Equipment Connect",
+    "site": "https://equipmentconnect.co.uk",
+    "description": "Equipment Connect operates a digital marketplace that connects businesses with equipment vendors and institutional funders, offering a paperless asset finance service.",
+    "industry": "fintech",
+    "stage": "other"
+  },
+  "thecut": {
+    "name": "theCut",
+    "site": "https://thecut.co",
+    "description": "theCut is a mobile app platform that helps users find and book barbers near them across all 50 states, with over 10 million users.",
+    "industry": "digital health",
+    "stage": "seed"
   },
   "locus lock": {
     "name": "Locus Lock",
     "site": "https://www.locuslock.com",
     "description": "Locus Lock specializes in high-performance, software-defined GNSS receivers designed for accurate, reliable positioning in complex environments (defense and commercial).",
-    "industry": "dev & data tools"
+    "industry": "dev & data tools",
+    "stage": "pre_seed"
+  },
+  "sparkcharge": {
+    "name": "SparkCharge",
+    "site": "https://www.sparkcharge.io",
+    "description": "SparkCharge provides an off-grid electric vehicle fleet charging network and mobile, off-grid EV charger.",
+    "industry": "climate & energy",
+    "stage": "series_a"
+  },
+  "merge": {
+    "name": "Merge",
+    "site": "https://merge.dev",
+    "description": "Merge provides the tools to transform how B2B companies realize customer-facing integrations.",
+    "industry": "dev & data tools",
+    "last_raised": {
+      "filed": "2016-05-24",
+      "amount": 10112801,
+      "url": "https://www.sec.gov/Archives/edgar/data/1675206/000167520616000001/primary_doc.xml"
+    },
+    "stage": "series_b"
   },
   "treeswift": {
     "name": "Treeswift",
@@ -1327,31 +1523,15 @@
       "filed": "2023-09-08",
       "amount": 10811986,
       "url": "https://www.sec.gov/Archives/edgar/data/1899700/000189970023000003/primary_doc.xml"
-    }
+    },
+    "stage": "series_a"
   },
-  "westcott multimedia": {
-    "name": "Westcott Multimedia",
-    "description": ""
-  },
-  "pear suite": {
-    "name": "Pear Suite",
-    "description": ""
-  },
-  "wave": {
-    "name": "WAVE",
-    "description": ""
-  },
-  "carolina ascent fc": {
-    "name": "Carolina Ascent FC",
-    "site": "https://www.carolinaascent.com",
-    "description": "Carolina Ascent FC is the Carolinas' women's professional soccer team based in Charlotte, N.C.",
-    "industry": "sports"
-  },
-  "headway": {
-    "name": "Headway",
-    "site": "https://www.headway.co",
-    "description": "Headway is a mental health platform that connects patients to in-network therapists and provides software tools to help clinicians accept insurance.",
-    "industry": "digital health"
+  "cledara": {
+    "name": "Cledara",
+    "site": "https://www.cledara.com",
+    "description": "Cloud-based platform offering subscription management software for businesses",
+    "industry": "fintech",
+    "stage": "series_a"
   },
   "cooklist": {
     "name": "Cooklist",
@@ -1362,65 +1542,48 @@
       "filed": "2021-06-22",
       "amount": 2805309,
       "url": "https://www.sec.gov/Archives/edgar/data/1769579/000176957921000001/primary_doc.xml"
+    },
+    "stage": "seed",
+    "alumni_checked": {
+      "emory": "2026-09-28",
+      "nmh": "2026-09-28",
+      "jets": "2026-09-28"
     }
   },
   "codecov": {
     "name": "Codecov",
     "site": "https://codecov.io",
     "description": "Codecov provides code coverage testing and insights to help development teams deliver stable, bug-free code with AI-powered test generation and pull request integration.",
-    "industry": "dev & data tools"
-  },
-  "capital one": {
-    "name": "Capital One",
-    "site": "https://www.capitalone.com",
-    "description": "Capital One operates as a premier global payments provider and diversified financial institution delivering credit card, consumer banking, and commercial banking products.",
-    "industry": "fintech"
-  },
-  "offline": {
-    "name": "Offline",
-    "last_raised": {
-      "filed": "2013-08-15",
-      "amount": 9960423,
-      "url": "https://www.sec.gov/Archives/edgar/data/1516434/000151643413000001/primary_doc.xml"
-    },
-    "description": ""
-  },
-  "ekho": {
-    "name": "Ekho",
-    "site": "https://www.ekho.com/",
-    "description": "Ekho (YC-backed, ~30 people, NYC) is \"Shopify for vehicles\": an end-to-end vehicle commerce platform that powers compliant online sales of titled vehicles, handling checkout, financing, titling, registration, signatures, and taxes so dealers and OEMs can sell nationwide."
+    "industry": "dev & data tools",
+    "stage": "acquisition"
   },
   "replace": {
     "name": "Replace",
     "site": "https://replace-energy.com/",
-    "description": "REplace is a Tel Aviv AI startup (raised $2.1M, 2025) whose platform turns US interconnection-queue and site data into intelligence for renewable energy developers and M&A teams — its iQueue product screens and benchmarks solar/wind projects by capacity, cost, geography, and stage; clients include Iberdrola and EDF Renewables."
-  },
-  "leap leaphealth com": {
-    "name": "Leap (leaphealth.com)",
-    "site": "https://www.leaphealth.com/",
-    "description": "Leap Health (NYC) is a specialty infusion benefit for employers: a transparent nationwide network that coordinates home or nearby infusion care across 200+ specialty treatments through dedicated care guides, cutting employer specialty drug costs by up to 60%."
-  },
-  "spangle": {
-    "name": "Spangle AI",
-    "site": "https://www.spangle.ai",
-    "description": "Agentic-commerce platform founded by former Amazon executives and led by ex-Bolt CEO Maju Kuruvilla; its ProductGPT reasoning engine personalizes retailer shopping pages in real time from ad context and shopper behavior. Customers include Revolve, Steve Madden, and Alexander Wang; raised a $15M Series A in January 2026.",
-    "tracked": true,
-    "saved_at": "2026-09-15",
-    "added": "2026-09-06"
-  },
-  "pwc": {
-    "name": "PwC",
-    "site": "https://www.pwc.com",
-    "description": "One of the Big Four professional services networks, providing audit, tax, and consulting services (including manufacturing operations consulting) across 149 countries with 370,000+ people."
-  },
-  "legora": {
-    "name": "Legora",
-    "description": "Stockholm-founded legal AI company whose collaborative workspace lets lawyers review documents at scale, run legal research, and draft contracts inside tools like Microsoft Word. Serves ~500 law firms including Cleary Gottlieb and Goodwin; valued at $5.6B after a $550M Series D.",
-    "last_raised": {
-      "filed": "2026-03-24",
-      "amount": 441525860,
-      "url": "https://www.sec.gov/Archives/edgar/data/2071663/000207166326000001/primary_doc.xml"
+    "description": "REplace is a Tel Aviv AI startup (raised $2.1M, 2025) whose platform turns US interconnection-queue and site data into intelligence for renewable energy developers and M&A teams — its iQueue product screens and benchmarks solar/wind projects by capacity, cost, geography, and stage; clients include Iberdrola and EDF Renewables.",
+    "industry": "climate & energy",
+    "stage": "seed",
+    "alumni_checked": {
+      "emory": "2026-09-23",
+      "nmh": "2026-09-23",
+      "jets": "2026-09-23"
     }
+  },
+  "insify": {
+    "name": "Insify",
+    "site": "https://www.insify.nl/",
+    "description": "Insify is an Amsterdam insurtech (founded 2020, €40M+ raised from Accel, Munich Re Ventures, and others) selling digital-first business insurance — liability, professional indemnity, disability cover — to freelancers and SMEs in the Netherlands, Germany, and France, with quotes in minutes via AI-driven underwriting.",
+    "industry": "fintech",
+    "stage": "series_b"
+  },
+  "jotpsych": {
+    "name": "JotPsych",
+    "site": "https://jotpsych.com",
+    "stage": "seed",
+    "linkedin": "https://www.linkedin.com/company/jotpsych",
+    "funding": "$5M Seed (Base10 Partners lead)",
+    "headcount": "11-50",
+    "industry": "digital health"
   },
   "agentmail": {
     "name": "AgentMail",
@@ -1428,37 +1591,25 @@
     "linkedin": "https://www.linkedin.com/company/agentmailto",
     "funding": "$6M seed (Mar 2026, led by General Catalyst, with Y Combinator and Phosphor Capital)",
     "headcount": "10",
-    "description": ""
-  },
-  "general medicine": {
-    "name": "General Medicine",
-    "site": "https://generalmedicine.co",
-    "description": "Virtual primary care and specialty telehealth platform with AI-powered health recommendations and instant specialist referrals.",
-    "industry": "digital health",
-    "funding": "$32M raised to date, led by Matrix Partners"
-  },
-  "phare": {
-    "name": "Phare Labs",
-    "site": "https://www.pharelabs.com",
-    "description": "Phare is the smoke alarm, minus the drama. It detects fire early and accurately, responding sooner to real fires and reducing false alarms.",
-    "industry": "robotics & hardware",
-    "last_raised": {
-      "filed": "2026-07-22",
-      "amount": 2083250,
-      "url": "https://www.sec.gov/Archives/edgar/data/2029579/000202957926000002/primary_doc.xml"
-    }
+    "industry": "enterprise software",
+    "stage": "seed",
+    "tracked": true,
+    "saved_at": "2026-09-15",
+    "added": "2026-09-06"
   },
   "kard": {
     "name": "Kard",
     "site": "https://www.getkard.com",
     "description": "Kard Financial is a technology platform that makes it easy for financial institutions to create their own customized rewards program.",
-    "industry": "fintech"
+    "industry": "fintech",
+    "stage": "series_unknown"
   },
-  "finni": {
-    "name": "Finni Health",
-    "site": "https://www.finnihealth.com",
-    "description": "Finni Health is a company that is empowering autism providers to go independent.",
-    "industry": "digital health"
+  "oden": {
+    "name": "Oden Technologies",
+    "site": "https://www.oden.io",
+    "description": "AI-driven production analytics platform that connects to manufacturing machines to transform complex production data into real-time insights and recommendations.",
+    "industry": "dev & data tools",
+    "stage": "series_b"
   },
   "branchlab": {
     "name": "BranchLab",
@@ -1469,7 +1620,8 @@
       "filed": "2026-05-20",
       "amount": 28784986,
       "url": "https://www.sec.gov/Archives/edgar/data/2017708/000201770826000003/primary_doc.xml"
-    }
+    },
+    "stage": "series_a"
   },
   "lovb": {
     "name": "LOVB",
@@ -1479,7 +1631,8 @@
     "linkedin": "https://www.linkedin.com/company/leagueonevolleyball",
     "funding": "$100M round (2024); $35M Series B (2023, Left Lane Capital)",
     "headcount": "201-500",
-    "careers": "https://www.lovb.com/jobs"
+    "careers": "https://www.lovb.com/jobs",
+    "industry": "legal & compliance"
   },
   "ventura": {
     "name": "Ventura",
@@ -1487,7 +1640,7 @@
     "industry": "robotics & hardware",
     "linkedin": "https://www.linkedin.com/company/getventura",
     "headcount": "2",
-    "description": ""
+    "stage": "pre_seed"
   },
   "casco": {
     "name": "Casco",
@@ -1495,7 +1648,7 @@
     "stage": "series_a",
     "funding": "$13M Series A (led by Standard Capital, with FundersClub, Y Combinator, Rebel Fund)",
     "headcount": "10",
-    "description": ""
+    "industry": "enterprise software"
   },
   "datalab": {
     "name": "Datalab",
@@ -1503,7 +1656,7 @@
     "linkedin": "https://linkedin.com/company/datalabto",
     "funding": "$3.5M seed (Pebblebed)",
     "headcount": "8",
-    "description": ""
+    "stage": "seed"
   },
   "thunder": {
     "name": "Thunder",
@@ -1511,14 +1664,15 @@
     "stage": "pre_seed",
     "linkedin": "https://www.linkedin.com/company/use-thunder",
     "funding": "Pre-seed (late 2025; backed by early leaders at OpenAI and HubSpot)",
-    "description": ""
+    "industry": "enterprise software"
   },
   "assured": {
     "name": "Assured",
     "site": "https://www.withassured.com",
     "linkedin": "https://www.linkedin.com/company/assured-health",
     "funding": "$19M Series A (Jul 2026, Insight Partners; $25M total raised)",
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "firecrawl": {
     "name": "Firecrawl",
@@ -1526,21 +1680,14 @@
     "linkedin": "https://www.linkedin.com/company/firecrawl",
     "funding": "$14.5M Series A (Aug 2025, Nexus Venture Partners)",
     "headcount": "11-50",
-    "description": ""
-  },
-  "nerd apply": {
-    "name": "Nerd Apply",
-    "stage": "seed",
-    "linkedin": "https://www.linkedin.com/company/nerd-apply",
-    "funding": "$3.2M Seed (Jan 2026; RiverPark Ventures, Alumni Ventures, 1.61 Ventures)",
-    "headcount": "1-10",
-    "description": ""
+    "industry": "dev & data tools"
   },
   "sf compute": {
     "name": "SF Compute Company",
     "site": "https://sfcompute.com",
     "funding": "$40M Series A (Nov 2025, DCVC & Wing Venture Capital; $300M valuation)",
-    "description": ""
+    "industry": "dev & data tools",
+    "stage": "series_a"
   },
   "afterquery": {
     "name": "AfterQuery",
@@ -1549,53 +1696,21 @@
     "linkedin": "https://www.linkedin.com/company/afterquery",
     "funding": "$30M Series A (Apr 2026, Altos Ventures; $300M valuation)",
     "headcount": "30",
-    "description": ""
-  },
-  "teero": {
-    "name": "Teero",
-    "site": "https://www.teero.com",
-    "linkedin": "https://www.linkedin.com/company/teerodental",
-    "funding": "Series A (2024; Construct Capital, Firstminute Capital)",
-    "headcount": "72",
-    "description": ""
-  },
-  "eigen": {
-    "name": "Eigen",
-    "site": "https://teameigen.com",
-    "funding": "$15M seed (Apr 2026, led by Benchmark)",
-    "description": "",
-    "tracked": true,
-    "saved_at": "2026-09-17",
-    "added": "2026-09-06"
-  },
-  "sitreps": {
-    "name": "Sitreps LLC",
-    "site": "https://www.sitreps.com",
-    "description": ""
-  },
-  "blaxel": {
-    "name": "Blaxel",
-    "funding": "Y Combinator-backed",
-    "headcount": "8",
-    "description": ""
+    "stage": "seed"
   },
   "featherless": {
     "name": "Featherless AI",
     "site": "https://featherless.ai",
     "stage": "series_a",
     "funding": "$20M Series A (Apr 2026, AMD Ventures & Airbus Ventures)",
-    "description": ""
-  },
-  "pursuit": {
-    "name": "Pursuit",
-    "site": "https://www.pursuit.org",
-    "description": ""
+    "industry": "enterprise software"
   },
   "corner": {
     "name": "Corner Health",
     "site": "https://www.cornerhealth.com",
     "funding": "$25M Series A (Jul 2026, Oak HC/FT)",
-    "description": ""
+    "industry": "digital health",
+    "stage": "series_a"
   },
   "cambio": {
     "name": "Cambio",
@@ -1603,45 +1718,47 @@
     "linkedin": "https://www.linkedin.com/company/cambioai",
     "funding": "$18M Series A",
     "headcount": "~60",
-    "description": ""
+    "industry": "climate & energy",
+    "stage": "series_a"
   },
   "dualentry": {
     "name": "DualEntry",
     "site": "https://www.dualentry.com",
     "linkedin": "https://www.linkedin.com/company/dualentry",
     "funding": "$90M Series A (Oct 2025, co-led by Lightspeed Venture Partners and Khosla Ventures, with GV, Contrary, Vesey Ventures)",
-    "description": "",
-    "tracked": true,
-    "saved_at": "2026-09-20",
-    "added": "2026-09-06"
+    "industry": "digital health",
+    "stage": "series_a"
   },
   "sable": {
     "name": "Sable",
     "site": "https://withsable.com",
     "industry": "enterprise software",
     "funding": "$45M Series A (led by Sequoia Capital and 8VC, with BoxGroup and SV Angel)",
-    "description": ""
+    "stage": "series_a"
   },
   "medra": {
     "name": "Medra AI",
     "site": "https://www.medra.ai",
     "linkedin": "https://www.linkedin.com/company/medra-ai",
     "funding": "$52M Series A (Dec 2025, led by Human Capital, with Lux Capital, Menlo Ventures, Catalio, 776)",
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "ropes": {
     "name": "Ropes",
     "site": "https://www.ropes.ai",
     "linkedin": "https://www.linkedin.com/company/ropes-ai",
     "funding": "$3.1M seed (Apr 2025, led by GSV Ventures, with BoxGroup)",
-    "description": ""
+    "industry": "fintech",
+    "stage": "seed"
   },
   "arbor": {
     "name": "Arbor",
     "site": "https://www.findarbor.com",
     "linkedin": "https://www.linkedin.com/company/findarbor",
     "funding": "$6.3M seed (led by 645 Ventures, with Next Play Ventures, Chaac Ventures, Comma Capital)",
-    "description": ""
+    "industry": "fintech",
+    "stage": "seed"
   },
   "concourse": {
     "name": "Concourse",
@@ -1649,7 +1766,8 @@
     "linkedin": "https://www.linkedin.com/company/concourseai",
     "funding": "$12M Series A (Jan 2026, led by Standard Capital, with a16z, CRV, Y Combinator)",
     "headcount": "7",
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "conversion": {
     "name": "Conversion",
@@ -1657,65 +1775,8 @@
     "linkedin": "https://www.linkedin.com/company/tryconversion",
     "funding": "$28M Series A (Abstract Ventures, True Ventures, HOF Capital)",
     "headcount": "~41",
-    "description": ""
-  },
-  "pace": {
-    "name": "Pace",
-    "site": "https://www.paceapp.ai",
-    "industry": "robotics & hardware",
-    "linkedin": "https://www.linkedin.com/company/paceai",
-    "description": "",
-    "tracked": true,
-    "saved_at": "2026-09-24",
-    "added": "2026-09-06"
-  },
-  "a vinyl bar in shibuya": {
-    "name": "A Vinyl Bar in Shibuya",
-    "funding": "$8.8M across 2 rounds (NFX, Mantis, Quiet Capital, Collaborative Fund, Gold House, BoxGroup, SV Angel, RRE)",
-    "headcount": "1-10",
-    "description": ""
-  },
-  "mason": {
-    "name": "Mason",
-    "site": "https://www.masonworkforce.com",
-    "linkedin": "https://www.linkedin.com/company/mason-software",
-    "funding": "$6.5M (Feb 2026)",
-    "headcount": "1-10",
-    "description": ""
-  },
-  "merciv": {
-    "name": "Merciv",
-    "site": "https://www.merciv.com",
-    "stage": "seed",
-    "funding": "$14M Seed (late 2025, AI x IA lead)",
-    "headcount": "1-10",
-    "description": ""
-  },
-  "granted": {
-    "name": "Granted",
-    "stage": "seed",
-    "funding": "$17M total (Forerunner Ventures, RRE Ventures, Factorial Capital, Habitat Partners, Red Sea Ventures)",
-    "headcount": "11-50",
-    "description": ""
-  },
-  "baselayer": {
-    "name": "Baselayer",
-    "site": "https://baselayer.com",
-    "stage": "series_a",
-    "funding": "$20M Series A (Aug 2026, Koro Capital and M13 lead)",
-    "headcount": "11-50",
-    "description": ""
-  },
-  "sellible": {
-    "name": "Sellible",
-    "site": "https://www.sellible.ai",
-    "headcount": "1-10",
-    "description": ""
-  },
-  "serene": {
-    "name": "Serene",
-    "headcount": "1-10",
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "cartesia": {
     "name": "Cartesia",
@@ -1723,33 +1784,23 @@
     "linkedin": "https://www.linkedin.com/company/cartesia-ai",
     "funding": "$100M Series B (Oct 2025, Kleiner Perkins lead, with Index Ventures, Lightspeed, NVIDIA); $191M total",
     "headcount": "~142",
-    "description": ""
+    "industry": "fintech",
+    "stage": "series_a"
   },
   "monk": {
     "name": "Monk",
     "site": "https://monk.com/",
     "funding": "$25M Series A (Apr 2026, Footwork and Acrew Capital co-lead, with BTV); $29M total after a $4M seed",
-    "description": ""
+    "industry": "fintech",
+    "stage": "series_a"
   },
   "titan": {
     "name": "Titan",
     "site": "https://titanmsp.ai/",
     "funding": "$74M (General Catalyst lead, with 8VC)",
     "headcount": "51-200",
-    "description": ""
-  },
-  "flint": {
-    "name": "Flint",
-    "funding": "$5M Seed (Oct 2025, Accel lead, with Sandberg Bernthal Venture Partners and Neo)",
-    "headcount": "~10",
-    "description": ""
-  },
-  "viktor": {
-    "name": "Viktor",
-    "linkedin": "https://www.linkedin.com/company/viktor_com",
-    "funding": "$75M Series A (May 2026, Accel lead, with Bek Ventures, Kaya VC, Inovo VC, Tenacity Capital)",
-    "headcount": "~25",
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "elevenlabs": {
     "name": "ElevenLabs",
@@ -1757,89 +1808,48 @@
     "linkedin": "https://www.linkedin.com/company/elevenlabsio",
     "funding": "$500M Series D at $11B valuation (led by Sequoia, with a16z and ICONIQ)",
     "headcount": "~1060",
-    "description": ""
-  },
-  "first round capital": {
-    "name": "First Round Capital",
-    "site": "https://firstround.com",
-    "linkedin": "https://www.linkedin.com/company/first-round-capital",
-    "headcount": "11-50",
-    "description": ""
-  },
-  "imbue": {
-    "name": "Imbue",
-    "site": "https://imbue.com",
-    "stage": "series_b",
-    "linkedin": "https://www.linkedin.com/company/imbue-ai",
-    "funding": "$200M Series B (Oct 2023, led by Astera Institute, with Nvidia and Founders Fund)",
-    "headcount": "~83",
-    "description": ""
-  },
-  "happyrobot": {
-    "name": "HappyRobot",
-    "linkedin": "https://www.linkedin.com/company/happyrobot",
-    "funding": "$150M Series C at $1.2B valuation (Aug 2026, led by Prysm Capital with Eurazeo)",
-    "headcount": "~138",
-    "description": ""
-  },
-  "broccoli": {
-    "name": "Broccoli AI",
-    "site": "https://www.broccoli.com",
-    "linkedin": "https://www.linkedin.com/company/broccoli-com",
-    "funding": "$23.7M round (Jan 2026); $24.2M total from Y Combinator and All In Capital",
-    "headcount": "~16",
-    "description": ""
-  },
-  "odyssey": {
-    "name": "Odyssey",
-    "site": "https://odyssey.ml",
-    "linkedin": "https://www.linkedin.com/company/odysseyai",
-    "funding": "$310M Series B at $1.45B valuation (Jun 2026, led by Natural Capital, with Amazon, AMD Ventures, GV, EQT, In-Q-Tel)",
-    "headcount": "~46",
-    "description": ""
-  },
-  "twenty": {
-    "name": "Twenty",
-    "site": "https://twenty.io/",
-    "funding": "$30M Series B extension (Khosla Ventures) at $1.2B valuation, following a $100M Series B led by Accel",
-    "description": ""
-  },
-  "corti": {
-    "name": "Corti",
-    "site": "https://www.corti.ai",
-    "funding": "$60M Series B (Sep 2023, co-led by Prosus Ventures and Atomico)",
-    "description": ""
+    "industry": "music & creative"
   },
   "lottie": {
     "name": "Lottie",
     "funding": "$21M Series A (Oct 2023, led by Accel)",
-    "description": ""
+    "industry": "enterprise software",
+    "site": "https://lottie.org",
+    "stage": "other"
   },
   "lightfield": {
     "name": "Lightfield",
     "site": "https://lightfield.app",
     "stage": "series_b",
     "funding": "$43M Series B at $300M valuation (Feb 2023); $81M total",
-    "description": ""
+    "industry": "enterprise software",
+    "alumni_checked": {
+      "emory": "2026-09-29",
+      "nmh": "2026-09-29",
+      "jets": "2026-09-29"
+    }
   },
-  "patreon": {
-    "name": "Patreon",
-    "site": "https://www.patreon.com",
-    "stage": "growth",
-    "funding": "$155M Series F (Apr 2021, Tiger Global Management)",
-    "headcount": "501-1000",
-    "last_raised": {
-      "filed": "2023-10-31",
-      "amount": 10605576,
-      "url": "https://www.sec.gov/Archives/edgar/data/1860300/000173907423000007/primary_doc.xml"
-    },
-    "description": ""
+  "enterpret": {
+    "name": "Enterpret",
+    "site": "https://www.enterpret.com",
+    "stage": "series_a",
+    "funding": "$20.8M Series A (Dec 2024, Canaan Partners)",
+    "headcount": "47",
+    "industry": "enterprise software"
   },
-  "junior": {
-    "name": "junior",
-    "funding": "bootstrapped",
-    "headcount": "30+",
-    "description": ""
+  "infinitus": {
+    "name": "Infinitus",
+    "stage": "series_c",
+    "funding": "$51.5M Series C (Nov 2024, Andreessen Horowitz)",
+    "industry": "digital health"
+  },
+  "niural": {
+    "name": "Niural",
+    "site": "https://www.niural.com",
+    "linkedin": "https://www.linkedin.com/company/niural",
+    "funding": "$52M Series A (Jun 2026, FOG Ventures and NewView Capital)",
+    "industry": "legal & compliance",
+    "stage": "series_a"
   },
   "stackai": {
     "name": "StackAI",
@@ -1847,198 +1857,44 @@
     "linkedin": "https://www.linkedin.com/company/stackai",
     "funding": "$16M Series A (May 2025, Lobby VC)",
     "headcount": "62",
-    "description": ""
-  },
-  "general legal": {
-    "name": "General Legal",
-    "site": "https://general.legal",
-    "stage": "seed",
-    "funding": "$11.5M across pre-seed and seed (2026, Y Combinator, SV Angel, BoxGroup, Susa Ventures, Audacious Ventures) at a $70M valuation",
-    "location": "San Francisco, CA",
-    "headcount": "25",
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "series_a"
   },
   "dili": {
     "name": "dili",
     "funding": "$15M Series A (Jul 2026, Khosla Ventures)",
-    "description": ""
+    "industry": "legal & compliance",
+    "stage": "series_a"
   },
   "ultra": {
     "name": "Ultra",
     "funding": "$500K pre-seed led by Y Combinator (S24) with Pioneer Fund; $3.75M total raised",
-    "description": ""
+    "industry": "robotics & hardware",
+    "stage": "series_a"
   },
   "lambda robotics": {
     "name": "Lambda Robotics",
-    "description": ""
-  },
-  "vessel": {
-    "name": "Vessel Technologies",
-    "site": "https://www.vesseltechnologies.com",
-    "stage": "series_a",
-    "linkedin": "https://www.linkedin.com/company/vessel-technologies-inc",
-    "funding": "Series A (Jun 2023, led by Mastry Ventures and LEN X); $34M raised to date",
-    "headcount": "26",
-    "description": ""
-  },
-  "interfere": {
-    "name": "Interfere",
-    "site": "https://interfere.com",
-    "linkedin": "https://linkedin.com/company/interfere-inc",
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "pre_seed"
   },
   "ghosteye": {
     "name": "GhostEye",
     "site": "https://ghosteye.ai",
     "linkedin": "https://www.linkedin.com/company/ghosteye-security",
-    "description": ""
-  },
-  "loupe": {
-    "name": "Loupe",
-    "last_raised": {
-      "filed": "2024-06-26",
-      "amount": 250000,
-      "url": "https://www.sec.gov/Archives/edgar/data/1742628/000174262824000002/primary_doc.xml"
-    },
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "seed"
   },
   "kato": {
     "name": "Kato",
     "site": "https://www.kato.biz",
-    "description": ""
-  },
-  "lovable": {
-    "name": "Lovable",
-    "last_raised": {
-      "filed": "2026-08-17",
-      "amount": 382498612,
-      "url": "https://www.sec.gov/Archives/edgar/data/2055162/000205516226000001/primary_doc.xml"
-    },
-    "description": ""
-  },
-  "monumental": {
-    "name": "Monumental",
-    "last_raised": {
-      "filed": "2022-07-08",
-      "amount": 0,
-      "url": "https://www.sec.gov/Archives/edgar/data/1933139/000193313922000002/primary_doc.xml"
-    },
-    "description": ""
-  },
-  "elements": {
-    "name": "Elements",
-    "last_raised": {
-      "filed": "2012-12-12",
-      "amount": 4000000,
-      "url": "https://www.sec.gov/Archives/edgar/data/1561638/000156163812000002/primary_doc.xml"
-    },
-    "description": ""
-  },
-  "neosigma": {
-    "name": "NeoSigma",
-    "site": "https://neosigma.ai",
-    "description": "Closing the feedback loop in production.",
-    "industry": "robotics & hardware",
-    "linkedin": "https://www.linkedin.com/company/neosigma",
-    "tracked": true,
-    "saved_at": "2026-09-26",
-    "added": "2026-09-06"
-  },
-  "alleviate": {
-    "name": "Alleviate Health",
-    "site": "https://alleviatehealth.care",
-    "description": "The AI Recruiter for Clinical Research",
-    "industry": "digital health",
-    "linkedin": "https://www.linkedin.com/company/alleviate-health",
-    "tracked": true,
-    "saved_at": "2026-09-22",
-    "added": "2026-09-06"
-  },
-  "neptune legal": {
-    "name": "Neptune Legal",
-    "site": "https://www.meetneptunelegal.com",
-    "description": ""
-  },
-  "floot": {
-    "name": "Floot",
-    "site": "https://floot.com",
-    "linkedin": "https://linkedin.com/company/floothq",
-    "description": ""
-  },
-  "investcloud": {
-    "name": "InvestCloud, Inc.",
-    "last_raised": {
-      "filed": "2017-01-24",
-      "amount": 152228,
-      "url": "https://www.sec.gov/Archives/edgar/data/1499458/000149945817000001/primary_doc.xml"
-    },
-    "description": ""
-  },
-  "replit": {
-    "name": "replit",
-    "last_raised": {
-      "filed": "2022-04-11",
-      "amount": 345000,
-      "url": "https://www.sec.gov/Archives/edgar/data/1920974/000108036822000025/primary_doc.xml"
-    },
-    "description": ""
-  },
-  "pear vc": {
-    "name": "Pear VC",
-    "site": "https://pear.autos",
-    "industry": "robotics & hardware",
-    "linkedin": "https://www.linkedin.com/company/pear-vc",
-    "description": ""
-  },
-  "january": {
-    "name": "January",
-    "last_raised": {
-      "filed": "2022-08-19",
-      "amount": 13000000,
-      "url": "https://www.sec.gov/Archives/edgar/data/1739905/000173990522000001/primary_doc.xml"
-    },
-    "description": ""
-  },
-  "ralo": {
-    "name": "Ralo",
-    "site": "https://www.ralo.com",
-    "linkedin": "https://www.linkedin.com/company/ralohq",
-    "description": "",
-    "tracked": true,
-    "saved_at": "2026-09-22",
-    "added": "2026-09-06"
-  },
-  "stuut": {
-    "name": "Stuut",
-    "last_raised": {
-      "filed": "2026-09-16",
-      "amount": 67597673,
-      "url": "https://www.sec.gov/Archives/edgar/data/2045111/000204511126000003/primary_doc.xml"
-    },
-    "description": ""
+    "industry": "fintech",
+    "stage": "pre_seed"
   },
   "helios": {
     "name": "Helios",
     "site": "https://heliostechgroup.com",
-    "description": ""
-  },
-  "bobyard": {
-    "name": "Bobyard",
-    "last_raised": {
-      "filed": "2025-12-10",
-      "amount": 35305949,
-      "url": "https://www.sec.gov/Archives/edgar/data/2003910/000200391025000002/primary_doc.xml"
-    },
-    "description": ""
-  },
-  "develop": {
-    "name": "Develop Health",
-    "last_raised": {
-      "filed": "2025-09-30",
-      "amount": 17619500,
-      "url": "https://www.sec.gov/Archives/edgar/data/2078258/000207825825000001/primary_doc.xml"
-    },
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "seed"
   },
   "frontier": {
     "name": "Frontier Health",
@@ -2049,31 +1905,59 @@
       "amount": 1900000,
       "url": "https://www.sec.gov/Archives/edgar/data/2067960/000206796025000002/primary_doc.xml"
     },
-    "description": "",
-    "tracked": true,
-    "saved_at": "2026-09-28",
-    "added": "2026-09-06"
-  },
-  "openrouter": {
-    "name": "OpenRouter",
-    "site": "https://openrouter.ai",
-    "description": "The unified interface for every model. Find the best models & prices for your prompts",
-    "linkedin": "https://www.linkedin.com/company/104068329",
-    "last_raised": {
-      "filed": "2026-07-06",
-      "amount": 113470700,
-      "url": "https://www.sec.gov/Archives/edgar/data/2073423/000207342326000001/primary_doc.xml"
-    }
-  },
-  "american lighthouse": {
-    "name": "American Lighthouse, Inc.",
-    "site": "https://www.lighthousehq.com",
-    "description": ""
+    "industry": "digital health",
+    "stage": "other"
   },
   "hypercubic": {
     "name": "Hypercubic",
     "site": "https://www.hypercubic.ai",
     "linkedin": "https://www.linkedin.com/company/hypercubic-ai",
-    "description": ""
+    "industry": "enterprise software",
+    "stage": "seed"
+  },
+  "permitflow": {
+    "name": "PermitFlow",
+    "industry": "legal & compliance",
+    "site": "https://permitflow.com",
+    "stage": "series_b"
+  },
+  "omnea": {
+    "name": "Omnea",
+    "industry": "enterprise software",
+    "site": "https://omnea.co",
+    "stage": "other"
+  },
+  "aiuc": {
+    "name": "AIUC",
+    "industry": "enterprise software",
+    "site": "https://aiuc-1.com",
+    "stage": "seed"
+  },
+  "halluminate": {
+    "name": "Halluminate",
+    "industry": "fintech",
+    "stage": "seed"
+  },
+  "ergo": {
+    "name": "Ergo",
+    "industry": "enterprise software",
+    "stage": "seed"
+  },
+  "tessl": {
+    "name": "Tessl",
+    "industry": "enterprise software",
+    "site": "https://tessl.io",
+    "stage": "series_a"
+  },
+  "telli": {
+    "name": "telli",
+    "industry": "commerce & CPG",
+    "stage": "series_a"
+  },
+  "photon photonhealth com": {
+    "name": "Photon (photonhealth.com)",
+    "industry": "enterprise software",
+    "stage": "series_a",
+    "site": "https://photonhealth.com"
   }
 }

@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "title": "Founding AI Deployment Lead - US Market",
+    "company": "Vocca",
+    "verdict": "Screened out",
+    "why": "pure IC analytics seat, no customer contact",
+    "recorded": "2026-09-13",
+    "source": "demo"
+  },
+  {
+    "title": "Operations Generalist",
+    "company": "Fleet AI",
+    "verdict": "Screened out",
+    "why": "playbook already written at Series C",
+    "recorded": "2026-09-07",
+    "source": "demo"
+  },
+  {
+    "title": "Scientific Strategy, Oncology",
+    "company": "Ataraxis",
+    "verdict": "Screened out",
+    "why": "executive assistant in disguise: calendar and travel",
+    "recorded": "2026-09-30",
+    "source": "demo"
+  },
+  {
+    "title": "Implementation Manager, US",
+    "company": "Gigs Inc.",
+    "verdict": "Screened out",
+    "why": "closing against a sales quota, not building",
+    "recorded": "2026-09-17",
+    "source": "demo"
+  },
+  {
+    "title": "Sales Ops Lead",
+    "company": "WellTheory",
+    "verdict": "Screened out",
+    "why": "wants 5+ years, too senior",
+    "recorded": "2026-09-30",
+    "source": "demo"
+  },
+  {
+    "title": "Medical Sales Representative (Iowa)",
+    "company": "AnswersNow",
+    "verdict": "Screened out",
+    "why": "consulting shop, client billable hours",
+    "recorded": "2026-09-12",
+    "source": "demo"
+  },
+  {
+    "title": "Founding Account Executive - US Market",
+    "company": "Vocca",
+    "verdict": "Screened out",
+    "why": "IC analytics role with no ownership",
+    "recorded": "2026-09-30",
+    "source": "demo"
+  },
+  {
+    "title": "Human Resources Business Partner",
+    "company": "Thinking Machines Lab",
+    "verdict": "Screened out",
+    "why": "growth stage, playbook already written",
+    "recorded": "2026-09-26",
+    "source": "demo"
+  },
+  {
+    "title": "Product Manager, Research",
+    "company": "David AI",
+    "verdict": "Screened out",
+    "why": "chief of staff title, executive assistant work",
+    "recorded": "2026-09-26",
+    "source": "demo"
+  },
+  {
+    "title": "Solutions Engineer *Remote* (m/f/d)",
+    "company": "Pliant",
+    "verdict": "Screened out",
+    "why": "AE seat with a sales quota and no scope",
+    "recorded": "2026-09-21",
+    "source": "demo"
+  },
+  {
+    "title": "Demand Generation Manager",
+    "company": "Healthie",
+    "verdict": "Screened out",
+    "why": "director-level asks, too senior for now",
+    "recorded": "2026-10-01",
+    "source": "demo"
+  },
+  {
+    "title": "Deputy Chief of Staff",
+    "company": "Firecrawl",
+    "verdict": "Screened out",
+    "why": "agency model, client billable hours",
+    "recorded": "2026-09-17",
+    "source": "demo"
+  },
+  {
+    "title": "Event Marketing Manager",
+    "company": "Slang",
+    "verdict": "Screened out",
+    "why": "heads-down IC analytics, dashboards only",
+    "recorded": "2026-09-22",
+    "source": "demo"
+  },
+  {
+    "title": "Product Manager, Enterprise Agent Platform",
+    "company": "Decagon",
+    "verdict": "Screened out",
+    "why": "500 people and the playbook already written",
+    "recorded": "2026-09-16",
+    "source": "demo"
+  },
+  {
+    "title": "Solutions Engineer",
+    "company": "Oden Technologies",
+    "verdict": "Screened out",
+    "why": "inbox and expenses: executive assistant seat",
+    "recorded": "2026-09-29",
+    "source": "demo"
+  },
+  {
+    "title": "Content Manager",
+    "company": "comun",
+    "verdict": "Screened out",
+    "why": "sales quota execution, someone else's playbook",
+    "recorded": "2026-09-10",
+    "source": "demo"
+  },
+  {
+    "title": "Research Engineer",
+    "company": "Electric Twin",
+    "verdict": "Screened out",
+    "why": "senior title, too senior for the stage",
+    "recorded": "2026-09-09",
+    "source": "demo"
+  },
+  {
+    "title": "Payments Operations Team Lead (f/m/d)",
+    "company": "Solaris",
+    "verdict": "Screened out",
+    "why": "billable hours for clients, not a startup",
+    "recorded": "2026-09-18",
+    "source": "demo"
+  },
+  {
+    "title": "Founding AI Deployment Strategist - US Market",
+    "company": "Vocca",
+    "verdict": "Top match",
+    "why": "first GTM hire, founder-led, owns the number",
+    "recorded": "2026-09-05",
+    "source": "demo"
+  },
+  {
+    "title": "Chief of Staff",
+    "company": "Ema Unlimited",
+    "verdict": "Top match",
+    "why": "seed stage, health product I'd actually use",
+    "recorded": "2026-09-12",
+    "source": "demo"
+  },
+  {
+    "title": "Founding Operator France",
+    "company": "Gigs Inc.",
+    "verdict": "Top match",
+    "why": "chief of staff who builds, real scope",
+    "recorded": "2026-09-02",
+    "source": "demo"
+  },
+  {
+    "title": "Business Development Growth Lead",
+    "company": "Treet",
+    "verdict": "Top match",
+    "why": "technical GTM: data background meets customer work",
+    "recorded": "2026-09-12",
+    "source": "demo"
+  },
+  {
+    "title": "AI-Native Forward Deployed Engineer",
+    "company": "Tread",
+    "verdict": "Top match",
+    "why": "first GTM hire, founder-led, owns the number",
+    "recorded": "2026-09-04",
+    "source": "demo"
+  },
+  {
+    "title": "Operations Lead",
+    "company": "Fortuna Health",
+    "verdict": "Top match",
+    "why": "seed stage, health product I'd actually use",
+    "recorded": "2026-09-09",
+    "source": "demo"
+  },
+  {
+    "title": "Operations - Generalist / Business Operations",
+    "company": "Valthos",
+    "verdict": "Top match",
+    "why": "chief of staff who builds, real scope",
+    "recorded": "2026-09-12",
+    "source": "demo"
+  },
+  {
+    "title": "Founding GTM Engineer",
+    "company": "Weave",
+    "verdict": "Top match",
+    "why": "technical GTM: data background meets customer work",
+    "recorded": "2026-09-11",
+    "source": "demo"
+  },
+  {
+    "title": "Founding Forward Deployed Engineer - US",
+    "company": "H Company",
+    "verdict": "Top match",
+    "why": "first GTM hire, founder-led, owns the number",
+    "recorded": "2026-09-05",
+    "source": "demo"
+  },
+  {
+    "title": "Founding Growth & Delivery Lead",
+    "company": "Lightfield",
+    "verdict": "Top match",
+    "why": "seed stage, health product I'd actually use",
+    "recorded": "2026-09-10",
+    "source": "demo"
+  },
+  {
+    "title": "Founding Support Lead",
+    "company": "Decagon",
+    "verdict": "Top match",
+    "why": "chief of staff who builds, real scope",
+    "recorded": "2026-09-06",
+    "source": "demo"
+  },
+  {
+    "title": "Strategic Project Lead",
+    "company": "Mecka AI",
+    "verdict": "Top match",
+    "why": "technical GTM: data background meets customer work",
+    "recorded": "2026-09-11",
+    "source": "demo"
+  }
+]

@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "name": "Dario Pryor",
+    "company": "Blitzy"
+  },
+  {
+    "name": "Maya Delacroix",
+    "company": "Lightfield"
+  },
+  {
+    "name": "Tessa Kessler",
+    "company": "Scarlet"
+  },
+  {
+    "name": "Dev Lindqvist",
+    "company": "LocateAI"
+  }
+]

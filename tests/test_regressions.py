@@ -869,7 +869,7 @@ def test_theme_toggle_is_three_state_and_flash_free():
 
     tpl = dashboard._TEMPLATE
     head = tpl.split("</head>")[0]
-    assert 'localStorage.getItem("theme")' in head, "theme must apply before first paint"
+    assert 'localStorage.getItem("steinjobs-demo-theme")' in head  # demo: light default, own key, "theme must apply before first paint"
     assert ':root[data-theme="dark"]' in tpl
     assert ':root:not([data-theme="light"])' in tpl, "OS dark must respect a light pin"
     assert 'id="themebtn"' in tpl

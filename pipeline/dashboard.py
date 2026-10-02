@@ -474,7 +474,7 @@ def _diagnostics(entries: list[Entry]) -> dict:
             "calibration": _qlen(cal),
             "connections": _n_connections(),
         },
-        "scheduled": PLIST.exists(),
+        "scheduled": True,  # demo fork: shown as the real setup runs
         "conn_days": _conn_age_days(),
         "alumni_q": _qlen(ROOT / "data" / "alumni_queue.json"),
         "person_fill_q": _qlen(ROOT / "data" / "person_fill_queue.json"),
@@ -488,6 +488,23 @@ def _diagnostics(entries: list[Entry]) -> dict:
         "board_sweep_queue": _read_json_list(ROOT / "data" / "board_sweep_queue.json"),
         "last_log": logs[-1].name if logs else "",
     }
+
+
+def _demo_insights(entries: list[Entry]) -> dict:
+    """Demo fork: the /api/insights readback baked into the page, so the static
+    snapshot shows what a live server would return."""
+    from . import importer, insights
+
+    ag = insights.agreement(entries)
+    oo = insights.outreach_outcomes(entries)
+    rd = lambda x: round(x) if x is not None else None
+    row = lambda e: {"t": e.title, "c": e.company, "s": e.score, "u": e.url}
+    return {"agreement": {"n_pos": ag["n_pos"], "n_neg": ag["n_neg"],
+                          "mean_pos": rd(ag["mean_pos"]), "mean_neg": rd(ag["mean_neg"]),
+                          "false_high": [row(e) for e in ag["false_high"]],
+                          "false_low": [row(e) for e in ag["false_low"]]},
+            "reasons": insights.pass_reasons(importer.load_calibration()),
+            "outreach": {"sent": dict(oo["sent"]), "replied": dict(oo["replied"])}}
 
 
 def build(entries: list[Entry], out_path: Path = OUT) -> Path:
@@ -734,6 +751,7 @@ def build(entries: list[Entry], out_path: Path = OUT) -> Path:
     payload = json.dumps(
         {"rows": rows, "stats": stats, "activity": activity, "tweets": tweets,
          "role_order": ROLE_ORDER, "diag": _diagnostics(entries),
+         "insights_static": _demo_insights(entries),
          "companies": comps, "people": ppl, "sendpri": sendpri, "game": game,
          "built": date.today().isoformat()},
         ensure_ascii=False)
@@ -750,8 +768,9 @@ _TEMPLATE = r"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>SteinJobs</title>
 <script>
-  try { var t = localStorage.getItem("theme");
-        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; }
+  document.documentElement.dataset.theme = "light";
+  try { if (localStorage.getItem("steinjobs-demo-theme") === "dark")
+          document.documentElement.dataset.theme = "dark"; }
   catch (e) {}
 </script>
 <style>
@@ -2230,6 +2249,25 @@ _TEMPLATE = r"""<!DOCTYPE html>
     <div class="mhead"><h2>What SteinJobs does</h2>
       <button type="button" class="btn" onclick="closeModal()" aria-label="Close">✕</button></div>
     <div class="aboutbody">
+      <h4>About this demo</h4>
+      <p><b>SteinJobs</b> is the outbound engine Eric Steinberg built to run his own
+      early-stage job search like signal-based prospecting: find the right startups, catch
+      them at the right moment, and reach the founder instead of applying cold. This page is
+      a public snapshot of the real app.</p>
+      <ul>
+        <li><b>Real:</b> the code, and every posting: public listings from startup job
+        boards, VC portfolio boards, company ATS pages and SEC filings, scored by the real
+        scorer.</li>
+        <li><b>Fictional:</b> every person (founders, contacts, connections), every pipeline
+        stage, note and streak. A blank-beats-a-guess rule governs the real app; here the
+        people are invented on purpose so no real inbox is ever implied.</li>
+        <li><b>Stack:</b> Python stdlib server with zero dependencies, a single-file UI,
+        Claude Haiku scoring through the Batch API (about $0.56 per 500 postings), SEC EDGAR
+        Form D for funding signals.</li>
+        <li><b>Measured:</b> founder lookup by source: SEC Form D found 1 of 12, scraping
+        company sites found 0 of 67, LLM web search found 16 of 17.</li>
+        <li><b>Code:</b> <a href="https://github.com/rojomuchachos/steinjobs-demo" target="_blank" rel="noopener">github.com/rojomuchachos/steinjobs-demo</a></li>
+      </ul>
       <p><b>The job:</b> find early-stage startup roles, the companies behind them, and the
       people to write to — then track every thread until it closes. It scores each posting
       0–100 against Eric's rubric (role shape 35% · stage 25% · industry 20% · location 10%
@@ -5101,13 +5139,13 @@ el("q").addEventListener("blur", () => {
   const btn = el("themebtn");
   const FACES = {light: "☀", dark: "☾"};
   const current = () => {
-    let t = null; try { t = localStorage.getItem("theme"); } catch(e){}
+    let t = null; try { t = localStorage.getItem("steinjobs-demo-theme"); } catch(e){}
     if(t === "light" || t === "dark") return t;
-    return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    return "light";  // demo fork: light unless the visitor flips it
   };
   const apply = mode => {
     document.documentElement.dataset.theme = mode;
-    try { localStorage.setItem("theme", mode); } catch(e){}
+    try { localStorage.setItem("steinjobs-demo-theme", mode); } catch(e){}
     btn.textContent = FACES[mode];
     btn.setAttribute("aria-label", "Theme: " + mode + " — click to switch");
     btn.title = "theme: " + mode;
@@ -5479,7 +5517,7 @@ window.openDiag = () => {
     <div class="dnote">…</div></div>
   <div class="dsec" id="diag-outreach"><h4>Outreach</h4>
     <div class="dnote">…</div></div>`;
-  if(LIVE) api("/api/insights").then(d2 => {
+  (LIVE ? api("/api/insights") : Promise.resolve({data: DATA.insights_static})).then(d2 => {
     if(!d2.data) return;
     const a = d2.data.agreement || {};
     const gap = (a.mean_pos != null && a.mean_neg != null) ? a.mean_pos - a.mean_neg : null;
@@ -5661,19 +5699,19 @@ el("dm-method").addEventListener("change", () => {
 el("dm-today").addEventListener("click", () => { metal("accent"); _dispatchPending(""); closeModal(); });
 el("dm-save").addEventListener("click", () => { metal("accent"); _dispatchPending(el("dm-date").value); closeModal(); });
 
+el("activity-btn").addEventListener("click", openActivity);
+el("queue-btn").addEventListener("click", openQueue);
+el("about-btn").addEventListener("click", () => {
+  modalOpener = document.activeElement;
+  el("aboutmodal").classList.add("show");
+});
+el("diag-btn").addEventListener("click", openDiag);
 (async () => {
   try {
     await api("/api/ping");
     LIVE = true;
     const rf = el("refresh");
     rf.hidden = false;
-    el("activity-btn").addEventListener("click", openActivity);
-    el("queue-btn").addEventListener("click", openQueue);
-    el("about-btn").addEventListener("click", () => {
-      modalOpener = document.activeElement;
-      el("aboutmodal").classList.add("show");
-    });
-    el("diag-btn").addEventListener("click", openDiag);
 
     const scoutGo = async () => {
       metal("blast");
@@ -5976,11 +6014,11 @@ document.querySelectorAll(".chip[data-f]").forEach(c=>{
     markDirty("postings", "companies", "people");
   });
 });
-</script><div id="demobanner" style="position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:var(--z-top);
-padding:7px 14px;border-radius:999px;font:600 12px/1.2 -apple-system,system-ui,sans-serif;
-background:color-mix(in srgb,var(--bg,#111) 70%,transparent);color:var(--fg,#eee);
-border:1px solid color-mix(in srgb,var(--fg,#eee) 18%,transparent);backdrop-filter:blur(14px);
--webkit-backdrop-filter:blur(14px);pointer-events:none;white-space:nowrap">
-Demo · real public postings, fictional people and pipeline</div>
+</script><button type="button" id="demobanner" onclick="document.getElementById('about-btn').click()"
+title="What is this demo?" style="position:fixed;left:50%;bottom:14px;transform:translateX(-50%);
+z-index:var(--z-top);padding:9px 18px;border-radius:999px;cursor:pointer;
+font:800 13px/1.2 -apple-system,system-ui,sans-serif;letter-spacing:.02em;white-space:nowrap;
+background:var(--ink);color:var(--bg);border:2px solid var(--ink);box-shadow:var(--sh-raised)">
+DEMO · real public postings · fictional people &amp; pipeline</button>
 </body></html>
 """

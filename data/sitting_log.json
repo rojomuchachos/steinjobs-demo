@@ -1,1 +1,117 @@
-[]
+[
+  {
+    "at": "2026-09-27T09:04:27",
+    "status": "empty",
+    "summary": "alumni, person-fill and board-sweep queues all empty — nothing to do"
+  },
+  {
+    "at": "2026-09-27T12:04:26",
+    "status": "ok",
+    "summary": "Person fill: 2 profiles filled from LinkedIn"
+  },
+  {
+    "at": "2026-09-27T15:04:45",
+    "status": "ok",
+    "summary": "Alumni sweep: 3 companies screened, 1 Emory alum recorded"
+  },
+  {
+    "at": "2026-09-27T18:04:16",
+    "status": "ok",
+    "summary": "Founder lookup: 5 companies, 4 founders found"
+  },
+  {
+    "at": "2026-09-27T21:04:59",
+    "status": "empty",
+    "summary": "alumni, person-fill and board-sweep queues all empty — nothing to do"
+  },
+  {
+    "at": "2026-09-28T09:04:19",
+    "status": "ok",
+    "summary": "Wellfound sweep: 18 postings read, 4 imported through the prefilter"
+  },
+  {
+    "at": "2026-09-28T12:04:24",
+    "status": "empty",
+    "summary": "alumni, person-fill and board-sweep queues all empty — nothing to do"
+  },
+  {
+    "at": "2026-09-28T15:04:58",
+    "status": "ok",
+    "summary": "Founder lookup: 5 companies, 4 founders found"
+  },
+  {
+    "at": "2026-09-28T18:04:11",
+    "status": "ok",
+    "summary": "Alumni sweep: 3 companies screened, 1 Emory alum recorded"
+  },
+  {
+    "at": "2026-09-28T21:04:18",
+    "status": "empty",
+    "summary": "alumni, person-fill and board-sweep queues all empty — nothing to do"
+  },
+  {
+    "at": "2026-09-29T09:04:13",
+    "status": "ok",
+    "summary": "Alumni sweep: 3 companies screened, 1 Emory alum recorded"
+  },
+  {
+    "at": "2026-09-29T12:04:42",
+    "status": "empty",
+    "summary": "alumni, person-fill and board-sweep queues all empty — nothing to do"
+  },
+  {
+    "at": "2026-09-29T15:04:45",
+    "status": "ok",
+    "summary": "Person fill: 2 profiles filled from LinkedIn"
+  },
+  {
+    "at": "2026-09-29T18:04:26",
+    "status": "ok",
+    "summary": "Person fill: 2 profiles filled from LinkedIn"
+  },
+  {
+    "at": "2026-09-29T21:04:33",
+    "status": "empty",
+    "summary": "alumni, person-fill and board-sweep queues all empty — nothing to do"
+  },
+  {
+    "at": "2026-09-30T09:04:19",
+    "status": "empty",
+    "summary": "alumni, person-fill and board-sweep queues all empty — nothing to do"
+  },
+  {
+    "at": "2026-09-30T12:04:57",
+    "status": "ok",
+    "summary": "Person fill: 2 profiles filled from LinkedIn"
+  },
+  {
+    "at": "2026-09-30T15:04:43",
+    "status": "ok",
+    "summary": "Person fill: 2 profiles filled from LinkedIn"
+  },
+  {
+    "at": "2026-09-30T18:04:32",
+    "status": "ok",
+    "summary": "Alumni sweep: 3 companies screened, 1 Emory alum recorded"
+  },
+  {
+    "at": "2026-09-30T21:04:25",
+    "status": "empty",
+    "summary": "alumni, person-fill and board-sweep queues all empty — nothing to do"
+  },
+  {
+    "at": "2026-10-01T09:04:41",
+    "status": "ok",
+    "summary": "Founder lookup: 5 companies, 4 founders found"
+  },
+  {
+    "at": "2026-10-01T12:04:50",
+    "status": "ok",
+    "summary": "Person fill: 2 profiles filled from LinkedIn"
+  },
+  {
+    "at": "2026-10-01T15:04:34",
+    "status": "ok",
+    "summary": "Wellfound sweep: 18 postings read, 4 imported through the prefilter"
+  }
+]

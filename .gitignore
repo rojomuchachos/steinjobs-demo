@@ -5,7 +5,6 @@ __pycache__/
 .DS_Store
 
 # Personal data — never commit. Contains your full LinkedIn network.
-data/connections.csv
 
 # Cached job descriptions (regenerable, large)
 data/.cache/
