@@ -85,9 +85,19 @@ _US_HINTS = re.compile(
     r"|va|wa|wv|wi|wy)\b)", re.I)
 
 
+# Some boards write the whole location as an abbreviation ("NY", "SF",
+# "NY/SF"). Matched only when EVERY part is one, so "Baton Rouge, LA" stays
+# Louisiana rather than becoming Los Angeles. First part picks the bucket,
+# same as the bucket order does for "New York / San Francisco".
+_CITY_ABBR = {"ny": "New York", "nyc": "New York", "sf": "SF Bay Area", "la": "Los Angeles"}
+
+
 def city_bucket(location: str, remote: bool = False) -> tuple[str, bool]:
     """(bucket label, is_us). Unknowns land in Other US / Other Europe / Other."""
     loc = (location or "").lower()
+    parts = [p.strip() for p in re.split(r"[/,&|]|\bor\b", loc) if p.strip()]
+    if parts and all(p in _CITY_ABBR for p in parts):
+        return _CITY_ABBR[parts[0]], True
     for label, us, keys in CITY_BUCKETS:
         if any(k in loc for k in keys):
             return label, us
@@ -3358,9 +3368,10 @@ window.openCard = async (kind, key) => {
   renderModalCard();
   modalOpener = document.activeElement;
   el("cardmodal").classList.add("show");
-  if(kind === "post" && LIVE && DESC[key] === undefined){
+  if(kind === "post" && DESC[key] === undefined){
     try {
-      const d = await api("/api/row?url=" + encodeURIComponent(key));
+      const d = LIVE ? await api("/api/row?url=" + encodeURIComponent(key))
+        : {desc: (await (window._ROWSNIP ||= fetch("row_snippets.json").then(r => r.json())))[key]};
       DESC[key] = d.desc || "";
     } catch(_){ DESC[key] = ""; }
     if(MODAL_CARD && MODAL_CARD.key === key) renderModalCard();
@@ -5699,6 +5710,9 @@ el("dm-method").addEventListener("change", () => {
 el("dm-today").addEventListener("click", () => { metal("accent"); _dispatchPending(""); closeModal(); });
 el("dm-save").addEventListener("click", () => { metal("accent"); _dispatchPending(el("dm-date").value); closeModal(); });
 
+// The four header panels read only the baked-in DATA, so they work on a
+// statically opened page too. They used to be wired after /api/ping answered,
+// which left them dead buttons without the server (found on the public demo).
 el("activity-btn").addEventListener("click", openActivity);
 el("queue-btn").addEventListener("click", openQueue);
 el("about-btn").addEventListener("click", () => {

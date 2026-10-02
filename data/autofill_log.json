@@ -2,61 +2,61 @@
   {
     "at": "2026-10-01T19:40",
     "kind": "Company details",
+    "name": "David AI"
+  },
+  {
+    "at": "2026-10-01T15:26",
+    "kind": "Company details",
     "name": "Mosaic"
   },
   {
-    "at": "2026-10-01T15:58",
-    "kind": "Company details",
-    "name": "Middesk"
-  },
-  {
-    "at": "2026-10-01T12:36",
-    "kind": "Company details",
-    "name": "Medra AI"
-  },
-  {
-    "at": "2026-09-30T13:45",
+    "at": "2026-10-01T09:16",
     "kind": "Company details",
     "name": "Axle Energy"
   },
   {
-    "at": "2026-09-30T12:14",
+    "at": "2026-09-30T13:45",
     "kind": "Company details",
     "name": "Fortuna Health"
   },
   {
-    "at": "2026-09-30T09:16",
-    "kind": "Company details",
-    "name": "David AI"
-  },
-  {
-    "at": "2026-09-29T19:17",
+    "at": "2026-09-30T12:20",
     "kind": "Company details",
     "name": "AgentMail"
   },
   {
-    "at": "2026-09-29T16:13",
-    "kind": "Job description",
-    "name": "Hera"
-  },
-  {
-    "at": "2026-09-29T12:20",
+    "at": "2026-09-30T12:14",
     "kind": "Company details",
     "name": "comun"
   },
   {
-    "at": "2026-09-28T13:05",
+    "at": "2026-09-29T19:17",
     "kind": "Company details",
-    "name": "Fortuna Health"
+    "name": "Hera"
   },
   {
-    "at": "2026-09-28T11:52",
+    "at": "2026-09-29T16:13",
+    "kind": "Job description",
+    "name": "Jarmin"
+  },
+  {
+    "at": "2026-09-29T11:30",
     "kind": "Company details",
     "name": "Cartesia"
   },
   {
-    "at": "2026-09-28T11:30",
+    "at": "2026-09-28T13:05",
     "kind": "Company details",
-    "name": "Jarmin"
+    "name": "Booko"
+  },
+  {
+    "at": "2026-09-28T11:52",
+    "kind": "Company details",
+    "name": "Fortuna Health"
+  },
+  {
+    "at": "2026-09-28T09:31",
+    "kind": "Company details",
+    "name": "Omnea"
   }
 ]

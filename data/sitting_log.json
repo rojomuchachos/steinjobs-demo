@@ -113,5 +113,10 @@
     "at": "2026-10-01T15:04:34",
     "status": "ok",
     "summary": "Wellfound sweep: 18 postings read, 4 imported through the prefilter"
+  },
+  {
+    "at": "2026-10-01T18:04:23",
+    "status": "ok",
+    "summary": "Founder lookup: 5 companies, 4 founders found"
   }
 ]

@@ -841,7 +841,7 @@
   ],
   "person:nico rutherford|clarion": [
     {
-      "at": "2026-10-01T16:07:00-07:00",
+      "at": "2026-10-01T17:07:00-07:00",
       "kind": "status",
       "text": "moved to contacted",
       "detail": "email"
@@ -1279,7 +1279,7 @@
       "detail": "workatastartup"
     },
     {
-      "at": "2026-10-01T16:30:00-07:00",
+      "at": "2026-10-01T19:30:00-07:00",
       "kind": "feedback",
       "text": "why-this-score: too low",
       "detail": ""

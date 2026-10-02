@@ -5555,3 +5555,35 @@ def test_careers_index_is_not_a_description(tmp_path, monkeypatch):
     counts = refetch.sweep([e], cap=5, throttle=0)
     assert counts["described"] == 0, "a careers index was cached as this job's description"
     assert store.load() == {}
+
+
+def test_city_bucket_reads_whole_location_abbreviations():
+    """SYMPTOM (demo build, 2026-10-01): postings from one board with location
+    "NY", "SF", "NY/SF" or "LA" showed a dashed "Location missing" chip and
+    vanished from the city filter, because the buckets only knew full names.
+    A real state suffix must NOT be misread: "Baton Rouge, LA" is Louisiana."""
+    from pipeline.dashboard import city_bucket
+
+    assert city_bucket("NY") == ("New York", True)
+    assert city_bucket("NYC") == ("New York", True)
+    assert city_bucket("SF") == ("SF Bay Area", True)
+    assert city_bucket("NY/SF") == ("New York", True)
+    assert city_bucket("SF/NY") == ("SF Bay Area", True)
+    assert city_bucket("LA") == ("Los Angeles", True)
+    assert city_bucket("Baton Rouge, LA") == ("Other US", True)
+    assert city_bucket("Albany, NY") == ("Other US", True)
+
+
+def test_header_panels_work_without_the_server():
+    """SYMPTOM (public demo, 2026-10-01): About, Queue, Activity and Insights
+    did nothing when the dashboard was opened as a static file, because their
+    click handlers were attached only after /api/ping answered. They read only
+    the baked-in DATA, so they must be wired before the ping."""
+    from pipeline import dashboard
+
+    tpl = dashboard._TEMPLATE
+    ping = tpl.index('(async () => {\n  try {\n    await api("/api/ping");')   # the startup LIVE check
+    for btn in ("about-btn", "queue-btn", "activity-btn", "diag-btn"):
+        hook = f'el("{btn}").addEventListener("click"'
+        assert tpl.count(hook) == 1, f"{btn} wired more than once"
+        assert tpl.index(hook) < ping, f"{btn} is wired only when the server answers"
